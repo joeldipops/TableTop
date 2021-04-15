@@ -1,5 +1,5 @@
 # Note
-Whereever you see a number mentioned below: I pulled them out of my arse, so please experiment and play-test with numbers
+Where-ever you see a number mentioned below: I pulled them out of my arse, so please experiment and play-test with numbers
 that make more sense to you.
 
 
@@ -8,21 +8,22 @@ that make more sense to you.
 - One six sided die
 - One eight sided die.
 - Main game board marked with
--- outside washing line (sun icon) - 8 spaces
--- space for 2 portable lines
--- inside washing line (house icon) - 8 spaces
--- space for 2 portable lines
+ - outside washing line (sun icon) - 8 spaces
+ - space for 2 portable lines
+ - inside washing line (house icon) - 8 spaces
+ - space for 2 portable lines
 - 2 *Portable Washing Line* game boards - 8 spaces
 - x *Wet Washing* tokens per player
--- x *Socks* (1/2 space; 1 point ; 1.5 if matched)
--- x *Sheets* (6 spaces; 12 points)
--- x *Underpants*  (1 space, 2 points, -1 if not dry)
--- x *Bras* (1 space, 3 points, -5 if not dry)
--- x *Shirts/Skirts/Shorts/Trousers* (2 spaces, 5 points)
--- x *Dresses* (2 spaces, 6 points)
--- x *Towels* (3 spaces, ? points)
+ - x *Socks* (1/2 space; 1 point ; 1.5 if matched)
+ - x *Sheets* (6 spaces; 12 points)
+ - x *Underpants*  (1 space, 2 points, -1 if not dry)
+ - x *Bras* (1 space, 3 points, -5 if not dry)
+ - x *Shirts/Skirts/Shorts/Trousers* (2 spaces, 5 points)
+ - x *Dresses* (2 spaces, 6 points)
+ - x *Towels* (3 spaces, ? points)
 
 # Setup
+
 1. Lay out the main board
 2. Put one *Portable Washing Line board* in the *outside* area and the other in the *inside* area.
 3. Each player choses a colour and takes all the *Wet Washing* tokens of that colour.
@@ -79,7 +80,7 @@ Each round consists of the following.
 
 
 | Forecast | Weather | Result |
-| :---:  | :---: |
+| --- | --- | --- |
 | Cloudy | Rain  | Thunderstorm |
 | Cloudy | Cloudy | Rain |
 | Sunny | Rain | Rain |
@@ -88,6 +89,7 @@ Each round consists of the following.
 | Sunny |  Sunny | Sunny |
 
 8. For all lines that are in the *outside* area, carry out the below depending on the weather.
+
 | Weather | Action |
 | :---: | :--- |
 | Sunny | These clothes have dried quickly in the sun.  Take all tokens and put them face down in to their owners' *Folding*
@@ -100,6 +102,7 @@ Each round consists of the following.
 10. Add up the scores and declare a winner.
 
 # Special Scoring
+
 * Dry underpants are important. For each *Underpants* token that is in your basket or a line at the end of the game, lose 1 point.
 * Dry bras are very important. For each *Bra* token that is in your basket or a line at the end of the game, lose 5 points.
 * Socks come in colour-matched pairs. For each matched pair of socks, gain 1 points. (3 points in total).
