@@ -8,19 +8,19 @@ that make more sense to you.
 - One six sided die
 - One eight sided die.
 - Main game board marked with
- - outside washing line (sun icon) - 8 spaces
- - space for 2 portable lines
- - inside washing line (house icon) - 8 spaces
- - space for 2 portable lines
+    - outside washing line (sun icon) - 8 spaces
+    - space for 2 portable lines
+    - inside washing line (house icon) - 8 spaces
+    - space for 2 portable lines
 - 2 *Portable Washing Line* game boards - 8 spaces
 - x *Wet Washing* tokens per player
- - x *Socks* (1/2 space; 1 point ; 1.5 if matched)
- - x *Sheets* (6 spaces; 12 points)
- - x *Underpants*  (1 space, 2 points, -1 if not dry)
- - x *Bras* (1 space, 3 points, -5 if not dry)
- - x *Shirts/Skirts/Shorts/Trousers* (2 spaces, 5 points)
- - x *Dresses* (2 spaces, 6 points)
- - x *Towels* (3 spaces, ? points)
+    - x *Socks* (1/2 space; 1 point ; 1.5 if matched)
+    - x *Sheets* (6 spaces; 12 points)
+    - x *Underpants*  (1 space, 2 points, -1 if not dry)
+    - x *Bras* (1 space, 3 points, -5 if not dry)
+    - x *Shirts/Skirts/Shorts/Trousers* (2 spaces, 5 points)
+    - x *Dresses* (2 spaces, 6 points)
+    - x *Towels* (3 spaces, ? points)
 
 # Setup
 
