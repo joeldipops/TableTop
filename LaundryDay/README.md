@@ -49,6 +49,7 @@ Each round consists of the following.
 
 2. Roll dice to determine turn order.
 3. Each players takes a turn. They have two action points and may spend them to do any of the following.
+
 | Points | Action |
 | :---: | :--- |
 | 1 | Move a *Portable Line* and all of the tokens on it from one area to the other. |
@@ -69,15 +70,15 @@ Each round consists of the following.
 | :---: | :---: |
 | 1 | Rain |
 | 2 | Cloudy |
-| 3 | " |
-| 4 | " |
+| 3 | Cloudy |
+| 4 | Cloudy |
 | 5 | Sunny |
 | 6 | Sunny |
 | 7 | Sunny |
 | 8 | Sunny |
 
 
-| Forecast | Weather | Result
+| Forecast | Weather | Result |
 | :---:  | :---: |
 | Cloudy | Rain  | Thunderstorm |
 | Cloudy | Cloudy | Rain |
@@ -88,6 +89,7 @@ Each round consists of the following.
 
 8. For all lines that are in the *outside* area, carry out the below depending on the weather.
 | Weather | Action |
+| :---: | :--- |
 | Sunny | These clothes have dried quickly in the sun.  Take all tokens and put them face down in to their owners' *Folding*
 | Light Shower | These clothes are mostly dry, but are still a little bit damp. The owner may choose to flip the tokens over and return them to the same space or add them to their *Folding* face up.
 | Rain | These clothes haven't dried at all. Do nothing.
