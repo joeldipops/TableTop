@@ -1,0 +1,69 @@
+var cardWidth = 250;
+var cardHeight = 350;
+var typeHash = {
+	A : "animate",
+	S : "structure",
+	T : "tool"
+};
+
+var arrayToObject = function(card) {
+	var array = card.split(",");
+	return {
+		type : typeHash[array[0]],
+		subType : array[1],
+		name : array[2],
+		effect : array[3],
+		wit: array[4],
+		power: array[5],
+		resist: array[6],
+		cost: array[7]
+	};
+};
+
+var objectToEl = function(card, template) {
+	return template.outerHTML
+	.replace("{cost}", card.cost)
+	.replace("{subType}", card.subType)
+	.replace("{name}", card.name)
+	.replace("{effect}", card.effect)
+	.replace("{wit}", card.wit)
+	.replace("{power}", card.power)
+	.replace("{resist}", card.resist)
+	;
+};
+window.templater = {
+	render : function(csv, maxWidth, border) {
+		var cards, templates, x, y;
+		templates = {
+			"animate" : document.querySelector("#animateTemplate > g"),
+			"structure" : document.querySelector("#structureTemplate > g"),
+			"tool": document.querySelector("#toolTemplate > g")
+		};
+
+		cards = csv.split(/\r\n|\n/);
+		cards = cards.map(arrayToObject);
+		cards = cards.map(function(card) {
+			 return objectToEl(card, templates[card.type]);
+		});
+		
+		y = x = border || 0;
+		
+		var cardSheet = document.getElementById("cardSheet");
+		
+		cards.forEach(function(card) {
+			debugger;
+			card = card
+			.replace("{offsetX}", x)
+			.replace("{offsetY}", y);
+			
+			if (x + ((cardWidth + border) * 2 + border) <= maxWidth) {
+				x += (border + cardWidth);
+			} else {
+				x = 0;
+				y += (border + cardHeight);
+			}
+			
+			cardSheet.innerHTML += card; 
+		});
+	}
+};
