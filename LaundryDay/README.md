@@ -102,7 +102,8 @@ Each round consists of the following.
 10. Add up the scores and declare a winner.
 
 # Special Scoring
-
+* Face down tokens are dry and get their full point value 
+* Face up tokens are slightly damp so they get half their point value.
 * Dry underpants are important. For each *Underpants* token that is in your basket or a line at the end of the game, lose 1 point.
 * Dry bras are very important. For each *Bra* token that is in your basket or a line at the end of the game, lose 5 points.
 * Socks come in colour-matched pairs. For each matched pair of socks, gain 1 points. (3 points in total).
