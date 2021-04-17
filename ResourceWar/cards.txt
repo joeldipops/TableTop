@@ -12,17 +12,17 @@ A||Civilian||1|1|1|0
 A||Activist|<em>-xR</em>: <em>xVP</em> is added to the <em>Pool</em>.|3|1|1|1
 A||Sabatouer|If I attack an opponet, they lose <em>VP</em> equal to the damage.  You don't get any <em>VP</em>.|3|3|3|1
 A|Engineer|Architect|The cost of <span class="cardType">Structure</span> is reduced by 1.  You cannot play another 'Architect'.|3|2|3|5
-A||Prophet|<em>-6R</em>, Discard Me: If you have x cards in your hand, draw x cards then discard x cards.|3|2|1|1
+A||Prophet|<em>-6R</em>; Discard Me: If you have x cards in your hand, draw x cards then discard x cards.|3|2|1|1
 A|Soldier|Veteran||6|6|6|6
-A|Artist|Actor|<em>-1R</em>: When you would discard me, next shuffle me back into your deck.|3|1|2|2
-A|Artist|Dancer|<em>-1R</em>: When you would discard me, next put me on top of your deck.|3|4|3|3
+A|Artist|Actor|<em>1R</em>: When you would discard me, next shuffle me back into your deck.|3|1|2|2
+A|Artist|Dancer|<em>1R</em>: When you would discard me, next put me on top of your deck.|3|4|3|3
 A|Medic|Doctor|All of your <span class="cardType">Animates</span> get +1 <em>Resist</em>.|4|2|1|3
 A|Miner|Miner|During your draw step, take 1VP from the <em>Pool</em>.|1|2|1|2
 A|Innocent|Infant|All opponents' <span class="cardType">Animates</span> get -1 <em>Wit</em>.|0|0|0|1
 A|Leader|General|All <span class="cardType">Animates</span> get +2 <em>Power</em>.|5|4|3|7
 A||Zealot|No opponent can defend against me.|0|3|1|2
 A|Pet|Cute Pet|I cannot confront <span class="cardType">Animates</span>.  I cannot be confronted.|1|2|1|2
-A|Soldier|Beserker|Discard a card from your hand, Discard me at the end of the turn:  You get +2 VP from the pool.|2|6|2|5
+A|Soldier|Beserker|Discard a card from your hand; Discard me at the end of the turn:  You get +2 VP from the pool.|2|6|2|5
 T||Binoculars|<em>User</em> gets +2 <em>Wit</em>.||||2
 T||Shield|<em>User</em> gets +3 <em>Resist</em>.||||2
 T||Flare|Discard Me: If <em>User</em> would be discarded through an attack this turn, play an <span class="cardType">Animate</span> from your hand.||||3
@@ -31,29 +31,29 @@ T||Lit Fuse|Discard Me before the next of your turns after I was played: <em>Use
 T|Thieves' <tspan class="cardType">Tool</tspan>|Lockpick|<em>-1R</em> when Thief <em>User</em> confronts or attacks: Attacked opponent gets <em>-1R</em> and you get <em>+1R</em>.||||1
 T||Med Kit|When <em>User</em> defends, if <em>User</em> is discarded but damage taken is < 3, put <em>User</em> back in play.<br />If <em>User</em> is a Medic, this effect can apply to any one <span class="cardType">Animate</span> per turn.||||2
 T|Miners' <tspan class="cardType">Tool</tspan>|Excavator|Discard Miner <em>User</em>: Take 5VP from the <em>Pool</em>.||||2
-T||Metal Detector|<em>User</em> gets +1 <em>Wit</em><br />Discard me at any time.<br />When I am discarded, shuffle three cards from discard into your deck.||||1
+T||Metal Detector|<em>User</em> gets +1 <em>Wit</em><br />Discard me: Shuffle three cards from discard into your deck.||||1
 T|Engineers' <tspan class="cardType">Tool</tspan>|Green Light|Discard <em>User</em>: Play one card from your hand.||||1
-S||Landmine|Choose an Attacking <span class="cardType">Animate</span>, Discard Me: Chosen <span class="cardType">Animate</span> is discarded.||0|0|3
+S||Landmine|Choose an Attacking <span class="cardType">Animate</span>; Discard Me: Chosen <span class="cardType">Animate</span> is discarded.||0|0|3
 S||Refinery|I start <em>Wit</em>h 8 charges.<br />Each draw step, use a charge: Get <em>+1R</em>. <br />Discard Me after my last is used.||0|7|2
 S||Lookout|Each <span class="cardType">Animate</span> gets +1 <em>Wit</em>.||1|7|2
-S||Bank|<em>-5R</em>: At the end of your next turn, get <em>+8R</em>.||0|7|0
+S||Bank|<em>5R</em>: At the end of your next turn, get <em>+8R</em>.||0|7|0
 S||Fortification|<em>-xR</em>: You get +x Power until the start of your next turn.||0|7|4
 S||Blast|Discard Me: Discard any <span class="cardType">Structure</span>.||6|6|5
 S||Factory|All of your Soliders get +1 <em>Power</em>.||2|7|2
-S||Day Market|(x <= 3)R, Discard Me: Draw x cards.||0|3|1
+S||Day Market|(x <= 3)R; Discard Me: Draw x cards.||0|3|1
 S||Time Portal|Discard Me: Play a card from your hand after paying its cost|.|1|7|2
 S||Night Market|I start <em>Wit</em>h 3 charges.<br />At the start of one opponent's turns, you must use a charge.<br />Draw a card whenever that opponent does.<br />Discard me at the start of your turn when I have no charges.||2|8|1
 S||Moat|You get +1 <em>Resist</em>.||1|10|1
 S||Resonator|Discard Me: Discard every <span class="cardType">Tool</span> in play. ||0|5|5
 S||Time Rift|Once per turn, <em>-3R</em>, Discard your hand: Draw 5 cards|.|1|7|0
-S||Time Chasm|Discard Your Hand, Discard Me: Draw 8 cards, you now have <em>0R</em>.||1|7|2
-S||Theatre|When an Artist is discarded choose one of the following:<br />0: Next, shuffle it back into your deck<br />0: Next, Place it on top of your deck<br /><em>-2R</em>: Place it into your hand|.|0|8|1
-S||Hospital|Once per turn, <em>-3R</em>: Return an <span class="cardType">Animate</span> that was discarded on an opponent's last turn from discard to your hand.<br />Once per your turn, <em>-3R</em>: If you have a Medic in play, return an <span class="cardType">Animate</span> that was discarded on an opponent's previous turn from discard to in play.  That <span class="cardType">Animate</span> cannot attack or confront this turn.||0|8|4
+S||Time Chasm|Discard Your Hand; Discard Me: Draw 8 cards, you now have <em>0R</em>.||1|7|2
+S||Theatre|When an Artist would be discarded, choose one of the following -<br />0: Shuffle it back into your deck<br />0: Place it on top of your deck<br /><em>2R</em>: Place it into your hand|.|0|8|1
+S||Hospital|Once per turn, <em>3R</em>: Return an <span class="cardType">Animate</span> that was discarded on an opponent's last turn from discard to your hand.<br />Once per your turn, <em>3R</em>: If you have a Medic in play, return an <span class="cardType">Animate</span> that was discarded on an opponent's previous turn from discard to in play.  That <span class="cardType">Animate</span> cannot attack or confront this turn.||0|8|4
 S||Time Freeze|No player may draw a card outside of a draw step.||0|7|2
-S||Wall|I start <em>Wit</em>h 5 charges.<br />Use a charge: I defend you from an attack like an <span class="cardType">Animate</span>.<br />You may discard me from play at any time.||0|8|2
+S||Wall|I start <em>With</em> 5 charges.<br />Use a charge: I defend you from an attack like an <span class="cardType">Animate</span>.<br />You may discard me from play at any time.||0|8|2
 S||Weather Machine|Once per your turn, <em>1R</em>: An opponent discards 2 cards from the top of their deck.||1|7|3
 
-A|Spy|Renegade|When I would take xVP, target gets -xVP and that amount xVP is added to the Pool.|3|4|3|2
+A|Spy|Renegade|When I would take xVP, target loses xVP and that amount of VP is added to the Pool.|3|4|3|2
 S||Cornucopia|If any player has 0VP, Discard me.<br />At the start of each of your turns, both players get -1VP and 1VP is added to the <em>Pool</em>.||0|5|4
 T|Spies' <tspan class="cardType">Tool</tspan>|Disguise|When <em>User</em> would damange an opponent, +2 damage is done.||||2
 A|Engineer|Mason|Once on your turn, target a <span class="cardType">Structure</span>: increase its resistance by up to my Power.  It cannot have more resistance than it started with.|
