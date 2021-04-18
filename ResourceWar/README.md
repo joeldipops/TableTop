@@ -57,6 +57,22 @@ There are three types of card, Animates, Structures and Tools.  Cards have one o
     1. Perform any actions required by card effects.
 
 ## Confrontations
+When an Animate confronts another, compare the WIT points of both animates.  
 
+- If the confronter's WIT is equal, the confrontation ends.
+- If the confronter's WIT is 1-3 points higher, the other animate cannot confront, attack or use any of its effects until the end of its controller's next turn.
+- If the confronter's WIT is 4 or more points higher, the other animate is discarded. 
 
 ## Attacks
+
+Any attack can be against any of your opponent's structures or against the opponent directly.
+Attacks work more or less the same as in MTG, except Structures can be specifically targeted.
+
+1. Declare which Animate will attack and what they will be attacking.
+2. You opponent chooses any number of their animates to defend.  An Animate can only defend once per turn.
+3. Subtract the Defense of the attacker from the total Power of all the defenders, including the structure itself.
+    - If the result is greater than 0, you will discard the attacker.
+4. Distribute the attacker's power as damage to the defenders.  If the damage assigned to a defender is greater than its Defense, the defender will be discarded.
+5. Subtract the total Defense of all the defenders from the Power of the attacker.  If the result is greater than 0, assign this damage to the target.
+    - If the damage to a structure is greater than its Defense, it is discarded.
+    - If there is any direct damage to your opponent, take that amount as VP from the *Pool*.
