@@ -55,6 +55,7 @@ As many times as you like / can afford do the following.
 - Perform an action.
     Actions are what is written on the cards you have in play, in the format **Cost 1_; Cost 2_ : Effect**
     If an action has no cost, it will start with a colon ':'
+    1. Check that this action can be played - actions can be played once per turn per card.
     1. Pay the cost
     2. Perform the action
     3. Allow your opponent to respond with an action and so on...
