@@ -63,6 +63,11 @@ Undead Cards |---|--- |---|R-Undead |---|---
 --|---|--- |---|R-Undead |---|---
 --|---|--- |---|R-Undead |---|---
 --|---|--- |---|R-Undead |---|---
+Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
+--|Spiked Tail|--- |---|R-Beast |Tail| You have Tail in play : +1 Def; You may use a violence die of 2d8
+--|---|--- |---|R-Beast |---|---
+--|---|--- |---|R-Beast |---|---
+--|---|--- |---|R-Beast |---|---
 -- |Prudence | Consumable | 0 | | | Discard This; Discard a card from your hand: Add XP equal to the card's XP cost.
 -- |Frantic Search | Feature | 0 | | > Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck > Discard This: Shuffle 3 cards from your Discard in to your Deck
 -- |Club | Equipment (Weapon) | 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4
