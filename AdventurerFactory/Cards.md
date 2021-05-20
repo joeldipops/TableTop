@@ -29,7 +29,7 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin | Left
 --|---|--- |---|C-Assassin-3 |---|---
 --|---|--- |---|C-Assassin-4 |---|---
 Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard | Back | > > You may use a Diplomacy Die of 1d6 > Ignore effects of your cards in with LeftHand and RightHand slots until next end step: +2 Cha until next end step
--- |Sleight of Hand | Feature | 0 | C-Bard | | A Simple Parley reduces WP by 3 or more; Discard a card from your hand: Your opponent discards a card from their hand.
+-- |Sleight of Hand | Feature | 0 | C-Bard | | A Simple Parley reduces opponents WP by 3 or more; Discard a card from your hand: Your opponent discards a card from their hand.
 --|---|--- |---|C-Bard |---|---
 --|---|--- |---|C-Bard |---|---
 --|---|--- |---|C-Bard-2 |---|---
@@ -54,7 +54,7 @@ Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | > + 1 Def
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
 Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | --- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
---| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | Discard the top card of your deck:  +1 Cha; +2 HP
+--| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | > Attach the top card of your deck to this, facedown:  +1 Cha; +2 HP > When this is discarded, discard all attached cards.
 --|---|--- |---|R-Ork |---|---
 --|---|--- |---|R-Ork |---|---
 --|---|--- |---|R-Ork |---|---
@@ -80,7 +80,7 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 -- | Potion | Consumable (Potion) | 0 | --- | Belt Pouch | Discard This: +10 HP
 -- | Dutch Courage | Consumable (Potion) | 0 | --- | | 4XP: +5 WP
 -- | Loot | Feature | 0 | --- | --- | Do 5 or more damage in a turn: +3XP 
--- | Digging Through Waste | Consumable (Event) | 0 | --- | --- | 1 HP; 2 Cha: Search your discard pile for any Potion and put it into your hand.
+-- | Digging Through Waste | Consumable (Event) | 0 | --- | --- | > -2 Cha > 1 HP: Search your discard pile for any Potion and put it into your hand.
 
 
 
