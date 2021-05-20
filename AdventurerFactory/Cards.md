@@ -36,7 +36,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard | Back | > > You may use a D
 --|---|--- |---|C-Bard-2 |---|---
 --|---|--- |---|C-Bard-2 |---|---
 --|---|--- |---|C-Bard-3 |---|---
---|---|--- |---|C-Bard-3 |---|---
+--| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
 --|---|--- |---|C-Bard-4 |---|---
 Sorcerer Cards |---|--- |---|C-Sorcerer |---|---
 --|---|--- |---|C-Sorcerer |---|---
@@ -53,13 +53,13 @@ Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | > + 1 Def
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
-Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
+Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | --- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
+--| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | Discard the top card of your deck:  +1 Cha; +2 HP
 --|---|--- |---|R-Ork |---|---
 --|---|--- |---|R-Ork |---|---
 --|---|--- |---|R-Ork |---|---
---|---|--- |---|R-Ork |---|---
-Undead Cards |---|--- |---|R-Undead |---|---
---|---|--- |---|R-Undead |---|---
+Undead Cards | Patchwork Monstrosity | Feature | 0 | R-Undead | Body | You may have two RightHand slots in play.  If this is discarded from play, discard all RightHand slots 
+--| Echoes of Life | Feature | 0 |R-Undead |---| The next card you play may be from any C-type-1
 --|---|--- |---|R-Undead |---|---
 --|---|--- |---|R-Undead |---|---
 --|---|--- |---|R-Undead |---|---
@@ -75,9 +75,12 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 -- |Crossbow | Equipment (Weapon) | 0 | RightHand | > 1XP: You may use a Violence Die of 1d6 until next end step.
 -- |Buckler | Equipment (Armour) | 0 | | LeftHand RightHand | > +2 Def
 -- |Gauntlet | Equipment (Armour) | 0 | | Arms | > + 1 Def
--- |Jerkin | Equipment (Armour) | 0|| Body | > + 1 Def > +1 Willpower
--- |Old Wise Mentor | Consumable | 0 | | | Discard This: Search your deck for any Class and put it in to your hand; Shuffle the deck.
--- |Loot | Feature | 0 | |  | Do 5 or more damage in a turn: +3XP 
+-- |Jerkin | Equipment (Armour) | 0|| Body | > + 1 Def > +1 WP
+-- |Old Wise Mentor | Consumable | 0 | ---| --- | Discard This: Search your deck for any Class and put it in to your hand; Shuffle the deck.
+-- | Potion | Consumable (Potion) | 0 | --- | Belt Pouch | Discard This: +10 HP
+-- | Dutch Courage | Consumable (Potion) | 0 | --- | | 4XP: +5 WP
+-- | Loot | Feature | 0 | --- | --- | Do 5 or more damage in a turn: +3XP 
+-- | Digging Through Waste | Consumable (Event) | 0 | --- | --- | 1 HP; 2 Cha: Search your discard pile for any Potion and put it into your hand.
 
 
 
