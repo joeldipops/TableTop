@@ -11,11 +11,10 @@
 Knight Cards (10) |Sword | Equipment (Weapon) | 0 | C-Knight-1 | LeftHand RightHand | > You may use a Violence Die of 1d8
 -- |Pike | Equipment (Weapon ) | 0 | C-Knight-1 | LeftHand RightHand | > You may use a Violence Die of 2d8
 -- |Dual Wielding | Feature | 0 | C-Knight-1 | --- | **Encounter**; You have Two Weapons in play; 1XP: Perform two Simple Attacks
---|---|--- |---|C-Knight-1 |---|---|---|
 -- |---|--- |---|C-Knight-2 |---|---|---|
 --|---|--- |---|C-Knight-2|---|---|---|
 --|---|--- |---|C-Knight-2 |---|---|---|
--- |---|--- |---|C-Knight-3 |---|---|---|
+--| Full Plate | Equipment (Armour) | 0 |C-Knight-3 | Body | > + 5 Def > + 10WP
 -- |---|--- |---|C-Knight-3 |---|---|---|
 -- |Glowing Sword | Equipment (Weapon) | 0 | C-Knight-4 | LeftHand RightHand | > You may use a Violence Die of 1d12
 Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin-1 | LeftHand RightHand | **Encounter**: Make a simple attack.  If you  Roll a 1 or 2 on a Simple Attack, Add 1d4 to the damage.
@@ -24,7 +23,7 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin-1 | Le
 --|---|--- |---|C-Assassin-1 |---|---
 -- | Assassinate | Feature | 0 | C-Assassin-2 | | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
 --| Grovel! | Feature | 0 |C-Assassin-2 |---| +2 Char; You may use 1d8 as your Diplomacy Die
---|---|--- |---|C-Assassin-2 |---|---
+--| Reconnoiter | Feature | 0 |C-Assassin-2 |---| Skip your next encounter step: Look at 2 random cards in your opponents hand.
 --|---|--- |---|C-Assassin-3 |---|---
 --|---|--- |---|C-Assassin-3 |---|---
 --|---|--- |---|C-Assassin-4 |---|---
@@ -32,7 +31,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | > > You may use a
 -- | Sleight of Hand | Feature | 0 | C-Bard-1 | | **Encounter**: Make a Simple Parley.  If WP damage was 3 or more, you and your opponent both discard a card from your hands.
 --|---|--- |---|C-Bard-1 |---|---
 --|---|--- |---|C-Bard-1 |---|---
---|---|--- |---|C-Bard-2 |---|---
+--| Riposte | Feature |---| C-Bard-2 |---|You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
 --|---|--- |---|C-Bard-2 |---|---
 --|---|--- |---|C-Bard-2 |---|---
 --| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
@@ -49,7 +48,7 @@ Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | --- | **Encounter**
 --|---|--- |---|C-Sorcerer-3 |---|---
 --|---|--- |---|C-Sorcerer-4 |---|---
 Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | > + 1 Def > You may play C-Knight Weapon cards.
---|---|--- |---|R-Dwarf |---|---
+--|Smith's Almanac| Equipment (Book) | 0 | R-Dwarf |---| 3 XP: Prevent the effects of one Armour or Weapon card until the end of this turn.
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
@@ -65,14 +64,14 @@ Undead Cards | Patchwork Monstrosity | Feature | 0 | R-Undead | Body | You may h
 --|---|--- |---|R-Undead |---|---
 Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 --|Spiked Tail|--- |---|R-Beast |Tail| You have Tail in play : +1 Def; You may use a violence die of 2d8
---|---|--- |---|R-Beast |---|---
+--|Ferocious Roar | Feature | 0 |R-Beast |---| Your may choose a 1d8 Diplomacy Die
 --|---|--- |---|R-Beast |---|---
 --|---|--- |---|R-Beast |---|---
 -- | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | You may play C-Sorcerer-1 cards. | 
 -- |Prudence | Consumable | 0 | | | Discard This; Discard a card from your hand: Add XP equal to the card's XP cost.
 -- |Frantic Search | Feature | 0 | | > Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck > Discard This: Shuffle 3 cards from your Discard in to your Deck
 -- |Club | Equipment (Weapon) | 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4
--- |Dagger | Equipment (Weapon)| 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4. > **Throw** Discard This: Ignore Def during your Encounter Step this turn.
+-- |Dagger | Equipment (Weapon)| 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4. > **Encounter**; Discard This: Perform any of your Encounters, but ignore opponent's Def this turn.
 -- |Crossbow | Equipment (Weapon) | 0 | RightHand | > 1XP: You may use a Violence Die of 1d6 until next end step.
 -- |Buckler | Equipment (Armour) | 0 | | LeftHand RightHand | > +2 Def
 -- |Gauntlet | Equipment (Armour) | 0 | | Arms | > + 1 Def
@@ -83,7 +82,7 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 -- | Loot | Feature | 0 | --- | --- | Do 5 or more HP or WP damage in a turn: +3XP 
 -- | Ancient Secrets | 0 | --- | --- | **Encounter**: Search your discard pile for any Spell and put it in to your hand.
 -- | Begging For Scraps | Consumable (Event) | 0 | --- | --- | > -2 Cha > 1 HP: Search your discard pile for any Potion and put it into your hand.
-
+-- | Dodge | Consumable (Event) | 0 | --- | --- | Discard This: Take no HP damage this turn.
 
 
 
