@@ -22,13 +22,13 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 ## Setup
 1. Each player starts with 30 HP and 30 WP
 2. Each Players starts with a Violence and Diplomacy Die of 1d1 (that is, a flat 1 damage)
-2. Player 1 takes 1 XP
-3. Player 2 takes 3 XP
+2. Player 1 takes 3 XP
+3. Player 2 takes 5 XP
 4. Each deck is shuffled and each player draws 6 cards.
 
 ## Phases each Turn
 ### Resource Step
-1. Take 2XP
+1. Take 1XP for each card you have in play.
 2. Draw 1 card
 
 ### Main step
