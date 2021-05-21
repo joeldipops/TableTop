@@ -68,7 +68,7 @@ In the encounter step, you may do one of the following.
 - Roll your _Diplomacy Die_ to lower their Willpower so that they cease hostilities
     - The basic formula is `New WP = Old WP - (Diplomacy Die + Your Charisma Bonus)`
     - This is called a Simple Parley
-- Cards may change these formulas or allow completely different effects to be chosen during the Encounter step.
+- Perform the action on a card you have in play that has a cost of "Encounter:" 
 
 # Random Notes
 DnD inspired LCG
