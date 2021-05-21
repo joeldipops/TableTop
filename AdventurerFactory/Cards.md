@@ -69,10 +69,10 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 --|---|--- |---|R-Beast |---|---
 -- | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | You may play C-Sorcerer-1 cards. | 
 -- |Prudence | Consumable | 0 | | | Discard This; Discard a card from your hand: Add XP equal to the card's XP cost.
--- |Frantic Search | Feature | 0 | | > Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck > Discard This: Shuffle 3 cards from your Discard in to your Deck
+-- |Frantic Search | Feature | 0 | --- | --- | > Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck > Discard This: Shuffle 3 cards from your Discard in to your Deck
 -- |Club | Equipment (Weapon) | 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4
 -- |Dagger | Equipment (Weapon)| 0 | | LeftHand RightHand | > You may use a Violence Die of 1d4. > **Encounter**; Discard This: Perform any of your Encounters, but ignore opponent's Def this turn.
--- |Crossbow | Equipment (Weapon) | 0 | RightHand | > 1XP: You may use a Violence Die of 1d6 until next end step.
+-- |Crossbow | Equipment (Weapon) | 0 | --- | RightHand | > 1XP: You may use a Violence Die of 1d6 until next end step.
 -- |Buckler | Equipment (Armour) | 0 | | LeftHand RightHand | > +2 Def
 -- |Gauntlet | Equipment (Armour) | 0 | | Arms | > + 1 Def
 -- |Jerkin | Equipment (Armour) | 0|| Body | > + 1 Def > +1 WP
@@ -80,7 +80,7 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 -- | Potion | Consumable (Potion) | 0 | --- | Belt Pouch | Discard This: +10 HP
 -- | Dutch Courage | Consumable (Potion) | 0 | --- | | 4XP: +5 WP
 -- | Loot | Feature | 0 | --- | --- | Do 5 or more HP or WP damage in a turn: +3XP 
--- | Ancient Secrets | 0 | --- | --- | **Encounter**: Search your discard pile for any Spell and put it in to your hand.
+-- | Ancient Secrets | 0 | --- | --- | --- | **Encounter**: Search your discard pile for any Spell and put it in to your hand.
 -- | Begging For Scraps | Consumable (Event) | 0 | --- | --- | > -2 Cha > 1 HP: Search your discard pile for any Potion and put it into your hand.
 -- | Dodge | Consumable (Event) | 0 | --- | --- | Discard This: Take no HP damage this turn.
 
