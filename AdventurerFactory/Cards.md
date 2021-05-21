@@ -19,11 +19,11 @@ Knight Cards (10) |Sword | Equipment (Weapon) | 0 | C-Knight-1 | LeftHand RightH
 -- |---|--- |---|C-Knight-3 |---|---|---|
 -- |Glowing Sword | Equipment (Weapon) | 0 | C-Knight-4 | LeftHand RightHand | > You may use a Violence Die of 1d12
 Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin-1 | LeftHand RightHand | **Encounter**: Make a simple attack.  If you  Roll a 1 or 2 on a Simple Attack, Add 1d4 to the damage.
--- |Hide | Feature | 0 |  C-Assassin-1 | Body | **Encounter**; Discard a card of yours in play: Your opponent skips their next Encounter step.  This counts as skipping your own Encounter step. |
+-- |Hide | Feature | 0 |  C-Assassin-1 | Body | > **Encounter**; Discard a card of yours in play: Your opponent skips their next Encounter step.  This counts as skipping your own Encounter step. > Discard This; 2WP: Your opponent skips their next Encounter step or ends their Encounter step before you take damage. |
 --|---|--- |---|C-Assassin-1 |---|---
 --|---|--- |---|C-Assassin-1 |---|---
--- |Assassinate | Feature | 0 | C-Assassin-2 | | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
---|---|--- |---|C-Assassin-2 |---|---
+-- | Assassinate | Feature | 0 | C-Assassin-2 | | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
+--| Grovel! | Feature | 0 |C-Assassin-2 |---| +2 Char; You may use 1d8 as your Diplomacy Die
 --|---|--- |---|C-Assassin-2 |---|---
 --|---|--- |---|C-Assassin-3 |---|---
 --|---|--- |---|C-Assassin-3 |---|---
@@ -35,13 +35,13 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | > > You may use a
 --|---|--- |---|C-Bard-2 |---|---
 --|---|--- |---|C-Bard-2 |---|---
 --|---|--- |---|C-Bard-2 |---|---
---|---|--- |---|C-Bard-3 |---|---
+--| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
 --| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
 --|---|--- |---|C-Bard-4 |---|---
 Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | --- | **Encounter**: +10 WP
 --| Gale | Consumable (Spell) | 0 | C-Sorcerer-1 | --- | **Encounter**; Discard This: Make a Simple Attack.  If you rolled a 1 or 2, your opponent skips their next Encounter Step
 --| Heat Manipulation | Consumable (Spell) | 0 |C-Sorcerer-1 | --- | > **Encounter**; Discard This: Choose one of your Opponents Equipment and return it to their hand, then do a Simple Attack. > **Encounter**; Discard This:  
---| Life Drain | Consumable (Spell) | 0 |C-Sorcerer-1 | --- |---
+--| Life Drain | Consumable (Spell) | 0 |C-Sorcerer-1 | --- | **Encounter**; Discard This: Make a Simple Parley. Increase your WP by the amount of WP damage
 --|---|--- |---|C-Sorcerer-2 |---|---
 --|---|--- |---|C-Sorcerer-2 |---|---
 --|---|--- |---|C-Sorcerer-2 |---|---
