@@ -76,6 +76,7 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 -- |Buckler | Equipment (Armour) | 0 | | LeftHand RightHand | > +2 Def
 -- |Gauntlet | Equipment (Armour) | 0 | | Arms | > + 1 Def
 -- |Jerkin | Equipment (Armour) | 0|| Body | > + 1 Def > +1 WP
+-- |Sword Breaker | Equipment (Weapon) | 0 | | LeftArm RightArm | Your opponent rolls their Violence Die; Roll your violence die 2XP: If you rolled higher, discard one of your opponent's Weapons.
 -- |Old Wise Mentor | Consumable | 0 | ---| --- | Discard This: Search your deck for any Class and put it in to your hand; Shuffle the deck.
 -- | Potion | Consumable (Potion) | 0 | --- | Belt Pouch | Discard This: +10 HP
 -- | Dutch Courage | Consumable (Potion) | 0 | --- | | 4XP: +5 WP
