@@ -29,7 +29,7 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 ## Phases each Turn
 ### Resource Step
 1. Take 1XP for each card you have in play.
-2. Draw 1 card
+2. Draw 1 card if possible.
 
 ### Main step
 As many times as you like / can afford do the following.
@@ -69,6 +69,11 @@ In the encounter step, you may do one of the following.
     - The basic formula is `New WP = Old WP - (Diplomacy Die + Your Charisma Bonus)`
     - This is called a Simple Parley
 - Perform the action on a card you have in play that has a cost of "Encounter:" 
+
+# End Conditions
+- When a player has 0 HP at the end of a turn.
+- When a player has 0 cards in their deck AND did not Play a card on their turn.
+- When a player requests a draw at any time and it is accepted by their opponent.
 
 # Random Notes
 DnD inspired LCG
