@@ -32,7 +32,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You ma
 --|---|--- |---|C-Bard-1 |---|---
 --|---|--- |---|C-Bard-1 |---|---
 --| Riposte | Feature |---| C-Bard-2 |---|You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
---|---|--- |---|C-Bard-2 |---|---
+--| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Requirement symbols and Effects of that card; <br /> * Once on your turn; Attach a card to this: Detach any other cards attached to this card. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
 --|---|--- |---|C-Bard-2 |---|---
 --| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
 --| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
@@ -60,13 +60,13 @@ Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | *-- | You have two Clubs in play:
 Undead Cards | Patchwork Monstrosity | Feature | 0 | R-Undead | Body | You may have two RightHand slots in play.  If this is discarded from play, discard all RightHand slots 
 --| Echoes of Life | Feature | 0 |R-Undead |---| **Encounter**: The next card you play may be from any C-type-1
 --| Necromancy | Consumable (Spell) |---| R-Undead | Head | Discard This: Search your discard pile for any card and shuffle it back into the deck.
---| Skeletal Minion | Feature | 0 | R-Undead | Head | **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
+--| Skeletal Minion | Minion | 0 | R-Undead | Head | **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
 --| Out of Phase | Feature |---|R-Undead |Body| Shuffle this into your deck: Your opponent gets -1WP and skips their next Encounter.
 Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 --|Spiked Tail|--- |---|R-Beast |Tail| You have Tail in play : +1 Def; You may use a violence die of 2d8
 --|Ferocious Roar | Feature | 0 |R-Beast |---| Your may choose a 1d8 Diplomacy Die
 --|Hulking Physique| Feature |---|R-Beast |---| You may have 1 additional RightHand and LeftHand non-Weapon card in play.
---|Horns| Feature (Weapon) |---|R-Beast | Head | * You have Tail in play: * + 1 Def <br /> **Encounter**; Make a Simple Attack: Add your Cha to the damage.
+--|Horns| Feature (Weapon) |---|R-Beast | Head | * You have Tail in play: * + 1 Def <br />  * **Encounter**; Make a Simple Attack: Add your Cha to the damage.
 Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | You may play C-Sorcerer-1 cards. | 
 -- |Prudence | Consumable | 0 | | | Discard This; Discard a card from your hand: Add XP equal to the card's XP cost.
 -- |Frantic Search | Feature | 0 | *-- | *-- | * Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck <br /> * Discard This: Shuffle 3 cards from your Discard in to your Deck
