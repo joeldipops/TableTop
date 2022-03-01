@@ -44,12 +44,12 @@ Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | *-- | **Encounter**
 --|---|--- |---|C-Sorcerer-2 |---|---
 --|---|--- |---|C-Sorcerer-2 |---|---
 --|---|--- |---|C-Sorcerer-2 |---|---
---|Spell Book | Equipment (Book) | 0 | C-Sorcerer-3 | LeftHand RightHand | A Spell is discarded; 1XP: Instead of going to the discard pile, return the consumable to your hand.
+--|Spell Book | Equipment (Book) | 0 | C-Sorcerer-3 | LeftHand RightHand | Your Spell is discarded; 1XP: Instead of going to the discard pile, return the consumable to your hand.
 --|---|--- |---|C-Sorcerer-3 |---|---
 --|---|--- |---|C-Sorcerer-4 |---|---
 Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | * + 1 Def <br /> * You may play C-Knight Weapon cards.
 --|Smith's Almanac| Equipment (Book) | 0 | R-Dwarf |---| 3 XP: Prevent the effects of one Armour or Weapon card until the end of this turn.
---|---|--- |---|R-Dwarf |---|---
+--| Trash/Treasure | Feature |---|R-Dwarf |---| Your card is discarded from play as part of an effect's Cost: +XP equal to the XP cost of that card.
 --|---|--- |---|R-Dwarf |---|---
 --|---|--- |---|R-Dwarf |---|---
 Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | *-- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
