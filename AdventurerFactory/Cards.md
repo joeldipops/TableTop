@@ -32,7 +32,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You ma
 --|---|--- |---|C-Bard-1 |---|---
 --|---|--- |---|C-Bard-1 |---|---
 --| Riposte | Feature |---| C-Bard-2 |---|You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
---| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Requirement symbols and Effects of that card; <br /> * Once on your turn; Attach a card to this: Detach any other cards attached to this card. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
+--| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Slot symbols and Effects of that card; <br /> * Once on your turn; Attach a card of yours in play to this: Detach any other cards attached to this card as below. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
 --|---|--- |---|C-Bard-2 |---|---
 --| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
 --| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
@@ -85,7 +85,7 @@ Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | Yo
 -- | Ancient Secrets | 0 | *-- | *-- | *-- | **Encounter**: Search your discard pile for any Spell and put it in to your hand.
 -- | Begging For Scraps | Consumable (Event) | 0 | *-- | *-- | * -2 Cha <br /> * 1 HP: Search your discard pile for any Potion and put it into your hand.
 -- | Dodge | Consumable (Event) | 0 | *-- | *-- | Discard This: Take no HP damage this turn.
-
+-- | Whisperer | Minion |0 | -- | -- | * +2 Cha <br /> * **Encounter**; Make a Simple Parley: Add 1d4 to the damage.
 
 
 
