@@ -66,8 +66,8 @@ Beast Cards |Tail | Feature |---|R-Beast |---|+5 HP
 --|Spiked Tail|--- |---|R-Beast |Tail| You have Tail in play : +1 Def; You may use a violence die of 2d8
 --|Ferocious Roar | Feature | 0 |R-Beast |---| Your may choose a 1d8 Diplomacy Die
 --|Hulking Physique| Feature |---|R-Beast |---| You may have 1 additional RightHand and LeftHand non-Weapon card in play.
---|Horns| Feature (Weapon) |---|R-Beast | Head | * You have Tail in play: * + 1 Def <br /> **Encounter**, Make a Simple Attack: Add your Cha to the damage.
--- | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | You may play C-Sorcerer-1 cards. | 
+--|Horns| Feature (Weapon) |---|R-Beast | Head | * You have Tail in play: * + 1 Def <br /> **Encounter**; Make a Simple Attack: Add your Cha to the damage.
+Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | You may play C-Sorcerer-1 cards. | 
 -- |Prudence | Consumable | 0 | | | Discard This; Discard a card from your hand: Add XP equal to the card's XP cost.
 -- |Frantic Search | Feature | 0 | *-- | *-- | * Shuffle 3 cards from your Discard in to your Deck: Discard the top three cards from your deck <br /> * Discard This: Shuffle 3 cards from your Discard in to your Deck
 -- |Club | Equipment (Weapon) | 0 | | LeftHand RightHand | * You may use a Violence Die of 1d4
