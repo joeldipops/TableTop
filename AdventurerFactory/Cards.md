@@ -36,7 +36,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You ma
 --|---|--- |---|C-Bard-2 |---|---
 --| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
 --| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
---|---|--- |---|C-Bard-4 |---|---
+--|Symphony of Power|--- |---|C-Bard-4 |LeftHand | Play a card: +1 XP
 Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | *-- | **Encounter**: +10 WP
 --| Gale | Consumable (Spell) | 0 | C-Sorcerer-1 | *-- | **Encounter**; Discard This: Make a Simple Attack.  If you rolled a 1 or 2, your opponent skips their next Encounter Step
 --| Heat Manipulation | Consumable (Spell) | 0 |C-Sorcerer-1 | *-- | * **Encounter**; Discard This: Choose one of your Opponents Equipment and return it to their hand, then do a Simple Attack. <br /> * **Encounter**; Discard This:  
