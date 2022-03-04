@@ -29,7 +29,7 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin-1 | Le
 --|---|--- |---|C-Assassin-4 |---|---
 Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards in with LeftHand and RightHand slots until next end step: +2 Cha until next end step
 -- | Sleight of Hand | Feature | 0 | C-Bard-1 | | **Encounter**: Make a Simple Parley.  If WP damage was 3 or more, you and your opponent both discard a card from your hands.
---| Trick Coin | Equipment (Consumable) | 0 (for real) |C-Bard-1 |---|* +1 Cha <br /> * Shuffle this back to your deck: +1 XP
+--| Trick Coin | Equipment (Consumable) | 0 (for real) |C-Bard-1 |---|* +1 Cha <br /> * Shuffle this back to your deck: +2 XP
 --|---|--- |---|C-Bard-1 |---|---
 --| Riposte | Feature |---| C-Bard-2 |---|You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
 --| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Slot symbols and Effects of that card; <br /> * Once on your turn; Attach a card of yours in play to this: Detach any other cards attached to this card as below. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
