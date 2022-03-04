@@ -29,7 +29,7 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | 0 | C-Assassin-1 | Le
 --|---|--- |---|C-Assassin-4 |---|---
 Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards in with LeftHand and RightHand slots until next end step: +2 Cha until next end step
 -- | Sleight of Hand | Feature | 0 | C-Bard-1 | | **Encounter**: Make a Simple Parley.  If WP damage was 3 or more, you and your opponent both discard a card from your hands.
---| Trick Coin | Equipment (Consumable) | 0 (for real) |C-Bard-1 |---|* +1 Cha <br /> * Shuffle this back to your deck: +2 XP
+--| Trick Coin | Equipment (Loot) | 0 (for real) |C-Bard-1 |---|* +1 Cha <br /> * Shuffle this back to your deck: +2 XP
 --|---|--- |---|C-Bard-1 |---|---
 --| Riposte | Feature |---| C-Bard-2 |---|You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
 --| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Slot symbols and Effects of that card; <br /> * Once on your turn; Attach a card of yours in play to this: Detach any other cards attached to this card as below. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
@@ -50,10 +50,10 @@ Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | *-- | **Encounter**
 Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | * + 1 Def <br /> * You may play C-Knight Weapon cards.
 --|Smith's Almanac| Equipment (Book) | 0 | R-Dwarf |---| 3 XP: Prevent the effects of one Armour or Weapon card until the end of this turn.
 --| Trash/Treasure | Feature |---|R-Dwarf |---| Your card is discarded from play as part of an effect's Cost: +XP equal to the XP cost of that card.
---|---|--- |---|R-Dwarf |---|---
+--| Big Ole Emerald |Equipment (Loot) |---| R-Dwarf | BeltPouch | TBC
 --|---|--- |---|R-Dwarf |---|---
 Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | *-- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
---| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | * Attach the top card of your deck to this, facedown:  +1 Cha; +2 HP <br /> * When this is discarded, discard all attached cards.
+--| Vile Vial | Equipment (Potion) | 0 |R-Ork | BeltPouch | * Attach the top card of your deck to this, facedown:  +1 Cha; +2 HP <br /> * When this is discarded, discard all attached cards.
 --| Stench | ---| --- |R-Ork |Body| * -1 HP, +1 Def <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1 HP and -1d4 WP <br /> * **Encounter**: Make a Simple Parley; Opponents Cha is 0 until the end of their next turn.
 --| Filth | --- | --- |R-Ork |---| * **Encounter**; Make a Simple Attack or Parley; -1HP; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> * TBC
 --|---|--- |---|R-Ork |---|---
@@ -79,14 +79,15 @@ Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | Yo
 -- |Jerkin | Equipment (Armour) | 0|| Body | * + 1 Def <br /> * +1 WP
 -- |Sword Breaker | Equipment (Weapon) | 0 | | LeftArm RightArm | Your opponent rolls their Violence Die; Roll your violence die 2XP: If you rolled higher, discard one of your opponent's Weapons.
 -- |Old Wise Mentor | Consumable | 0 | *--| *-- | Discard This: Search your deck for any Class and put it in to your hand; Shuffle the deck.
--- | Potion | Consumable (Potion) | 0 | *-- | Belt Pouch | Discard This: +10 HP
+-- | Potion | Consumable (Potion) | 0 | *-- | BeltPouch | Discard This: +10 HP
 -- | Dutch Courage | Consumable (Potion) | 0 | *-- | | 4XP: +5 WP
 -- | Loot | Feature | 0 | *-- | *-- | Do 5 or more HP or WP damage in a turn: +3XP 
 -- | Ancient Secrets | 0 | *-- | *-- | *-- | **Encounter**: Search your discard pile for any Spell and put it in to your hand.
 -- | Begging For Scraps | Consumable (Event) | 0 | *-- | *-- | * -2 Cha <br /> * 1 HP: Search your discard pile for any Potion and put it into your hand.
 -- | Dodge | Consumable (Event) | 0 | *-- | *-- | Discard This: Take no HP damage this turn.
 -- | Whisperer | Minion |0 | -- | -- | * +2 Cha <br /> * **Encounter**; Make a Simple Parley: Add 1d4 to the damage.
--- | Gold Coin | Consumable (Equipment) | 0 (actually 0) | || * +1 Cha <br /> * Discard this: +1 XP
+-- | Gold Coin | Equipment (Loot) | 0 (actually 0) | || * +1 Cha <br /> * Discard this: +1 XP
+-- | Belt Pouch | Equipment | -- | -- | -- | * Ignore your BeltPouch slot symbols in play <br /> * Discard a card of yours from play: Search your deck for a *Loot* and add it to your hand <br /> * Discard this OR Discard a BeltPouch-slot card of yours in play: Search your deck for a card with a BeltPouch slot.
 
 
 
