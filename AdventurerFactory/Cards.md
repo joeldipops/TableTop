@@ -54,9 +54,8 @@ Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | * + 1 Def
 --|---|--- |---|R-Dwarf |---|---
 Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | *-- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
 --| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | * Attach the top card of your deck to this, facedown:  +1 Cha; +2 HP <br /> * When this is discarded, discard all attached cards.
---| Stench |--- |---|R-Ork |Body| * -1 HP, +1 Def <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1 HP and -1d4 WP <br /> * **Encounter**: Make a Simple Parley; Opponents Cha is 0 until the end of their next turn.
---| Filth |---|R-Ork |---|**Encounter** Make a Simple Attack or Parley; -1HP; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> TBC Opponents turn
-
+--| Stench | ---| --- |R-Ork |Body| * -1 HP, +1 Def <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1 HP and -1d4 WP <br /> * **Encounter**: Make a Simple Parley; Opponents Cha is 0 until the end of their next turn.
+--| Filth | --- | --- |R-Ork |---| * **Encounter**; Make a Simple Attack or Parley; -1HP; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> * TBC
 --|---|--- |---|R-Ork |---|---
 Undead Cards | Patchwork Monstrosity | Feature | 0 | R-Undead | Body | You may have two RightHand slots in play.  If this is discarded from play, discard all RightHand slots 
 --| Echoes of Life | Feature | 0 |R-Undead |---| **Encounter**: The next card you play may be from any C-type-1
