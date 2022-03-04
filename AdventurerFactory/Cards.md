@@ -35,7 +35,7 @@ Bard Cards | Lute | Equipment (Weapon) | 0 | C-Bard-1 | Back | * <br /> * You ma
 --| Valet | Minion |---|C-Bard-2 |---| * A card is attached to this: Ignore any Slot symbols and Effects of that card; <br /> * Once on your turn; Attach a card of yours in play to this: Detach any other cards attached to this card as below. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
 --| Tune of Seduction | Consumable (Spell) |---|C-Bard-2 |---|**Encounter**; Discard this: Take an amount of XP from your opponent up to your Cha - their Cha
 --| Flourish | Feature | 0 |C-Bard-3 | Body | 2XP; Attach a card to this: Whenever the card refers to your Simple Attack or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
---| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand | xXP: + x WP; + 1HP
+--| Refined Spirits | Consumable (Potion) | 0 | C-Bard-3 | LeftHand RightHand | xXP: + x WP; + 1HP
 --|Chorus of Power| Spell |---|C-Bard-4 |LeftHand | Play a card: +1 XP
 Sorcerer Cards | Gather Magic | Feature | 0 | C-Sorcerer-1 | *-- | **Encounter**: +10 WP
 --| Gale | Consumable (Spell) | 0 | C-Sorcerer-1 | *-- | **Encounter**; Discard This: Make a Simple Attack.  If you rolled a 1 or 2, your opponent skips their next Encounter Step
@@ -54,8 +54,9 @@ Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | 0 | R-Dwarf | Arms | * + 1 Def
 --|---|--- |---|R-Dwarf |---|---
 Ork Cards|Out Clubbin' | Feature | 0 | R-Ork | *-- | You have two Clubs in play: Your violence die is 2d4; + 1 Atk
 --| Vile Vial | Equipment (Potion) | 0 |R-Ork | Belt Pouch | * Attach the top card of your deck to this, facedown:  +1 Cha; +2 HP <br /> * When this is discarded, discard all attached cards.
---|---|--- |---|R-Ork |---|---
---|---|--- |---|R-Ork |---|---
+--| Stench |--- |---|R-Ork |Body| * -1 HP, +1 Def <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1 HP and -1d4 WP <br /> * **Encounter**: Make a Simple Parley; Opponents Cha is 0 until the end of their next turn.
+--| Filth |---|R-Ork |---|**Encounter** Make a Simple Attack or Parley; -1HP; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> TBC Opponents turn
+
 --|---|--- |---|R-Ork |---|---
 Undead Cards | Patchwork Monstrosity | Feature | 0 | R-Undead | Body | You may have two RightHand slots in play.  If this is discarded from play, discard all RightHand slots 
 --| Echoes of Life | Feature | 0 |R-Undead |---| **Encounter**: The next card you play may be from any C-type-1
