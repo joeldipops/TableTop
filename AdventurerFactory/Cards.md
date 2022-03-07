@@ -88,6 +88,7 @@ Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | Yo
 -- | Whisperer | Minion |0 | -- | -- | * +2 Cha <br /> * **Encounter**; Make a Simple Parley: Add 1d4 to the damage.
 -- | Gold Coin | Equipment (Loot) | 0 (actually 0) | || * +1 Cha <br /> * Discard this: +1 XP
 -- | Big Ole Diamond | Equipment (Loot) | -- | -- | -- | **Encounter**: +2XP
+-- | Fine Clothes | Equipment (Armour) | -- | -- | Body | You may use a Diplomacy Die of 1d4
 -- | Belt Pouch | Equipment | -- | -- | -- | * Ignore your BeltPouch slot symbols in play <br /> * Discard a card of yours from play: Search your deck for a *Loot* and add it to your hand <br /> * Discard this OR Discard a BeltPouch-slot card of yours in play: Search your deck for a card with a BeltPouch slot.
 
 
