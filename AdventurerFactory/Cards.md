@@ -90,6 +90,6 @@ Misc Cards | Initiate's Notes | Equipment (Book) | 0 | | LeftHand RightHand | Yo
 -- | Big Ole Diamond | Equipment (Loot) | -- | -- | -- | **Encounter**: +2XP
 -- | Fine Clothes | Equipment (Armour) | -- | -- | Body | You may use a Diplomacy Die of 1d4
 -- | Belt Pouch | Equipment | -- | -- | -- | * Ignore your BeltPouch slot symbols in play <br /> * Discard a card of yours from play: Search your deck for a *Loot* and add it to your hand <br /> * Discard this OR Discard a BeltPouch-slot card of yours in play: Search your deck for a card with a BeltPouch slot.
-
+-- | Big Ole Fake | Equipment | -- | -- | BeltPouch | Discard this; Select an Opponent's _Loot_ or _Consumable_: Discard that card.
 
 
