@@ -71,7 +71,7 @@ In the encounter step, you may do one of the following.
 - Perform the action on a card you have in play that has a cost of "Encounter:" 
 
 # End Conditions
-- When a player has 0 HP at the end of a turn.
+- When a player has 0 HP or 0 WP at the end of a turn.
 - When a player has 0 cards in their deck AND did not Play a card on their turn.
 - When a player requests a draw at any time and it is accepted by their opponent.
 
