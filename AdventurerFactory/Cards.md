@@ -24,9 +24,9 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | -- | C-Assassin-1 | L
 -- | Assassinate | Feature | -- | C-Assassin-2 | -- | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
 -- | Grovel! | Feature | -- |C-Assassin-2 | -- | +2 Char; You may use 1d8 as your Diplomacy Die
 -- | Reconnoiter | Feature | -- | C-Assassin-2 | -- | Skip your next encounter step: Look at 2 random cards in Opponent's hand.
--- | -- | -- | -- |C-Assassin-3 | -- | --
--- | -- | -- | -- |C-Assassin-3 | -- | --
--- | -- | -- | -- |C-Assassin-4 | -- | --
+-- | -- | -- | -- | C-Assassin-3 | -- | --
+-- | -- | -- | -- | C-Assassin-3 | -- | --
+-- | Final Blow | Feature | -- | C-Assassin-4 | -- | 10HP; 10WP; Opponent's `HP + WP <= 20`: Opponent's HP is  now 0
 Bard Cards | Lute | Equipment (Weapon) | -- | C-Bard-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards with LeftHand and RightHand slots until next end step: +2 Cha until next end step
 -- | Sleight of Hand | Feature | -- | C-Bard-1 | | **Encounter**: Make a Simple Parley.  If WP damage was 3 or more, you and Opponent both discard a card from their hands.
 -- | Trick Coin | Equipment (Loot) | 0 | C-Bard-1 |---| * +1 Cha <br /> * Shuffle this back to your deck: +2 XP
