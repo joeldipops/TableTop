@@ -85,7 +85,7 @@ Misc Cards | Initiate's Notes | Equipment (Book) | -- | -- | LeftHand RightHand 
 -- | Ancient Secrets | -- | -- | -- | -- | **Encounter**: Search your Discard for any _Spell_ and put it in to your Hand.
 -- | Begging For Scraps | Consumable (Event) | -- | -- | -- | * -2 Cha <br /> * 1 HP: Search your discard pile for any _Potion_ and put it into your Hand.
 -- | Dodge | Consumable (Event) | -- | -- | -- | Discard This: Take no HP damage this turn.
--- | Whisperer | Minion |0 | -- | -- | * +2 Cha <br /> * **Encounter**; Make a Simple Parley: Add 1d4 to the damage.
+-- | Whisperer | Minion | -- | -- | -- | * +2 Cha <br /> * **Encounter**; Make a Simple Parley: Add 1d4 to the damage.
 -- | Gold Coin | Equipment (Loot) | 0 | -- | -- | * +1 Cha <br /> * Discard This: +1 XP
 -- | Big Ole Diamond | Equipment (Loot) | -- | -- | -- | **Encounter**: +2XP
 -- | Fine Clothes | Equipment (Armour) | -- | -- | Body | You may use a Diplomacy Die of 1d4
