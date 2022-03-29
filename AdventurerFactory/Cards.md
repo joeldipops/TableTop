@@ -42,11 +42,11 @@ Sorcerer Cards | Gather Magic | Feature | -- | C-Sorcerer-1 | -- | **Encounter**
 -- | Heat Manipulation | Consumable (Spell) | -- |C-Sorcerer-1 | -- | * **Encounter**; Discard This: Choose one of Opponent's _Equipment_ and return it to their hand, then do a Simple Attack. <br /> * **Encounter**; Discard This:  
 -- | Life Drain | Consumable (Spell) | -- | C-Sorcerer-1 | -- | **Encounter**; Discard This: Make a Simple Parley. Increase your WP by the amount of WP damage
 -- | Shift Shape | Spell | -- | C-Sorcerer-2 | Body | You may have 1 R-Requirement card in play with any R-Requirement. If this is Discarded, discard that card too.
--- | -- | -- | -- | C-Sorcerer-2 | -- | --
+-- | Magic Staff | -- | -- | C-Sorcerer-2 | -- | --
 -- | -- | -- | -- | C-Sorcerer-2 | -- | --
 -- | Force Field | Feature | -- | C-Sorcerer-3 | -- | Opponent makes an Encounter that would directly reduce your HP OR WP; 1XP: Your HP and WP is not reduced; If the total damage would have been more than 4, Discard This.
 -- | Spell Book | Equipment (Book) | -- | C-Sorcerer-3 | LeftHand RightHand | Your _Spell_ is discarded; 1XP: Instead of going to the discard pile, return it to your hand.
--- | --| -- | -- | C-Sorcerer-4 | -- | --
+-- | Ritual of the Eldritch Flows | Spell | -- | C-Sorcerer-4 | LeftHand RightHand | * This has x Tokens: Opponent's WP is 0; <br /> * You Atk, Def, Cha or WP increases: Add a token to this for each stat that was increased.
 Dwarf Cards | Dwarf Gauntlet | Equipment (Armour) | -- | R-Dwarf | Arms | * + 1 Def <br /> * You may play C-Knight _Weapons_.
 -- | Smith's Almanac| Equipment (Book) | -- | R-Dwarf | -- | 3 XP: Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.
 -- | Trash/Treasure | Feature | -- | R-Dwarf | -- | Your card is discarded from play as part of an effect's conditions: +XP equal to the XP cost of that card.
