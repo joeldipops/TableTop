@@ -13,25 +13,26 @@ Knight Cards (10) |Sword | Equipment (Weapon) | -- | C-Knight-1 | LeftHand Right
 -- | Dual Wielding | Feature | -- | C-Knight-1 | -- | **Encounter**; You have two _Weapons_ in play; 1XP: Perform two Simple Attacks
 -- | -- | -- | -- | C-Knight-2 | -- | -- | -- |
 -- | -- | -- | -- | C-Knight-2 | -- | -- | -- |
--- | Quick Thrust | Feature |---| C-Knight-2 |---|Once per turn; You have a C-Knight _Weapon_ in play: Make a simple attack but with a Violence die of 1d4.
+-- | Quick Thrust | Feature |---| C-Knight-2 |---|Once per turn; You have a C-Knight _Weapon_ in play; Activate This: Make a simple attack but with a Violence die of 1d4.
 -- | Full Plate | Equipment (Armour) | -- |C-Knight-3 | Body | * + 5 Def <br /> * + 10WP
 -- | -- | -- | -- | C-Knight-3 | -- | -- | -- |
 -- |Glowing Sword | Equipment (Weapon) | -- | C-Knight-4 | LeftHand RightHand | * You may use a Violence Die of 1d12
 Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | -- | C-Assassin-1 | LeftHand RightHand | **Encounter**: Make a Simple Attack.  If you  Roll a 1 or 2 on a Simple Attack, add 1d4 to the damage.
 -- | Hide | Feature | -- |  C-Assassin-1 | Body | * **Encounter**; Discard a card of yours in play: Opponent skips their next Encounter step.  This counts as skipping your own Encounter step. <br /> * Discard This; 2WP: Opponent skips their next Encounter step or ends their Encounter step before you take damage. |
--- | -- | -- | -- | C-Assassin-1 | -- | --
--- | -- | -- | -- | C-Assassin-1 | -- | --
+-- | Special Training | Feature | -- | C-Assassin-1 | -- |**Encounter**; You have not used This Encounter before; Choose any C-Requirement: You may play cards with that Level 1 Requirement until the end of this turn. <br /> * This card is Discarded: Discard all of your cards in play that have the nominated C-Requirement |
+-- | Spiked Tea | Equipment (Consumable) | -- | C-Assassin-1 | -- | Opponent rolls their Diplomacy Die; Discard This: Roll your diplomacy die and Opponent loses that amount of HP.
 -- | Assassinate | Feature | -- | C-Assassin-2 | -- | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
 -- | Grovel! | Feature | -- |C-Assassin-2 | -- | +2 Char; You may use 1d8 as your Diplomacy Die
--- | Reconnoiter | Feature | -- | C-Assassin-2 | -- | Skip your next encounter step: Look at 2 random cards in Opponent's hand.
--- | -- | -- | -- | C-Assassin-3 | -- | --
+-- | Reconnoiter | Feature | -- | C-Assassin-2 | -- | Activate This: Skip your next encounter step; Look at 2 random cards in Opponent's hand.
+-- | Bystander Disguise | Equipment (Tool) | Body | C-Assassin-3 | -- | * There are counters on this: -1 Cha for each counter. <br />
+* Opponent plays a card; Activate This: You and opponent both roll 1d6+Cha.  If you roll higher, Prevent the effects of Opponent's card and Discard it, then add a counter to This.  If you roll equal or lower, Discard This.
 -- | -- | -- | -- | C-Assassin-3 | -- | --
 -- | Final Blow | Feature | -- | C-Assassin-4 | -- | 10HP; 10WP; Opponent's `HP + WP <= 20`: Opponent's HP is  now 0
 Bard Cards | Lute | Equipment (Weapon) | -- | C-Bard-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards with LeftHand and RightHand slots until next end step: +2 Cha until next end step
 -- | Sleight of Hand | Feature | -- | C-Bard-1 | | **Encounter**: Make a Simple Parley.  If WP damage was 3 or more, you and Opponent both discard a card from their hands.
 -- | Trick Coin | Equipment (Loot) | 0 | C-Bard-1 |---| * +1 Cha <br /> * Shuffle this back to your deck: +2 XP
 -- | Big Ole Ruby |Equipment (Loot) | -- | C-Bard-1 | BeltPouch | -- | * **Encounter**: +2XP <br /> * Discard This: Take a card from opponent's Discard and put it on top of their Deck. 
--- | Riposte | Feature | -- | C-Bard-2 | -- |You take WP Damage this turn: Your opponent takes WP damage equal to your Cha.
+-- | Riposte | Feature | -- | C-Bard-2 | -- |You take WP Damage; 2XP: Opponent takes WP damage equal to your Cha.
 -- | Valet | Minion | -- | C-Bard-2 | -- | * A card is attached to this: Ignore any Slot symbols and Effects of that card; <br /> * Once on your turn; Attach a card of yours in play to this: Detach any other cards attached to this card as below. <br /> * Detach a card attached to this: If that card could not legally be in play, discard it. 
 -- | Tune of Seduction | Consumable (Spell) | -- |C-Bard-2 | -- | **Encounter**; Discard This: Take an amount of XP from opponent up to `your Cha - their Cha`
 -- | Flourish | Feature | -- |C-Bard-3 | Body | 2XP; Attach a card to This: Whenever the card refers to your "Simple Attack" or "Violence Die", treat it as referrring to your "Simple Parley" or "Diplomacy Die" respectively.
@@ -40,14 +41,14 @@ Bard Cards | Lute | Equipment (Weapon) | -- | C-Bard-1 | Back | * <br /> * You m
 Sorcerer Cards | Gather Magic | Feature | -- | C-Sorcerer-1 | -- | **Encounter**: +10 WP
 -- | Gale | Consumable (Spell) | -- | C-Sorcerer-1 | -- | **Encounter**; Discard This: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
 -- | Heat Manipulation | Consumable (Spell) | -- |C-Sorcerer-1 | -- | * **Encounter**; Discard This: Choose one of Opponent's _Equipment_ and return it to their hand, then do a Simple Attack. <br /> * **Encounter**; Discard This:  
--- | Life Drain | Consumable (Spell) | -- |C-Sorcerer-1 | -- | **Encounter**; Discard This: Make a Simple Parley. Increase your WP by the amount of WP damage
--- | -- | -- | -- | C-Sorcerer-2 | -- | --
+-- | Life Drain | Consumable (Spell) | -- | C-Sorcerer-1 | -- | **Encounter**; Discard This: Make a Simple Parley. Increase your WP by the amount of WP damage
+-- | Shift Shape | Spell | -- | C-Sorcerer-2 | Body | You may have 1 R-Requirement card in play with any R-Requirement. If this is Discarded, discard that card too.
 -- | -- | -- | -- | C-Sorcerer-2 | -- | --
 -- | -- | -- | -- | C-Sorcerer-2 | -- | --
 -- | Force Field | Feature | -- | C-Sorcerer-3 | -- | Opponent makes an Encounter that would directly reduce your HP OR WP; 1XP: Your HP and WP is not reduced; If the total damage would have been more than 4, Discard This.
 -- | Spell Book | Equipment (Book) | -- | C-Sorcerer-3 | LeftHand RightHand | Your _Spell_ is discarded; 1XP: Instead of going to the discard pile, return it to your hand.
 -- | --| -- | -- | C-Sorcerer-4 | -- | --
-Dwarf Cards|Dwarf Gauntlet | Equipment (Armour) | -- | R-Dwarf | Arms | * + 1 Def <br /> * You may play C-Knight _Weapons_.
+Dwarf Cards | Dwarf Gauntlet | Equipment (Armour) | -- | R-Dwarf | Arms | * + 1 Def <br /> * You may play C-Knight _Weapons_.
 -- | Smith's Almanac| Equipment (Book) | -- | R-Dwarf | -- | 3 XP: Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.
 -- | Trash/Treasure | Feature | -- | R-Dwarf | -- | Your card is discarded from play as part of an effect's conditions: +XP equal to the XP cost of that card.
 -- | Big Ole Emerald |Equipment (Loot) | -- | R-Dwarf | BeltPouch | * **Encounter**: +2XP <br /> * **Encounter**: Take a card from your Discard and put it on top of your Deck.
