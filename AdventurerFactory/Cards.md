@@ -24,8 +24,7 @@ Assassin Cards (10) | Poison Dagger | Equipment (Weapon) | -- | C-Assassin-1 | L
 -- | Assassinate | Feature | -- | C-Assassin-2 | -- | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
 -- | Grovel! | Feature | -- |C-Assassin-2 | -- | +2 Char; You may use 1d8 as your Diplomacy Die
 -- | Reconnoiter | Feature | -- | C-Assassin-2 | -- | Activate This: Skip your next encounter step; Look at 2 random cards in Opponent's hand.
--- | Bystander Disguise | Equipment (Tool) | Body | C-Assassin-3 | -- | * There are counters on this: -1 Cha for each counter. <br />
-* Opponent plays a card; Activate This: You and opponent both roll 1d6+Cha.  If you roll higher, Prevent the effects of Opponent's card and Discard it, then add a counter to This.  If you roll equal or lower, Discard This.
+-- | Bystander Disguise | Equipment (Tool) | Body | C-Assassin-3 | -- | * There are counters on this: -1 Cha for each counter. <br /> * Opponent plays a card; Activate This: You and opponent both roll 1d6+Cha.  If you roll higher, Prevent the effects of Opponent's card and Discard it, then add a counter to This.  If you roll equal or lower, Discard This.
 -- | -- | -- | -- | C-Assassin-3 | -- | --
 -- | Final Blow | Feature | -- | C-Assassin-4 | -- | 10HP; 10WP; Opponent's `HP + WP <= 20`: Opponent's HP is  now 0
 Bard Cards | Lute | Equipment (Weapon) | -- | C-Bard-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards with LeftHand and RightHand slots until next end step: +2 Cha until next end step
