@@ -1,0 +1,9 @@
+# Slightly more interesting *Snakes and Ladders*
+
+- Play on a normal 100-square Snakes and Ladders board.
+- Replace the standard d6 with 2d4
+- On your turn, before you roll, you may choose to move BACK 1, 2 or 3 spaces.  Ignore snakes or ladders you land on in this step.
+
+## Optional Additions
+- If you land on a *Snake* when you move back, follow it. Ladders are still ignored.
+- Tread double 4s as 1 instead of 8 to mitigate the fact that with 2d4s you're going to be rolling 6 or higher more than a third of the time despite the fact that the board is "weighted" for a d6
