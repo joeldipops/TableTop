@@ -73,7 +73,7 @@ Misc Cards | Initiate's Notes | Equipment (Book) | -- | -- | LeftHand RightHand 
 -- | Club | Equipment (Weapon) | -- | -- | LeftHand RightHand | * You may use a Violence Die of 1d4
 -- | Dagger | Equipment (Weapon)| -- | -- | LeftHand RightHand | * You may use a Violence Die of 1d4. <br /> * **Encounter**; Discard This: Perform any of your Encounters, but ignore opponent's Def this turn.
 -- | Crossbow | Equipment (Weapon) | -- | -- | RightHand | * 1XP: You may use a Violence Die of 1d6 until next end step.
--- | Helm | Equipment (Armous) | -- | -- | Head | +1 Def
+-- | Helm | Equipment (Armour) | -- | -- | Head | +1 Def
 -- | Buckler | Equipment (Armour) | -- | -- | LeftHand RightHand | * +2 Def
 -- | Gauntlet | Equipment (Armour) | -- | -- | Arms | * + 1 Def
 -- | Jerkin | Equipment (Armour) | -- | -- | Body | * + 1 Def <br /> * +1 WP
@@ -93,5 +93,6 @@ Misc Cards | Initiate's Notes | Equipment (Book) | -- | -- | LeftHand RightHand 
 -- | Big Ole Fake | Equipment | -- | -- | BeltPouch | Discard this; Select an Opponent's _Loot_ or _Consumable_: Discard that card.
 -- | Homemade Shield | Equipment (Armour) | -- | -- | LeftHand RightHand | Opponent makes a Simple Attack; 1XP: Your HP is not reduced by that attack; If the damage would have been more than 3, Discard This
 -- | Psychic Bomb | Consumable (Spell) | -- | -- | Head | Discard This; Discard one of your _Features_ from play: Select 1 Opponent's _Feature_ and discard it.
+-- | Ribbon | Equipment (Armour) | 1 | -- | Head | **Encounter**: Search your Deck for a card with a cost of 0 
 
 
