@@ -6,7 +6,7 @@ Deplete opponents _Health_ or _Willpower_ to 0 by building a powerful character 
 ## Summary
 The basic idea is as you play, you will fill out your hypothetical character sheet with Class and Race abilities, fill out your item slots with equipment, and level up allowing you to play more effective abilities or equip more powerful equipment. At the same time, you will be using what abilities you have to either beat down an opponent or send them packing via a more diplomatic route.
 
-Once you play a card that is associated with a given Class or Race, your character becomes that Class/Race. Once you have a Class, you can't generally play cards associated with other Classes unless you play _Type_ cards can open up new Class options (eg "Multiclassing") or increase the level of a class you already have. This allows for the concept of Mono- or Multi- colour decks as in MTG.
+Once you play a card that is associated with a given Class or Race, your character becomes that Class/Race. Once you have a Class, you can't generally play cards associated with other Classes unless you play _Type_ cards that can open up new Class options (eg "Multiclassing") or increase the level of a class you already have. This allows for the concept of Mono- or Multi- colour decks as in MTG.
 
 On the other hand, you also have Equipment slots to manage.  Certain cards may require that you have a free hand, or not be wearing any Armour.  When playing a card like this, you can discard what you already have in order to play the new card in that slot.  The system is extensible, you don't have a limited set of slots, but cards that share a given symbol cannot be played together.
 
@@ -74,14 +74,6 @@ In the encounter step, you may do one of the following.
 - When a player has 0 HP or 0 WP at the end of a turn.
 - When a player has 0 cards in their deck AND did not Play a card on their turn.
 - When a player requests a draw at any time and it is accepted by their opponent.
-
-# Random Notes
-DnD inspired LCG
-
-- Each deck represents a single Player Character
-- Will involve dice in someway...bounded accuracy type thing.  Probably no attack roles though.
-- Victory condition involves sending HP to 0.  Entertaining idea of some kind of death save additional requirement.
-- Will involve stats that can be built up, but not too many.  Defence will be a definite, not sure what else.
 
 ## Card types
 ### Classes
