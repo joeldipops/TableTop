@@ -14,7 +14,7 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 
 - 40 Card Deck per player.
 - Set of D&D dice ie. d4, d6, d8, d10, d12, d20
-- Some way to keep track of Expirience (XP), Health (HP) and Willpower (WP)
+- Some way to keep track of Experience (XP), Health (HP) and Willpower (WP)
 ### Optional
 - Something to track your _Violence Die_ and _Diplomacy Die_.
 - Something to track _Attack_, _Defense_ and _Charisma_ bonuses + any other card-specific resources.
