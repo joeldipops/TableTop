@@ -56,9 +56,10 @@ As many times as you like / can afford do the following.
     Actions are what is written on the cards you have in play, in the format **Cost 1_; Cost 2_ : Effect**
     If an action has no cost, it will start with a colon ':'
     1. Check that this action can be played - actions can be played once per turn per card.
-    1. Pay the cost
-    2. Perform the action
-    3. Allow your opponent to respond with an action and so on...
+    2. Pay the cost
+    2. If the action was from a consumable, turn it on it's side to indicate it has been used.
+    3. Perform the action
+    4. Allow your opponent to respond with an action and so on...
 
 ### Encounter Step
 In the encounter step, you may do one of the following.
@@ -71,7 +72,7 @@ In the encounter step, you may do one of the following.
 - Perform the action on a card you have in play that has a cost of "Encounter:"
 
 ### Clean up Step
-Each player discards any consumables they used.
+Each player discards any consumables that have been used.
 
 # End Conditions
 - When a player has 0 💗 or 0 ⚡ at the end of a turn.
