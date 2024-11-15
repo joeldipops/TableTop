@@ -68,7 +68,10 @@ In the encounter step, you may do one of the following.
 - Roll your _Diplomacy Die_ to lower their Willpower so that they cease hostilities
     - The basic formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your Charisma Bonus)`
     - This is called a Simple Parley
-- Perform the action on a card you have in play that has a cost of "Encounter:" 
+- Perform the action on a card you have in play that has a cost of "Encounter:"
+
+### Clean up Step
+Each player discards any consumables they used.
 
 # End Conditions
 - When a player has 0 💗 or 0 ⚡ at the end of a turn.
