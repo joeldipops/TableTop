@@ -17,7 +17,8 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 - Some way to keep track of Experience (🌈), Health (💗) and Willpower (⚡)
 ### Optional
 - Something to track your _Violence Die_ and _Diplomacy Die_.
-- Something to track _Attack_, _Defense_ and _Charisma_ bonuses + any other card-specific resources.
+- Something to track _Attack_ (💪), _Defense_ (⛊) and _Charisma_ (🎵)
+      bonuses + any other card-specific resources.
 
 ## Setup
 1. Each player starts with 30 💗 and 30 ⚡
@@ -64,10 +65,10 @@ As many times as you like / can afford do the following.
 ### Encounter Step
 In the encounter step, you may do one of the following.
 - Attack by rolling your _Violence Die_ in order to lower your opponents Health and defeat them in combat.
-    - The basic formula is `New 💗 = Old 💗 - (Violence Die + Your Atk Bonus - Their Defense Bonus)`
+    - The basic formula is `New 💗 = Old 💗 - (Violence Die + Your 💪 - Their ⛊)`
     - This is called a Simple Attack
 - Roll your _Diplomacy Die_ to lower their Willpower so that they cease hostilities
-    - The basic formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your Charisma Bonus)`
+    - The basic formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your 🎵 )`
     - This is called a Simple Parley
 - Perform the action on a card you have in play that has a cost of "Encounter:"
 
