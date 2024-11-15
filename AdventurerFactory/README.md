@@ -1,7 +1,7 @@
 # Adventurer Factory
 
 ## Goal
-Deplete opponents _Health_ or _Willpower_ to 0 by building a powerful character and then using his or her best abilities.
+Deplete opponents _Health_ (💗) or _Willpower_ (⚡) to 0 by building a powerful character and then using his or her best abilities.
 
 ## Summary
 The basic idea is as you play, you will fill out your hypothetical character sheet with Class and Race abilities, fill out your item slots with equipment, and level up allowing you to play more effective abilities or equip more powerful equipment. At the same time, you will be using what abilities you have to either beat down an opponent or send them packing via a more diplomatic route.
@@ -14,21 +14,21 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 
 - 40 Card Deck per player.
 - Set of D&D dice ie. d4, d6, d8, d10, d12, d20
-- Some way to keep track of Experience (XP), Health (HP) and Willpower (WP)
+- Some way to keep track of Experience (🌈), Health (💗) and Willpower (⚡)
 ### Optional
 - Something to track your _Violence Die_ and _Diplomacy Die_.
 - Something to track _Attack_, _Defense_ and _Charisma_ bonuses + any other card-specific resources.
 
 ## Setup
-1. Each player starts with 30 HP and 30 WP
+1. Each player starts with 30 💗 and 30 ⚡
 2. Each Players starts with a Violence and Diplomacy Die of 1d1 (that is, a flat 1 damage)
-2. Player 1 takes 3 XP
-3. Player 2 takes 5 XP
+2. Player 1 takes 3 🌈
+3. Player 2 takes 5 🌈
 4. Each deck is shuffled and each player draws 6 cards.
 
 ## Phases each Turn
 ### Resource Step
-1. Take 1XP for each card you have in play.
+1. Take 1🌈 for each card you have in play.
 2. Draw 1 card if possible.
 
 ### Main step
@@ -38,7 +38,7 @@ As many times as you like / can afford do the following.
         - Requirements have different _Categories_ eg C-Class, R-Race and different _Types_ within a category eg C-Assasin, R-Ork.  Unless a card says otherwise, you may only have cards of 1 _Type_ per _Category_ in play at a time.  
         - For example, your only card in play is `Shield Mastery` which has a requirement of C-Knight.  In your hand, you have `Silent Steps`, which has C-Assasin,`Poison Claws` which has R-Ork and `Squire` with C-Knight.  You may play `Poison Claws` or `Squire`, but you may not play `Silent Steps`.
         - Cards may also require you to have certain levels in a type eg. `Favoured Champion` requires C-Knight-2. Certain cards will increase your level, eg. _Knight_ 
-    2. Pay the card's cost (usually by removing an amount of your XP).  This is the large number appearing in the centre of the card. 
+    2. Pay the card's cost (usually by removing an amount of your 🌈).  This is the large number appearing in the centre of the card. 
     2. A card may have 0 - 4 _Slots_ (symbols on top left of the card). Choose which _Slot_ you will play it in.
     3. If the card has no Slot, place the card in front of you and skip to Step 6.
     4. Check whether there is already a card in the card's _Slot_ and if so, Discard it
@@ -63,15 +63,15 @@ As many times as you like / can afford do the following.
 ### Encounter Step
 In the encounter step, you may do one of the following.
 - Attack by rolling your _Violence Die_ in order to lower your opponents Health and defeat them in combat.
-    - The basic formula is `New HP = Old HP - (Violence Die + Your Atk Bonus - Their Defense Bonus)`
+    - The basic formula is `New 💗 = Old 💗 - (Violence Die + Your Atk Bonus - Their Defense Bonus)`
     - This is called a Simple Attack
 - Roll your _Diplomacy Die_ to lower their Willpower so that they cease hostilities
-    - The basic formula is `New WP = Old WP - (Diplomacy Die + Your Charisma Bonus)`
+    - The basic formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your Charisma Bonus)`
     - This is called a Simple Parley
 - Perform the action on a card you have in play that has a cost of "Encounter:" 
 
 # End Conditions
-- When a player has 0 HP or 0 WP at the end of a turn.
+- When a player has 0 💗 or 0 ⚡ at the end of a turn.
 - When a player has 0 cards in their deck AND did not Play a card on their turn.
 - When a player requests a draw at any time and it is accepted by their opponent.
 
