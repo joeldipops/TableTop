@@ -6,7 +6,7 @@
 -- | Bard (🪕) | Class | -- | -- | C1 C2 C3 | * : You may play 🪕 cards. <br /> * : Increase your Bard Level by 1. <br /> * This cannot be Discarded <br /> * +2🎵
 4 Races | Dwarf | Race | -- | -- | R1 | * : You may play R-Dwarf Cards. <br /> * This cannot be Discarded <br /> * +1⛊
 -- | Ork | Race | -- | -- | R1 | * : You may play R-Ork Cards. <br /> * This cannot be Discarded <br /> * +1💪
--- | Undead | Race | -- | -- | R1 | * : You may play R-Undead Cards. <br /> * This cannot be Discarded <br /> * +5💗
+-- | Undead (🪦) | Race | -- | -- | R1 | * : You may play 🪦 Cards. <br /> * This cannot be Discarded <br /> * +5💗
 -- | Beast | Race | -- | -- | R1 | * : You may play R-Beast Cards. <br /> * This cannot be Discarded <br /> * +8⚡
 Knight Cards (10) |Sword | Equipment (Weapon) | -- | ♞-1 | 🫲 🫱 | * You may use a Violence Die of 1d8
 -- | Pike | Equipment (Weapon ) | -- | ♞-1 | 🫲 🫱 | * You may use a Violence Die of 2d8
@@ -57,11 +57,11 @@ Ork Cards|Out Clubbin' | Feature | -- | R-Ork | -- | You have two _Clubs_ in pla
 -- | Stench | --| -- | R-Ork | 𖨆 | * -1💗, +1⛊ <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1💗 and -1d4⚡ <br /> * **Encounter**: Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.
 -- | Filth | -- | -- | R-Ork | -- | * **Encounter**; Make a Simple Attack or Parley; -1💗; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> * TBC
 -- | -- | -- | -- | R-Ork | -- | --
-Undead Cards | Patchwork Monstrosity | Feature | -- | R-Undead | 𖨆 | You may have two 🫱-slots in play.  If this is discarded from play, discard all 🫱 slots 
--- | Echoes of Life | Feature | -- |R-Undead | -- | **Encounter**: The next card you play may be from any C-type-1
--- | Necromancy | Consumable (Spell) | --| R-Undead | 👤 | Search your Discard for any card and shuffle it back into the Deck.
--- | Skeletal Minion | Minion | -- | R-Undead | 👤 | **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
--- | Out of Phase | Feature | -- |R-Undead |𖨆| Shuffle This into your deck: Opponent gets -1⚡ and skips their next Encounter step.
+Undead Cards | Patchwork Monstrosity | Feature | -- | 🪦 | 𖨆 | You may have two 🫱-slots in play.  If this is discarded from play, discard all 🫱 slots 
+-- | Echoes of Life | Feature | -- |🪦 | -- | **Encounter**: The next card you play may be from any C-type-1
+-- | Necromancy | Consumable (Spell) | --| 🪦 | 👤 | Search your Discard for any card and shuffle it back into the Deck.
+-- | Skeletal Minion | Minion | -- | 🪦 | 👤 | **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
+-- | Out of Phase | Feature | -- |🪦 |𖨆| Shuffle This into your deck: Opponent gets -1⚡ and skips their next Encounter step.
 Beast Cards |Tail | Feature | -- | R-Beast | -- |+5💗
 -- | Spiked Tail|--- |---|R-Beast |Tail| You have Tail in play : +1⛊; You may use a Violence Die of 2d8
 -- | Ferocious Roar | Feature | -- | R-Beast | --| Your may use Diplomacy Die of 1d8
