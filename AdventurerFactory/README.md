@@ -39,7 +39,7 @@ As many times as you like / can afford do the following.
 - Play a card
     1. Check whether the card has any `Needs` listed.  The card cannot be played unless all `Needs` are met.
         - For example, your only card in play is `Knight` which provides `1xKnight`.  In your hand, you have `Silent Steps`, which needs 1x`Assasin`,`Silver Ring` which has no needs,  `Squire` which needs 1x`Knight` and  `Knightly Banner` which needs `2xKnight`.  You may play `Silver Ring` or `Squire`, but you may not play `Silent Steps` or `Knightly Banner`.        
-    2. Check what inventory slot/s the card _Takes_, and check whether you already have a card in play that has taken the same slot.
+    2. Check what inventory slot/s the card `Fills`, and check whether you already have a card in play that has filled the same slot.
     3. If so, and you still want to play the new card, Discard the existing card in that slot.
     4. Pay the new card's 🌈 cost.
     5. Place the card in front of you.
