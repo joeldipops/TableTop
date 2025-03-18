@@ -35,11 +35,9 @@ On the other hand, you also have Equipment slots to manage.  Certain cards may r
 ### Main step
 As many times as you like / can afford do the following.
 - Play a card
-    1. Check whether any requirements to play the card are met.  These are represented by the symbols in the top left of the card.
-        - Requirements have different _Categories_ eg C-Class, R-Race and different _Types_ within a category eg C-Assasin, R-Ork.  Unless a card says otherwise, you may only have cards of 1 _Type_ per _Category_ in play at a time.  
-        - For example, your only card in play is `Shield Mastery` which has a requirement of C-Knight.  In your hand, you have `Silent Steps`, which has C-Assasin,`Poison Claws` which has R-Ork and `Squire` with C-Knight.  You may play `Poison Claws` or `Squire`, but you may not play `Silent Steps`.
-        - Cards may also require you to have certain levels in a type eg. `Favoured Champion` requires C-Knight-2. Certain cards will increase your level, eg. _Knight_ 
-    2. Pay the card's cost (usually by removing an amount of your 🌈).  This is the large number appearing in the centre of the card. 
+    1. Check whether the card has any `Needs` listed.  The card cannot be played unless all `Needs` are met.
+        - For example, your only card in play is `Knight` which provides `1xKnight`.  In your hand, you have `Silent Steps`, which needs 1x`Assasin`,`Silver Ring` which has no needs,  `Squire` which needs 1x`Knight` and  `Knightly Banner` which needs `2xKnight`.  You may play `Silver Ring` or `Squire`, but you may not play `Silent Steps` or `Knightly Banner`.        
+    2. Pay the card's cost in 🌈 
     2. A card may have 0 - 4 _Slots_ (symbols on top left of the card). Choose which _Slot_ you will play it in.
     3. If the card has no Slot, place the card in front of you and skip to Step 6.
     4. Check whether there is already a card in the card's _Slot_ and if so, Discard it
