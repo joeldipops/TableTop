@@ -75,4 +75,5 @@ Each player discards any consumables that have been used.
 - When a player requests a draw at any time and it is accepted by their opponent.
 
 ## Card types
-Each card has at least one _Type_ and can have any number beyond that, separated by `/`. The only _Type_ with special rules attached is `Consumable`. After an action from a `Consumable` is used, the card is _Consumed_.  _Consumed_ cards are considered in play until the following `Clean up Step`, at which point they are Discarded.
+Each card has at least one _Type_ and can have any number beyond that, separated by `/`. 
+- The only _Type_ with special rules attached is `Consumable`. After an action from a `Consumable` is used, the card is _Consumed_.  _Consumed_ cards are considered In Play until the following _Clean up Step_, at which point they are Discarded.
