@@ -9,23 +9,22 @@
 | Undead (🪦) | Race | -- | -- | R1 | * : You may play 🪦 Cards. <br /> * This cannot be Discarded <br /> * +5💗
 | Beast | Race | -- | -- | R1 | * : You may play R-Beast Cards. <br /> * This cannot be Discarded <br /> * +8⚡
 | Sword | Item / Weapon | 3 | ♞-1 | Left-hand / Right-hand | You may use a 1d8 Violence Die
-| Pike | Item / Weapon | -- | ♞-1 | 🫲 🫱 | * You may use a Violence Die of 2d8
+| Pike | Item / Weapon | -- | ♞-1 | Left-hand / Right-hand | * You may use a Violence Die of 2d8
 | Dual Wielding | Feature | -- | ♞-1 | -- | **Encounter**; You have two _Weapons_ in play; 1🌈: Perform two Simple Attacks
 | -- | -- | -- | ♞-2 | -- | -- | -- |
 | -- | -- | -- | ♞-2 | -- | -- | -- |
 | Quick Thrust | Feature |---| ♞-2 |---|Once per turn; You have a ♞ _Weapon_ in play; Activate This: Make a simple attack but with a Violence die of 1d4.
-| Full Plate | Item / Armour | -- |♞-3 | 𖨆 | * + 5⛊ <br /> * + 10⚡
+| Full Plate | Item / Armour | -- |♞-3 | Body | * + 5⛊ <br /> * + 10⚡
 | -- | -- | -- | ♞-3 | -- | -- | -- |
-| Glowing Sword | Item / Weapon | -- | ♞-4 | 🫲 🫱 | * You may use a Violence Die of 1d12
-Assassin Cards (10) | Poison Dagger | Item / Weapon | -- | 🗡️-1 | 🫲 🫱 | **Encounter**: Make a Simple Attack.  If you  Roll a 1 or 2 on a Simple Attack, add 1d4 to the damage.
-| Hide | Feature | 3 |  🗡️-1 | Self | * **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. 
- On your next turn, play as if you did not use an Encounter this turn. <br /> Discard This; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. |
+| Glowing Sword | Item / Weapon | -- | ♞-4 | Left-hand / Right-hand | * You may use a Violence Die of 1d12
+| Poison Dagger | Item / Weapon | -- | 🗡️-1 | Left-hand / Right-hand | **Encounter**: Make a Simple Attack.  If you  Roll a 1 or 2 on a Simple Attack, add 1d4 to the damage.
+| Hide | Feature | 3 |  🗡️-1 | Self | * **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn. <br /> Discard This; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. |
 | Special Training | Feature | 2 | 🗡️-1 | -- |**Encounter**: Choose any `Need` type. Provides 1 Need of that type until the end of this turn. <br /> * When this is Discarded, Discard all of your in-play cards that could not legally be played.
 | Spiked Tea | Item / Consumable | 0 | 🗡️-1 | -- | Both players roll their Diplomacy Dice: If you rolled higher, Opponent loses 💗 equal to the difference.
 | Assassinate | Feature | -- | 🗡️-2 | -- | **Encounter**; You skipped your last Encounter step: Perform up to 1 Simple Parley and 2 Simple Attacks.
 | Grovel! | Feature | -- |🗡️-2 | -- | +2🎵; You may use 1d8 as your Diplomacy Die
 | Reconnoiter | Feature | -- | 🗡️-2 | -- | Activate This: Skip your next encounter step; Look at 2 random cards in Opponent's hand.
-| Bystander Disguise | Item / Tool | 𖨆 | 🗡️-3 | -- | * There are counters on this: -1🎵 for each counter. <br /> * Opponent plays a card; Activate This: You and opponent both roll 1d6+🎵.  If you roll higher, Prevent the effects of Opponent's card and Discard it, then add a counter to This.  If you roll equal or lower, Discard This.
+| Bystander Disguise | Item / Tool | -- | 🗡️-3 | Body | * There are counters on this: -1🎵 for each counter. <br /> * Opponent plays a card; Activate This: You and opponent both roll 1d6+🎵.  If you roll higher, Prevent the effects of Opponent's card and Discard it, then add a counter to This.  If you roll equal or lower, Discard This.
 | -- | -- | -- | 🗡️-3 | -- | --
 | Final Blow | Feature | -- | 🗡️-4 | -- | 10💗; 10⚡; Opponent's `💗 + ⚡ <= 20`: Opponent's 💗 is  now 0
 | Lute | Item / Weapon | -- | 🪕-1 | Back | * <br /> * You may use a Diplomacy Die of 1d6 <br /> * Ignore effects of your cards with 🫲 and 🫱 slots until next end step: +2🎵 until next end step
@@ -38,22 +37,22 @@ Assassin Cards (10) | Poison Dagger | Item / Weapon | -- | 🗡️-1 | 🫲 🫱
 | Flourish | Feature | 4 |🪕-3 | 𖨆 | -2🌈: Attach a card to This. <br /> * When a card Attached to this refers to your "Simple Attack" or "Violence Die", treat it as referrring to a "Simple Parley" or "Diplomacy Die" respectively.
 | Refined Spirits | Consumable / Potion | -- | 🪕-3 | 🫲 🫱 | x🌈: + x⚡; + 1💗
 | Chorus of Power| Spell | 4 | 🪕-4 | 🫲 | Whenever you play a card, get +1🌈
-Sorcerer Cards | Gather Magic | Feature | -- | 🪄-1 | -- | **Encounter**: +10⚡
+| Gather Magic | Feature | -- | 🪄-1 | -- | **Encounter**: +10⚡
 | Gale | Consumable / Spell | -- | 🪄-1 | -- | **Encounter**: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
 | Heat Manipulation | Consumable / Spell | -- |🪄-1 | -- | * **Encounter**: Choose one of Opponent's _Equipment_ and return it to their hand, then do a Simple Attack. <br /> * **Encounter**: TODO  
 | Life Drain | Consumable / Spell | -- | 🪄-1 | -- | **Encounter**: Make a Simple Parley. Increase your ⚡ by the amount of ⚡ damage
 | Shift Shape | Spell | -- | 🪄-2 | 𖨆 | You may have 1 R-Requirement card in play with any R-Requirement. If this is Discarded, discard that card too.
 | Magic Staff | -- | -- | 🪄-2 | -- | --
-| Hand Mirror | Equipment | 🫱 🫲 Neck | 🪄-2 | -- | * ?🌈: Shuffle your consumable in play back into your deck <br /> * ?🌈: Shuffle an opponent's in-play consumable back into their deck.
+| Hand Mirror | Equipment | | 🪄-2 |  Left-hand / Right-hand / Neck | * ?🌈: Shuffle your consumable in play back into your deck <br /> * ?🌈: Shuffle an opponent's in-play consumable back into their deck.
 | Force Field | Feature | -- | 🪄-3 | -- | Opponent makes an Encounter that would directly reduce your 💗 OR ⚡; 1🌈: Your 💗 and ⚡ is not reduced; If the total damage would have been more than 4, Discard This.
 | Spell Book | Item / Book | -- | 🪄-3 | 🫲 🫱 | Your _Spell_ is discarded; 1🌈: Instead of going to the discard pile, return it to your hand.
-| Ritual of the Eldritch Flows | Spell | -- | 🪄-4 | 🫲 🫱 | * This has x Tokens: Opponent's ⚡ is 0; <br /> * You 💪, ⛊, 🎵 or ⚡ increases: Add a token to this for each stat that was increased.
+| Ritual of the Eldritch Flows | Spell | -- | 🪄-4 | 🫲 🫱 | * This has x Tokens: Opponent's ⚡ is 0; <br /> * Your 💪, ⛊, 🎵 or ⚡ increases: Add a token to this for each stat that was increased.
 | Dwarf Gauntlet | Item / Armour | 3 | Dwarf | Gloves | * +1⛊ <br /> * Weapons you play require 1 less ♞ <br /> When the above effect ends, Discard any in-play cards that could not be played.
 | Smith's Almanac| Item / Book | -- | Dwarf | -- | 3🌈: Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.
 | Trash/Treasure | Feature | -- | Dwarf | -- | Your card is discarded from play as part of an effect's conditions: +🌈 equal to the 🌈 cost of that card.
 | Big Ole Emerald |Item / Loot | -- | Dwarf | BeltPouch | * **Encounter**: +2🌈 <br /> * **Encounter**: Take a card from your Discard and put it on top of your Deck.
 | -- | -- | -- | Dwarf | -- | --
-Ork Cards|Out Clubbin' | Feature | -- | Ork | -- | You have two _Clubs_ in play: Your Violence Die is 2d4; + 1💪
+| Out Clubbin' | Feature | -- | Ork | -- | You have two _Clubs_ in play: Your Violence Die is 2d4; + 1💪
 | Vile Vial | Item / Potion | -- | Ork | BeltPouch | * Attach the top card of your deck to this, facedown:  +1🎵; +2💗 <br /> * When this is discarded, discard all attached cards.
 | Stench | Feature | -- | Ork | 𖨆 | * -1💗, +1⛊ <br /> * **Encounter**: Make a Simple Attack; Opponent gets -1💗 and -1d4⚡ <br /> * **Encounter**: Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.
 | Filth | Feautre | -- | Ork | -- | * **Encounter**; Make a Simple Attack or Parley; -1💗; Target opponent's Equipment in play: They must either discard it, or discard a card from their hand. <br /> * TBC
@@ -63,7 +62,7 @@ Ork Cards|Out Clubbin' | Feature | -- | Ork | -- | You have two _Clubs_ in play:
 | Necromancy | Consumable  / Spell | --| 🪦 | 👤 | Search your Discard for any card and shuffle it back into the Deck.
 | Skeletal Minion | Minion | -- | 🪦 | 👤 | **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
 | Out of Phase | Feature | -- |🪦 |𖨆| Shuffle This into your deck: Opponent gets -1⚡ and skips their next Encounter step.
-Beast Cards | Tail | Feature | -- | Beast | -- |+5💗
+| Tail | Feature | -- | Beast | -- |+5💗
 | Spiked Tail| Feature |--- | Beast & Tail | Tail | * +1⛊ <br /> * You may use a 2d8 Violence Die.
 | Ferocious Roar | Feature | -- | Beast | --| Your may use A 1d8 Diplomacy Die
 | Hulking Physique| Feature | -- | Beast | -- | You may have 1 additional 🫱 and 🫲 non-Weapon card in play.
@@ -97,4 +96,4 @@ Beast Cards | Tail | Feature | -- | Beast | -- |+5💗
 | Ribbon | Item / Armour | 1 | -- | 👤 | **Encounter**: Search your Deck for a card with a cost of 0🌈
 | Mirror Shard | Consumable / Loot | -- | -- | -- | : Shuffle a Consumable in play back into its owners deck. 
 | Valet | Minion | 4 | 2-Bard | -- | A card attached to This does not Fill any slots, but does not have any Actions or Effects. <br /> : If there are any cards attached to this, Detach them.  If a detached card is not legally playable, Discard it.  You may Attach one of your in-play cards to this unless it cannot be Discarded. 
-
+| Canine | Minion / Pet | 2 | -- | -- | +1💪
