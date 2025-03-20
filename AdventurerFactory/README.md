@@ -31,7 +31,7 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
 
 ## Phases each Turn
 ### Resource Step
-1. Take 1🌈 for each card you have in play.
+1. Take 1🌈 for each card you have in play, with a minimum of 1 and a maximum of 7.
 2. Draw 1 card if possible.
 
 ### Main step
@@ -65,6 +65,8 @@ In the encounter step, you may do one of the following.
     - The formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your 🎵 - Their 🎵)`
     - This is called a Simple Parley
 - Perform the action on a card you have in play that includes a cost of _<ins>Encounter</ins>_:
+
+NB: It is possible to have negative values for 💪, ⛊ or 🎵, but a Simple Attack or Simple Parley can never add more 💗/⚡ rather than reduce it.
 
 ### Clean up Step
 Each player discards any consumables that have been used.
