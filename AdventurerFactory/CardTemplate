@@ -1,0 +1,39 @@
+<svg>
+	<g class="heading">
+		<text>{{name}}</text>
+		<text>{{types}}</text>
+	</g>
+	<rect class="art"></rect>
+	<g>
+		<circle></circle>
+		<text>{{cost}}</text>
+	</g>
+	<g class="Needs">
+		<text>Needs</text>
+		<g>
+		{{#each needs}}
+			<text>{{need}}</text>
+		{{/each}
+		</g>
+	</g>
+	<g class="Fills">
+		<text>Fills</text>
+		<g>
+		{{#each needs}}
+			<text>{{need}}</text>
+		{{/each}
+		</g>
+	</g>
+	<g class="effects">
+		<text>
+		{{#each effect}}
+		{{#if effect.isAction}}
+			<tspan class="{{effect.costClass}}">{{effect.cost}}:</tspan>
+			<tspan>{{effect.text}}</tspan>
+		{{else}}
+			<tspan class="cost">{{effect.text}}</tspan>		
+		{{/if}}
+		{{/each}}
+		</text>
+	</g>
+</svg>
