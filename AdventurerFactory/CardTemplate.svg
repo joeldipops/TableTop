@@ -1,39 +1,115 @@
-<svg>
-	<g class="heading">
-		<text>{{name}}</text>
-		<text>{{types}}</text>
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    width="300"
+    height="450"
+>
+    <style>
+.border {
+    stroke: #000000;
+    fill: #FFFFFF;
+    stroke-width: 2px;
+}
+
+text.heading {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.centred {
+    text-anchor: middle;
+    dominant-baseline: middle;    
+}
+
+text.alignLeft {
+    text-anchor: start;
+    dominant-baseline: hanging;    
+}
+
+text.alignRight {
+    text-anchor: end;
+    dominant-baseline: hanging;    
+}
+
+    </style>
+    <g
+        transform="translate(4, 4)"
+    >
+	<rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            y="20px"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >{{name}}</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="16"
+            >{{types}}</text>
+        </g>
+        <rect 
+            class="border art"
+            x="4"
+            y="30" 
+            width="284"
+            height="150"
+        />
+	<g transform="translate(150, 180)">
+	    <circle 
+                class="border"
+                r="24"
+            />
+	    <text class="centred">{{cost}}</text>
 	</g>
-	<rect class="art"></rect>
-	<g>
-		<circle></circle>
-		<text>{{cost}}</text>
-	</g>
-	<g class="Needs">
-		<text>Needs</text>
-		<g>
-		{{#each needs}}
-			<text>{{need}}</text>
-		{{/each}
-		</g>
-	</g>
-	<g class="Fills">
-		<text>Fills</text>
-		<g>
-		{{#each needs}}
-			<text>{{need}}</text>
-		{{/each}
-		</g>
-	</g>
-	<g class="effects">
-		<text>
-		{{#each effect}}
-		{{#if effect.isAction}}
-			<tspan class="{{effect.costClass}}">{{effect.cost}}:</tspan>
-			<tspan>{{effect.text}}</tspan>
-		{{else}}
-			<tspan class="cost">{{effect.text}}</tspan>		
-		{{/if}}
-		{{/each}}
-		</text>
-	</g>
+        <g
+            class="needs"
+            transform="translate(0, 180)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g>
+            {{#each needs}}
+                <text>{{need}}</text>
+            {{/each}
+            </g>
+        </g>
+        <g 
+            class="fills"
+            transform="translate(292, 180)"
+        >
+            <text 
+                class="alignRight"
+                dy="4"
+                x="-4"
+            >Fills</text>
+            <g>
+            {{#each needs}}
+                <text>{{need}}</text>
+            {{/each}
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 240)"
+        >
+            <text>
+            {{#each effect}}
+                {{#if effect.isAction}}
+                    <tspan class="{{effect.costClass}}">{{effect.cost}}:</tspan>
+                    <tspan>{{effect.text}}</tspan>
+                {{else}}
+                    <tspan class="cost">{{effect.text}}</tspan>		
+                {{/if}}
+            {{/each}}
+            </text>
+        </g>
+    </g>
 </svg>
