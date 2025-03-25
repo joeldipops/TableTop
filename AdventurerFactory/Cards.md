@@ -24,25 +24,25 @@
 | 0-B3 |  Refined Spirits  |  Consumable / Potion  |  2  |  🪕🪕🪕  |  --  |   **Consume**, -x🌈: + x⚡; + 1💗
 | 0-B4 |  Chorus of Power |  Spell  |  4  |  🪕🪕🪕🪕  |  Left-hand  |  Whenever you play a card, get +1🌈
 | 0-C0 |  Knight (♞)  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  |  * Provides 1♞ <br /> * +2 💗 <br /> * This cannot be Discarded
-| 0-K1 |  Dual Wielding  |  Feature  |  --  |  ♞  |  --  |  **Encounter**; You have two _Weapons_ in play; 1🌈: Perform two Simple Attacks
+| 0-K1 |  Dual Wielding  |  Feature  |  3  |  ♞  |  --  |  **Encounter**, -1🌈: If you have two _Weapons_ in play, perform two Simple Attacks.
 | 0-K1 |  Pike  |  Item / Weapon  |  5  |  ♞  |  Left-hand / Right-hand  |  You may use a 2d8 Violence Die
 | 0-K1 |  Sword  |  Item / Weapon  |  3  |  ♞  |  Left-hand / Right-hand  |  You may use a 1d8 Violence Die
 | 0-K2 |  --  |  --  |  --  |  ♞♞  |  --  |  -- 
 | 0-K2 |  --  |  --  |  --  |  ♞♞  |  --  |  -- 
-| 0-K2 |  Quick Thrust  |  Feature  | --- |  ♞♞  | --- | Once per turn; You have a ♞ _Weapon_ in play; Activate This: Make a simple attack but with a Violence die of 1d4.
+| 0-K2 |  Quick Thrust  |  Feature  | 4 |  ♞♞  | --- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
 | 0-K3 |  --  |  --  |  --  |  ♞♞♞  |  --  |  -- 
-| 0-K3 |  Full Plate  |  Item / Armour  |  --  | ♞♞♞  |  Body  |  * + 5⛊ <br /> * + 10⚡
-| 0-K4 |  Glowing Sword  |  Item / Weapon  |  --  |  ♞♞♞♞  |  Left-hand / Right-hand  |  * You may use a Violence Die of 1d12
+| 0-K3 |  Full Plate  |  Item / Armour  |  4  | ♞♞♞  |  Body  |  * + 5⛊ <br /> * + 10⚡
+| 0-K4 |  Glowing Sword  |  Item / Weapon  |  4  |  ♞♞♞♞  |  Left-hand / Right-hand  | You may use a 1d12 Violence Die.
 | 0-S0 |  Sorcerer (✨)  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  |  * Provides 1✨ <br /> * +3⚡, -1💗 <br /> * This cannot be Discarded 
 | 0-S1 |  Gale  |  Consumable / Spell  |  --  |  ✨  |  --  |  **Consume**, **Encounter**: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
 | 0-S1 |  Gather Magic  |  Feature  |  2  |  ✨  |  --  |  **Encounter**: +10⚡, shuffle This back into your Deck.
 | 0-S1 |  Heat Manipulation  |  Consumable / Spell  |  --  |  ✨  |  --  |  **Consume**, **Encounter**: Choose one of Opponent's _Equipment_ and return it to their hand, then do a Simple Attack. <br /> * **Encounter**: TODO  
-| 0-S1 |  Life Drain  |  Consumable / Spell  |  --  |  ✨  |  --  |  **Consume**, **Encounter**: Make a Simple Parley. Increase your ⚡ by the amount of ⚡ damage
-| 0-S2 |  Hand Mirror  |  Item  |  --  |  ✨ ✨  |   Left-hand / Right-hand / Neck  |  * ?🌈: Shuffle your consumable in play back into your deck <br /> * ?🌈: Shuffle an opponent's in-play consumable back into their deck.
+| 0-S1 |  Life Drain  |  Consumable / Spell  |  1  |  ✨  |  --  |  **Consume**, **Encounter**: Make a Simple Parley. Increase your ⚡ by the amount of ⚡ damage
+| 0-S2 |  Hand Mirror  |  Item  |  2  |  ✨ ✨  |   Left-hand / Right-hand / Neck  |  * -2🌈: Shuffle one of your in-play _Consumable_s back into your deck. <br /> * -5🌈: Shuffle an opponent's in-play consumable back into their deck.
 | 0-S2 |  Magic Staff  |  --  |  --  |  ✨ ✨  |  --  |  --
-| 0-S2 |  Shift Shape  |  Spell  |  --  |  ✨ ✨  |  Body  |  : Discard any cards attached to This.  Choose a card from your hand that includes 1 or more _Fills_ symbols you already have filled.  The card must otherwise be playable. Pay its cost and Attach it to This.  The card is now considered in-play.  If this card is discarded, any attached cards are also discarded.
-| 0-S3 |  Force Field  |  Feature  |  --  |  ✨ ✨ ✨  |  --  |  Opponent makes an Encounter that would directly reduce your 💗 OR ⚡; 1🌈: Your 💗 and ⚡ is not reduced; If the total damage would have been more than 4, Discard This.
-| 0-S3 |  Spell Book  |  Item / Book  |  --  |  ✨ ✨ ✨  |  🫲 🫱  |  Your _Spell_ is discarded; 1🌈: Instead of going to the discard pile, return it to your hand.
+| 0-S2 |  Shift Shape  |  Spell  |  2  |  ✨ ✨  |  Body  |  : Discard any cards attached to This.  Choose a card from your hand that includes 1 or more _Fills_ symbols you already have filled.  The card must otherwise be playable. Pay its cost and Attach it to This.  The card is now considered in-play.  If This is discarded, any attached cards are also discarded.
+| 0-S3 |  Force Field  |  Feature  |  3  |  ✨ ✨ ✨  |  --  |  -1🌈: If an opponent made an Encounter this turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard This.
+| 0-S3 |  Spell Book  |  Item / Book  |  2  |  ✨ ✨ ✨  |  🫲 🫱  |  -1🌈: Choose a  _Spell_ of yours that was discarded this turn and return it to your hand.
 | 0-S4 |  Ritual of the Eldritch Flows  |  Spell  |  --  |  ✨ ✨ ✨ ✨  |  🫲 🫱  |  * This has x Tokens: Opponent's ⚡ is 0; <br /> * Your 💪, ⛊, 🎵 or ⚡ increases: Add a token to this for each stat that was increased.
 | 1-RB |  Ferocious Roar  |  Feature  |  --  |  Beast  |  -- |  Your may use A 1d8 Diplomacy Die
 | 1-RB |  Horns |  Feature / Weapon  |  --  |  Beast & Tail  |  👤  |  * + 1⛊ <br />  * **Encounter**; Make a Simple Attack: Add your 🎵 to the damage.
