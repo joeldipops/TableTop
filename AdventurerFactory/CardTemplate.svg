@@ -10,26 +10,82 @@
     stroke-width: 2px;
 }
 
-text.heading {
-    text-anchor: middle;
-    dominant-baseline: hanging;
+.head > text:first-child {
+    font-size: larger;
+    font-weight: bold;
 }
 
-text.centred {
-    text-anchor: middle;
-    dominant-baseline: middle;    
+text, div {
+    font-family: sans-serif;
 }
 
-text.alignLeft {
-    text-anchor: start;
-    dominant-baseline: hanging;    
+    text.heading {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+
+    text.centred {
+        text-anchor: middle;
+        dominant-baseline: middle;    
+    }
+
+    text.alignLeft {
+        text-anchor: start;
+        dominant-baseline: hanging;    
+    }
+
+    text.alignRight {
+        text-anchor: end;
+        dominant-baseline: hanging;    
+    }
+
+.xp-cost {
+    font-size: xx-large;
+    font-weight: bold;
 }
 
-text.alignRight {
-    text-anchor: end;
-    dominant-baseline: hanging;    
+.effects {
+    border-style: dotted;
+    padding-top: 4px;
 }
 
+.effects > div {
+    margin-bottom: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    line-height: 24px;
+    padding-left: 6px;
+}
+
+.effects > .action {
+    text-indent: -6px;
+}
+
+.effects > .simple-effect {
+    font-weight: bold;
+}
+
+.effect-cost {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+    .effect-cost strong {
+        font-weight: bold;
+        font-size: larger;
+        margin-left: 2px;
+    }
+
+.special-cost > span:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.symbols {
+    font-size: larger;
+}
     </style>
     <g
         transform="translate(4, 4)"
