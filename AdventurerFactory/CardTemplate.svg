@@ -131,11 +131,11 @@ text, div {
                 dy="4"
                 x="4"
             >Needs</text>
-            <g>
+            <g transform="translate(4, 36)">
             {{#each needs}}
-                <text>{{need}}</text>
-            {{/each}
-            </g>
+                <text>some icon</text>
+            {{/each}}
+            </g> 
         </g>
         <g 
             class="fills"
@@ -143,29 +143,37 @@ text, div {
         >
             <text 
                 class="alignRight"
-                dy="4"
+                y="8px"
                 x="-4"
             >Fills</text>
-            <g>
-            {{#each needs}}
-                <text>{{need}}</text>
-            {{/each}
+            <g transform="translate(-4, 24)">
+                <text class="alignRight">
+                {{#each needs}}
+                    <tspan>{{need}}</tspan>
+                {{/each}
+                </text>
             </g>
         </g>
         <g
             class="effects"
-            transform="translate(0, 240)"
+            transform="translate(0, 232)"
         >
-            <text>
-            {{#each effect}}
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                {{#each effect}}
                 {{#if effect.isAction}}
-                    <tspan class="{{effect.costClass}}">{{effect.cost}}:</tspan>
-                    <tspan>{{effect.text}}</tspan>
-                {{else}}
-                    <tspan class="cost">{{effect.text}}</tspan>		
-                {{/if}}
-            {{/each}}
-            </text>
+                    <div class="action">
+                        <span class="{{effect.costClass}}"><span>{{effect.cost}}</span><strong>:</strong></span>
+                        <span>{{effect.text}}</span>
+                    </div>
+                {{else}}    
+                    <div class="{{effect.effectClass"}}>{{effect.text}}</div>
+                </div>
+            </foreignObject>
         </g>
     </g>
 </svg>
