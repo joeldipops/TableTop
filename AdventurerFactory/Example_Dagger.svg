@@ -152,7 +152,7 @@ text, div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div>You may us a 1d4 Violence die.</div>
+                    <div>You may use a 1d4 Violence die.</div>
                     <div class="action">
                         <span class="effect-cost basic-cost"><span>Discard This</span><strong>:</strong></span>
                         <span>Opponent's ⛊ is 0 until end of turn.</span>
