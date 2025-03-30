@@ -4,6 +4,7 @@
     height="450"
 >
     <style>
+      <![CDATA[
 .border {
     stroke: #000000;
     fill: #FFFFFF;
@@ -26,17 +27,17 @@ text, div {
 
     text.centred {
         text-anchor: middle;
-        dominant-baseline: middle;    
+        dominant-baseline: middle;
     }
 
     text.alignLeft {
         text-anchor: start;
-        dominant-baseline: hanging;    
+        dominant-baseline: hanging;
     }
 
     text.alignRight {
         text-anchor: end;
-        dominant-baseline: hanging;    
+        dominant-baseline: hanging;
     }
 
 .xp-cost {
@@ -86,6 +87,7 @@ text, div {
 .symbols {
     font-size: larger;
 }
+      ]]>
     </style>
     <g
         transform="translate(4, 4)"
@@ -150,7 +152,7 @@ text, div {
                 <text class="alignRight">
                 {{#each needs}}
                     <tspan>{{need}}</tspan>
-                {{/each}
+                {{/each}}
                 </text>
             </g>
         </g>
@@ -164,14 +166,16 @@ text, div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                {{#each effect}}
-                {{#if effect.isAction}}
+                {{#each effects}}
+                {{#if this.isAction}}
                     <div class="action">
-                        <span class="{{effect.costClass}}"><span>{{effect.cost}}</span><strong>:</strong></span>
-                        <span>{{effect.text}}</span>
+                        <span class="{{this.costClass}}"><span>{{this.cost}}</span><strong>:</strong></span>
+                        <span>{{this.text}}</span>
                     </div>
-                {{else}}    
-                    <div class="{{effect.effectClass"}}>{{effect.text}}</div>
+                {{else}}
+                    <div class="{{this.effectClass}}">{{this.text}}</div>
+                {{/if}}
+                {{/each}}
                 </div>
             </foreignObject>
         </g>
