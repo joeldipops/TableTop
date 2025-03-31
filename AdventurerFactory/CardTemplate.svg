@@ -1,8 +1,39 @@
-<svg 
+<svg
     xmlns="http://www.w3.org/2000/svg"
     width="300"
-    height="450"
+    height="45000"
 >
+    <defs>
+        <g id="Assassin">
+            <circle r="8" fill="black" stroke="black" />
+        </g>
+        <g id="Bard">
+            <circle r="8" fill="yellow" stroke="black" />
+        </g>
+        <g id="Knight">
+            <circle r="8" fill="green" stroke="black" />
+        </g>
+        <g id="Sorceror">
+            <circle r="8" fill="red" stroke="black" />
+        </g>
+        <g id="Dwarf">
+            <circle r="8" fill="blue" stroke="black" />
+        </g>
+
+        <g id="Body">
+            <rect width="16" height="16" fill="blue" stroke="black" />
+        </g>
+        <g id="Head">
+            <rect width="16" height="16" fill="red" stroke="black" />
+        </g>
+        <g id="Left-hand">
+            <rect width="16" height="16" fill="green" stroke="black" />
+        </g>
+        <g id="Right-hand">
+            <rect width="16" height="16" fill="white" stroke="black" />
+        </g>
+        <text id="slash" y="14" x="6" font-weight="bold">/</text>
+    </defs>
     <style>
       <![CDATA[
 .border {
@@ -40,6 +71,10 @@ text, div {
         dominant-baseline: hanging;
     }
 
+div {
+    font-size: small;
+}
+
 .xp-cost {
     font-size: xx-large;
     font-weight: bold;
@@ -51,10 +86,10 @@ text, div {
 }
 
 .effects > div {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     margin-left: 4px;
     margin-right: 4px;
-    line-height: 24px;
+    line-height: 16px;
     padding-left: 6px;
 }
 
@@ -89,71 +124,73 @@ text, div {
 }
       ]]>
     </style>
+    {{#each cards}}
     <g
-        transform="translate(4, 4)"
+        width="300"
+        height="450"
+        transform="translate(4, {{this.y}})"
     >
-	<rect
+        <rect
             class="border"
             width="292px"
             height="442px"
         />
         <g 
-            y="20px"
+            transform="translate(0, 4)"
+            class="head"
         >
             <text
                 class="heading"
                 x="50%"
-            >{{name}}</text>
+            >{{this.name}}</text>
             <text
                 class="heading"
                 x="50%"
-                dy="16"
-            >{{types}}</text>
+                dy="20"
+            >{{this.types}}</text>
         </g>
-        <rect 
+        <rect
             class="border art"
             x="4"
-            y="30" 
+            y="38"
             width="284"
             height="150"
         />
-	<g transform="translate(150, 180)">
-	    <circle 
+    <g transform="translate(150, 188)">
+        <circle 
                 class="border"
                 r="24"
             />
-	    <text class="centred">{{cost}}</text>
-	</g>
+        <text class="centred xp-cost" y="2">{{this.cost}}</text>
+    </g>
         <g
             class="needs"
-            transform="translate(0, 180)"
+            transform="translate(0, 188)"
         >
             <text
                 class="alignLeft"
                 dy="4"
                 x="4"
             >Needs</text>
-            <g transform="translate(4, 36)">
-            {{#each needs}}
-                <text>some icon</text>
+            <g transform="translate(12, 28)">
+            {{#each this.needs}}
+                <use href="#{{this.key}}" x="{{this.xOffset}}" />
             {{/each}}
             </g> 
         </g>
-        <g 
+        <g
             class="fills"
-            transform="translate(292, 180)"
+            transform="translate(292, 188)"
         >
             <text 
                 class="alignRight"
                 y="8px"
                 x="-4"
             >Fills</text>
-            <g transform="translate(-4, 24)">
-                <text class="alignRight">
-                {{#each needs}}
-                    <tspan>{{need}}</tspan>
+            <g transform="translate(-22, 24)">
+                {{#each this.fills}}
+                    <use href="#{{this.key}}" x="{{this.xOffset}}" />
                 {{/each}}
-                </text>
             </g>
         </g>
         <g
@@ -166,7 +203,7 @@ text, div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                {{#each effects}}
+                {{#each this.effects}}
                 {{#if this.isAction}}
                     <div class="action">
                         <span class="{{this.costClass}}"><span>{{this.cost}}</span><strong>:</strong></span>
@@ -180,4 +217,5 @@ text, div {
             </foreignObject>
         </g>
     </g>
+    {{/each}}
 </svg>

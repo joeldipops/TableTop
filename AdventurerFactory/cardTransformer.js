@@ -80,6 +80,8 @@ const messageEffects = function(data) {
                 effect.cost === "**Encounter**"
                 || effect.cost === "**Consume**"
             ) {
+                // This is markdown syntax for "bold" - we'll use CSS.
+                effect.cost = effect.cost.replaceAll("**", "");
                 effect.costClass = "special-cost";
             }
 
@@ -98,27 +100,51 @@ const messageEffects = function(data) {
 };
 
 const massageFills = function(data) {
-    return data.split("/").reduce((result, val) => {
+    return data.split(/\s+/).reduce((result, val, index) => {
         val = val.trim();
         if (!val || val === "--") {
             return result;
         }
-        result.push(val);
+
+        if (val === "/") {
+            val = "slash";
+        }
+
+        result.push({
+            key : val,
+            xOffset : -index * 16
+        });
         return result;
     }, []);
 }
 
-const jsonToSvg = function(template, data) {
-    const viewModel = {
+const massageNeeds = function(data) {
+    return data.split(/\s+/).reduce((result, val, index) => {
+        val = val.trim();
+        if (!val || val === "--") {
+            return result;
+        }
+
+        result.push({
+            key: val,
+            xOffset : index * 20
+        });
+
+        return result;
+    }, []);
+}
+
+const jsonToSvg = function(data, index) {
+    return viewModel = {
+        x: 4,
+        y: (index * 450),
         name: data.Name,
         types: data["Type(s)"],
         cost: data.Cost,
-        needs: data.Needs,
+        needs: massageNeeds(data.Needs),
         fills: massageFills(data.Fills),
         effects: messageEffects(data.Text)
     };
-
-    console.log(template(viewModel));
 };
 
 (async function main() {
@@ -126,17 +152,30 @@ const jsonToSvg = function(template, data) {
         metaData: {},
         fn: lineToJson
     });
-    console.log(data);
 
     const templateSvg = await loadFile("CardTemplate.svg");
     const template = Handlebars.compile(templateSvg);
 
-    data.forEach(function(cardJson) {
+    const viewModel = { cards : [] };
+    data.forEach(function(cardJson, index) {
         if (!cardJson) {
             return;
         }
-        jsonToSvg(template, cardJson);
+        viewModel.cards.push(jsonToSvg(cardJson, index));
     });
+
+    await new Promise((resolve, reject) => {
+        fs.writeFile("Cards.svg", template(viewModel), (err) => {
+            if (err) {
+                console.log(err);
+                return reject(err);
+            }
+
+            return resolve();
+        });
+    });
+
+    console.log("done");
 })();
 
 
