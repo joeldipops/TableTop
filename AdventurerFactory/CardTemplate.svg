@@ -89,7 +89,7 @@ div {
     margin-bottom: 16px;
     margin-left: 4px;
     margin-right: 4px;
-    line-height: 16px;
+    line-height: 20px;
     padding-left: 6px;
 }
 
@@ -105,7 +105,7 @@ div {
     border-width: 2px;
     border-style: solid;
     border-radius: 12px;
-    padding: 4px;
+    padding: 2px 4px;
 }
 
     .effect-cost strong {
@@ -206,7 +206,7 @@ div {
                 {{#each this.effects}}
                 {{#if this.isAction}}
                     <div class="action">
-                        <span class="{{this.costClass}}"><span>{{this.cost}}</span><strong>:</strong></span>
+                        <span class="effect-cost {{this.costClass}}"><span>{{this.cost}}</span><strong>:</strong></span>
                         <span>{{this.text}}</span>
                     </div>
                 {{else}}

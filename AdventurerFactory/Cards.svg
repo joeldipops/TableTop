@@ -89,7 +89,7 @@ div {
     margin-bottom: 16px;
     margin-left: 4px;
     margin-right: 4px;
-    line-height: 16px;
+    line-height: 20px;
     padding-left: 6px;
 }
 
@@ -105,7 +105,7 @@ div {
     border-width: 2px;
     border-style: solid;
     border-radius: 12px;
-    padding: 4px;
+    padding: 2px 4px;
 }
 
     .effect-cost strong {
@@ -364,11 +364,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Encounter**; Discard one of your in-play cards</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Encounter**; Discard one of your in-play cards</span><strong>:</strong></span>
                         <span>Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn.</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Discard This; -2⚡</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This; -2⚡</span><strong>:</strong></span>
                         <span>Opponent skips their next Encounter step or ends their Encounter step before you take damage.</span>
                     </div>
                 </div>
@@ -452,7 +452,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a Simple Attack.  If the die showed a 1 or 2, add 1d4 to the damage.</span>
                     </div>
                 </div>
@@ -533,7 +533,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Choose any &#x60;Need&#x60; type. Provides 1 Need of that type until the end of this turn.</span>
                     </div>
                     <div class="">When this is Discarded, Discard all of your in-play cards that could not legally be played.</div>
@@ -616,7 +616,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>If you skipped your last Encounter step, you may perform 1 Simple Parley and 2 Simple Attacks.</span>
                     </div>
                 </div>
@@ -777,7 +777,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>Skip your next encounter step; Look at 2 random cards in Opponent&#x27;s hand.</span>
                     </div>
                 </div>
@@ -859,7 +859,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, Both players roll their Diplomacy Dice</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, Both players roll their Diplomacy Dice</span><strong>:</strong></span>
                         <span>If you rolled higher, Opponent loses 💗 equal to the difference.</span>
                     </div>
                 </div>
@@ -1027,7 +1027,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a simple attach.  On opponent&#x27;s next turn, if an _Encounter_ would reduce your HP, first roll 1d6.  If the roll was 3 or lower, HP is not reduced.</span>
                     </div>
                 </div>
@@ -1191,7 +1191,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-10💗; -10⚡</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-10💗; -10⚡</span><strong>:</strong></span>
                         <span>If Opponent&#x27;s combined &#x60;💗 + ⚡&#x60; is 20 or less, Opponent&#x27;s 💗 becomes 0</span>
                     </div>
                 </div>
@@ -1359,11 +1359,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>+2🌈</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>Take a card from opponent&#x27;s Discard and put it on top of their Deck.</span>
                     </div>
                 </div>
@@ -1446,7 +1446,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">You may use a 1d6 Diplomacy Die.</div>
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>Negate all effects of your cards with Right-hand and Left-hand slots and get +2🎵 until the end of this turn.</span>
                     </div>
                 </div>
@@ -1527,7 +1527,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a Simple Parley.  If ⚡ damage was 3 or more, both players discard a card from their hands.</span>
                     </div>
                 </div>
@@ -1610,7 +1610,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="simple-effect">+1🎵</div>
                     <div class="action">
-                        <span class=""><span>Shuffle this into your deck</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Shuffle this into your deck</span><strong>:</strong></span>
                         <span>+2🌈</span>
                     </div>
                 </div>
@@ -1692,7 +1692,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, **Encounter**</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, **Encounter**</span><strong>:</strong></span>
                         <span>Take an amount of 🌈 from opponent up to &#x60;your 🎵 - their 🎵&#x60;</span>
                     </div>
                 </div>
@@ -1775,7 +1775,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">A card attached to This does not Fill any slots, but does not have any Actions or Effects.</div>
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>If there are any cards attached to this, Detach them.  If a detached card is not legally playable, Discard it.  You may Attach one of your in-play cards to this unless it cannot be Discarded.</span>
                     </div>
                 </div>
@@ -1857,7 +1857,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-2🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-2🌈</span><strong>:</strong></span>
                         <span>If you took ⚡ damage this turn, your Opponent loses ⚡ equal to your 🎵.</span>
                     </div>
                 </div>
@@ -1941,7 +1941,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-2🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-2🌈</span><strong>:</strong></span>
                         <span>Attach a card to This.</span>
                     </div>
                     <div class="">When a card Attached to this refers to your &quot;Simple Attack&quot; or &quot;Violence Die&quot;, treat it as referrring to a &quot;Simple Parley&quot; or &quot;Diplomacy Die&quot; respectively.</div>
@@ -2025,7 +2025,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, -x🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, -x🌈</span><strong>:</strong></span>
                         <span>+ x⚡; + 1💗</span>
                     </div>
                 </div>
@@ -2274,7 +2274,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Encounter**, -1🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Encounter**, -1🌈</span><strong>:</strong></span>
                         <span>If you have two _Weapons_ in play, perform two Simple Attacks.</span>
                     </div>
                 </div>
@@ -2677,7 +2677,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.</span>
                     </div>
                 </div>
@@ -3090,7 +3090,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, **Encounter**</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, **Encounter**</span><strong>:</strong></span>
                         <span>Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step</span>
                     </div>
                 </div>
@@ -3171,7 +3171,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>+10⚡, shuffle This back into your Deck.</span>
                     </div>
                 </div>
@@ -3252,11 +3252,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, **Encounter**</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, **Encounter**</span><strong>:</strong></span>
                         <span>Choose one of Opponent&#x27;s _Equipment_ and return it to their hand, then do a Simple Attack.</span>
                     </div>
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>TODO</span>
                     </div>
                 </div>
@@ -3337,7 +3337,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, **Encounter**</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, **Encounter**</span><strong>:</strong></span>
                         <span>Make a Simple Parley. Increase your ⚡ by the amount of ⚡ damage</span>
                     </div>
                 </div>
@@ -3424,11 +3424,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-2🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-2🌈</span><strong>:</strong></span>
                         <span>Shuffle one of your in-play _Consumable_s back into your deck.</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>-5🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-5🌈</span><strong>:</strong></span>
                         <span>Shuffle an opponent&#x27;s in-play consumable back into their deck.</span>
                     </div>
                 </div>
@@ -3590,7 +3590,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>Discard any cards attached to This.  Choose a card from your hand that includes 1 or more _Fills_ symbols you already have filled.  The card must otherwise be playable. Pay its cost and Attach it to This.  The card is now considered in-play.  If This is discarded, any attached cards are also discarded.</span>
                     </div>
                 </div>
@@ -3673,7 +3673,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-1🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-1🌈</span><strong>:</strong></span>
                         <span>If an opponent made an Encounter this turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard This.</span>
                     </div>
                 </div>
@@ -3758,7 +3758,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-1🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-1🌈</span><strong>:</strong></span>
                         <span>Choose a  _Spell_ of yours that was discarded this turn and return it to your hand.</span>
                     </div>
                 </div>
@@ -3844,11 +3844,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>This has x Tokens</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>This has x Tokens</span><strong>:</strong></span>
                         <span>Opponent&#x27;s ⚡ is 0;</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Your 💪, ⛊, 🎵 or ⚡ increases</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Your 💪, ⛊, 🎵 or ⚡ increases</span><strong>:</strong></span>
                         <span>Add a token to this for each stat that was increased.</span>
                     </div>
                 </div>
@@ -4011,7 +4011,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="simple-effect">+ 1⛊</div>
                     <div class="action">
-                        <span class=""><span>**Encounter**; Make a Simple Attack</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Encounter**; Make a Simple Attack</span><strong>:</strong></span>
                         <span>Add your 🎵 to the damage.</span>
                     </div>
                 </div>
@@ -4490,11 +4490,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>+2🌈</span>
                     </div>
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Take a card from your Discard and put it on top of your Deck.</span>
                     </div>
                 </div>
@@ -4656,7 +4656,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-3🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-3🌈</span><strong>:</strong></span>
                         <span>Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.</span>
                     </div>
                 </div>
@@ -5132,11 +5132,11 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">-1💗, +1⛊</div>
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a Simple Attack, in addition, Opponent gets -1💗 and -1d4⚡</span>
                     </div>
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.</span>
                     </div>
                 </div>
@@ -5219,7 +5219,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">You get +1🎵 for each card attached to this</div>
                     <div class="action">
-                        <span class=""><span>Without looking, attach the top card of your deck to This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Without looking, attach the top card of your deck to This</span><strong>:</strong></span>
                         <span>+2💗</span>
                     </div>
                     <div class="">When this is discarded, all attached cards are discarded.</div>
@@ -5381,7 +5381,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>The next card you play may be from any C-type-1</span>
                     </div>
                 </div>
@@ -5463,7 +5463,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Search your Discard for any card and shuffle it back into the Deck.</span>
                     </div>
                 </div>
@@ -5545,7 +5545,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>Shuffle This into your deck</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Shuffle This into your deck</span><strong>:</strong></span>
                         <span>Opponent gets -1⚡ and skips their next Encounter step.</span>
                     </div>
                 </div>
@@ -5706,7 +5706,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Encounter**; Discard a card from your hand</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Encounter**; Discard a card from your hand</span><strong>:</strong></span>
                         <span>Make any other Encounter you have, then 1 Simple Attack.</span>
                     </div>
                 </div>
@@ -5866,7 +5866,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Encounter**, -2⚡</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Encounter**, -2⚡</span><strong>:</strong></span>
                         <span>Search your Discard for any _Spell_ and put it in to your Hand.</span>
                     </div>
                 </div>
@@ -5947,7 +5947,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>+1💗</span>
                     </div>
                 </div>
@@ -6028,7 +6028,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="simple-effect">-2🎵</div>
                     <div class="action">
-                        <span class=""><span>**Consume**, -1💗</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, -1💗</span><strong>:</strong></span>
                         <span>Search your discard pile for any _Potion_ and put it into your Hand.</span>
                     </div>
                 </div>
@@ -6109,11 +6109,11 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">Ignore all of your &quot;Needs Beltpouch&quot; symbols in play</div>
                     <div class="action">
-                        <span class=""><span>Discard a card of yours from play</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard a card of yours from play</span><strong>:</strong></span>
                         <span>Search your Deck for a *Looand add it to your Hand, then shuffle</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Discard This OR Discard a card of yours with &quot;Needs Beltpouch&quot;</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This OR Discard a card of yours with &quot;Needs Beltpouch&quot;</span><strong>:</strong></span>
                         <span>Search your Deck for a card with &quot;Needs Beltpouch&quot;, then shuffle.</span>
                     </div>
                 </div>
@@ -6193,7 +6193,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>+2🌈</span>
                     </div>
                 </div>
@@ -6274,7 +6274,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Discard any loot or consumable from play.</span>
                     </div>
                 </div>
@@ -6512,15 +6512,15 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">At the end of each of your turns, get -2🌈</div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>-1🌈</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Discard one of your in-play _Items_</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard one of your in-play _Items_</span><strong>:</strong></span>
                         <span>Draw a card</span>
                     </div>
                     <div class="action">
-                        <span class=""><span></span><strong>:</strong></span>
+                        <span class="effect-cost "><span></span><strong>:</strong></span>
                         <span>Attach an Item from your Hand to this.  The item is not in-play.</span>
                     </div>
                     <div class="">You get +1🎵 for each attached _Item_.</div>
@@ -6682,7 +6682,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-1🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-1🌈</span><strong>:</strong></span>
                         <span>You may use a  1d6 Violence Die until end of turn.</span>
                     </div>
                 </div>
@@ -6766,7 +6766,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">You may use a Violence Die of 1d4.</div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>Opponent&#x27;s ⛊ is 0 until end of turn.</span>
                     </div>
                 </div>
@@ -6846,7 +6846,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Take no 💗 damage this turn.</span>
                     </div>
                 </div>
@@ -6927,7 +6927,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Search your deck for a Minion, then shuffle. Either play the Minion for 1 less than its 🌈 cost, or put it on the bottom of your Deck.</span>
                     </div>
                 </div>
@@ -7008,7 +7008,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">When played, both players get +5⚡.</div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>Both players get -5⚡</span>
                     </div>
                 </div>
@@ -7166,11 +7166,11 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>Shuffle 3 cards from your Discard into your Deck</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Shuffle 3 cards from your Discard into your Deck</span><strong>:</strong></span>
                         <span>Discard the top three cards of your Deck</span>
                     </div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>Shuffle 3 cards from your Discard in to your Deck</span>
                     </div>
                 </div>
@@ -7329,7 +7329,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="simple-effect">+1🎵</div>
                     <div class="action">
-                        <span class=""><span>Discard This</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard This</span><strong>:</strong></span>
                         <span>+1🌈</span>
                     </div>
                 </div>
@@ -7410,7 +7410,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>+10💗</span>
                     </div>
                 </div>
@@ -7571,7 +7571,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-1🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-1🌈</span><strong>:</strong></span>
                         <span>If your opponent made a Simple Attack this turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard This</span>
                     </div>
                 </div>
@@ -7886,7 +7886,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, -4🌈</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, -4🌈</span><strong>:</strong></span>
                         <span>+5⚡</span>
                     </div>
                 </div>
@@ -8043,7 +8043,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Shuffle a Consumable in play back into its owners deck.</span>
                     </div>
                 </div>
@@ -8124,7 +8124,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>Discard one of your in-play cards</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>Discard one of your in-play cards</span><strong>:</strong></span>
                         <span>Search your deck for a loot and add it to your hand.  Shuffle your deck.</span>
                     </div>
                 </div>
@@ -8204,7 +8204,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>**Consume**, Discard a card from your Hand</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>**Consume**, Discard a card from your Hand</span><strong>:</strong></span>
                         <span>Add 🌈 equal to the card&#x27;s 🌈 cost.</span>
                     </div>
                 </div>
@@ -8285,7 +8285,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Discard one of your _Features_ from play</span>
                     </div>
                 </div>
@@ -8366,7 +8366,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Search your Deck for a card with a cost of 0🌈</span>
                     </div>
                 </div>
@@ -8449,7 +8449,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class=""><span>-2XP</span><strong>:</strong></span>
+                        <span class="effect-cost "><span>-2XP</span><strong>:</strong></span>
                         <span>If your opponent rolls or rolled their Violence Die this turn, Roll yours. If you rolled higher, discard one of Opponent&#x27;s _Weapons_.</span>
                     </div>
                 </div>
@@ -8529,7 +8529,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Encounter</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Encounter</span><strong>:</strong></span>
                         <span>Make a Simple Parley and add 1d4 to the damage.</span>
                     </div>
                 </div>
@@ -8609,7 +8609,7 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="special-cost"><span>Consume</span><strong>:</strong></span>
+                        <span class="effect-cost special-cost"><span>Consume</span><strong>:</strong></span>
                         <span>Search your Deck for any _Class_ and put it in to your Hand, then shuffle your Deck.</span>
                     </div>
                 </div>
