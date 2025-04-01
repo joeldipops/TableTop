@@ -76,10 +76,24 @@ const highlightSpecialCosts = function(costs) {
     return costs;
 };
 
+const _symbolTokens = [
+    "Assassin", "Bard", "Knight", "Sorceror",
+    "Dwarf", "Ork", "Undead", "Beast", "Tail"
+];
+
 const messageEffects = function(data) {
+    // Replace markdown italics with html italics
+    data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
+
+    _symbolTokens.forEach((token) => {
+        data = data.replaceAll(token, `<img height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
+    });
+
     return data.split("<br />").map((effectText) => {;
         const effect = {};
-        const parts = effectText.split(":").map((part) => part.trim());
+
+        // Format actions differently to passive effects.
+        const parts = effectText.split(/:/).map((part) => part.trim());
 
         if (parts[1]) {
             effect.isAction = true;

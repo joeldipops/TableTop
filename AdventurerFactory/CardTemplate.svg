@@ -4,20 +4,36 @@
     height="145000"
 >
     <defs>
+        <g id="C1">
+            <rect width="16" height="16" fill="white" stroke="black" />
+            <text x="2" y="14">C</text>
+        </g>
         <g id="Assassin">
-            <circle r="8" fill="black" stroke="black" />
+            <circle r="8" fill="gray" />
         </g>
         <g id="Bard">
-            <circle r="8" fill="yellow" stroke="black" />
+            <circle r="8" fill="yellow" />
         </g>
         <g id="Knight">
-            <circle r="8" fill="green" stroke="black" />
+            <circle r="8" fill="green" />
         </g>
         <g id="Sorceror">
-            <circle r="8" fill="red" stroke="black" />
+            <circle r="8" fill="red" />
         </g>
         <g id="Dwarf">
-            <circle r="8" fill="blue" stroke="black" />
+            <circle r="8" fill="#0FF00F" />
+        </g>
+        <g id="Ork">
+            <circle r="8" fill="#F00FF0" />
+        </g>
+        <g id="Undead">
+            <circle r="8" fill="#FFF000" />
+        </g>
+        <g id="Beast">
+            <circle r="8" fill="#00F0FF" />
+        </g>
+        <g id="Tail">
+            <circle r="8" fill="#00F0FF" />
         </g>
 
         <g id="Body">
@@ -36,6 +52,8 @@
     </defs>
     <style>
       <![CDATA[
+circle { stroke : black; }
+
 .border {
     stroke: #000000;
     fill: #FFFFFF;
@@ -102,7 +120,7 @@ div {
     border-style: none;
     border-radius: 12px;
     margin-right: 4px;
-    padding: 2px 4px;
+    padding: 2px 6px 2px 4px;
     border-collapse: separate;
 
 }
@@ -207,10 +225,10 @@ div {
                 {{#if this.isAction}}
                     <div class="action">
                         <span class="effect-cost"><span>{{{this.cost}}}</span><strong>:</strong></span>
-                        <span>{{this.text}}</span>
+                        <span>{{{this.text}}}</span>
                     </div>
                 {{else}}
-                    <div class="{{this.effectClass}}">{{this.text}}</div>
+                    <div class="{{this.effectClass}}">{{{this.text}}}</div>
                 {{/if}}
                 {{/each}}
                 </div>
