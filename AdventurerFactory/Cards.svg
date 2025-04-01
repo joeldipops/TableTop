@@ -87,14 +87,9 @@ div {
 
 .effects > div {
     margin-bottom: 16px;
-    margin-left: 4px;
     margin-right: 4px;
     line-height: 20px;
     padding-left: 6px;
-}
-
-.effects > .action {
-    text-indent: -6px;
 }
 
 .effects > .simple-effect {
@@ -102,10 +97,14 @@ div {
 }
 
 .effect-cost {
-    border-width: 2px;
-    border-style: solid;
+    outline: 2px solid;
+    box-decoration-break: clone;
+    border-style: none;
     border-radius: 12px;
+    margin-right: 4px;
     padding: 2px 4px;
+    border-collapse: separate;
+
 }
 
     .effect-cost strong {
@@ -242,6 +241,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -500,6 +511,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -569,6 +592,18 @@ div {
                 <use href="#Assassin" x="0" />
                 <use href="#Assassin" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -641,6 +676,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -706,6 +753,18 @@ div {
                 <use href="#Assassin" x="0" />
                 <use href="#Assassin" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -776,6 +835,18 @@ div {
                 <use href="#Assassin" x="0" />
                 <use href="#Assassin" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -1017,6 +1088,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -1086,6 +1169,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -1141,6 +1236,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -1398,6 +1505,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -1551,6 +1670,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -1619,6 +1750,18 @@ div {
                 <use href="#Bard" x="0" />
                 <use href="#Bard" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -1690,6 +1833,18 @@ div {
                 <use href="#Bard" x="0" />
                 <use href="#Bard" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -1848,6 +2003,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -1986,6 +2153,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -2071,6 +2250,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Knight" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -2305,6 +2496,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -2370,6 +2573,18 @@ div {
                 <use href="#Knight" x="0" />
                 <use href="#Knight" x="20" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -2521,6 +2736,18 @@ div {
                 <use href="#Knight" x="20" />
                 <use href="#Knight" x="40" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -2742,6 +2969,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -2829,6 +3068,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -2898,6 +3149,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -2965,6 +3228,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Sorceror" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -3038,6 +3313,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Sorceror" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -3201,6 +3488,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -3350,6 +3649,18 @@ div {
                 <use href="#Sorceror" x="20" />
                 <use href="#Sorceror" x="40" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -3596,6 +3907,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -3747,6 +4070,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -3895,6 +4230,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -3948,6 +4295,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -4028,6 +4387,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Dwarf" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -4263,6 +4634,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -4398,6 +4781,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -4479,6 +4874,18 @@ div {
             </g> 
         </g>
         <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -4543,6 +4950,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Ork" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -4612,6 +5031,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#Ork" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -4838,6 +5269,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -4917,6 +5360,18 @@ div {
             <g transform="translate(12, 28)">
                 <use href="#🪦" x="0" />
             </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
         </g>
         <g
             class="effects"
@@ -5300,6 +5755,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -5368,6 +5835,30 @@ div {
         <text class="centred xp-cost" y="2">4</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -5423,6 +5914,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -5493,6 +5996,30 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -5549,6 +6076,30 @@ div {
             />
         <text class="centred xp-cost" y="2">5</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
         <g
             class="effects"
             transform="translate(0, 232)"
@@ -5611,6 +6162,30 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -5666,6 +6241,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -5736,6 +6323,18 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -5804,6 +6403,30 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -5856,6 +6479,30 @@ div {
             />
         <text class="centred xp-cost" y="2">0</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
         <g
             class="effects"
             transform="translate(0, 232)"
@@ -5922,6 +6569,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -5991,6 +6650,18 @@ div {
         <text class="centred xp-cost" y="2">1</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -6059,6 +6730,18 @@ div {
             />
         <text class="centred xp-cost" y="2">3</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6132,6 +6815,30 @@ div {
         <text class="centred xp-cost" y="2">1</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -6187,6 +6894,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6257,6 +6976,30 @@ div {
         <text class="centred xp-cost" y="2">3</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -6313,6 +7056,18 @@ div {
             />
         <text class="centred xp-cost" y="2">2</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6380,6 +7135,30 @@ div {
         <text class="centred xp-cost" y="2">3</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -6439,6 +7218,18 @@ div {
             />
         <text class="centred xp-cost" y="2">1</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6506,6 +7297,30 @@ div {
         <text class="centred xp-cost" y="2">0</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -6562,6 +7377,18 @@ div {
             />
         <text class="centred xp-cost" y="2">1</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6632,6 +7459,18 @@ div {
         <text class="centred xp-cost" y="2">1</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -6697,6 +7536,18 @@ div {
             />
         <text class="centred xp-cost" y="2">3</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6769,6 +7620,30 @@ div {
         <text class="centred xp-cost" y="2">5</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -6821,6 +7696,18 @@ div {
             />
         <text class="centred xp-cost" y="2">--</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -6889,6 +7776,18 @@ div {
         <text class="centred xp-cost" y="2">3</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -6956,6 +7855,30 @@ div {
         <text class="centred xp-cost" y="2">2</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -7012,6 +7935,30 @@ div {
         <text class="centred xp-cost" y="2">6</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -7064,6 +8011,30 @@ div {
             />
         <text class="centred xp-cost" y="2">1</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
         <g
             class="effects"
             transform="translate(0, 232)"
@@ -7120,6 +8091,18 @@ div {
             />
         <text class="centred xp-cost" y="2">4</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -7190,6 +8173,30 @@ div {
         <text class="centred xp-cost" y="2">0</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -7245,6 +8252,18 @@ div {
             />
         <text class="centred xp-cost" y="2">3</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -7315,6 +8334,18 @@ div {
         <text class="centred xp-cost" y="2">1</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
             class="fills"
             transform="translate(292, 188)"
         >
@@ -7383,6 +8414,18 @@ div {
             />
         <text class="centred xp-cost" y="2">4</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
         <g
             class="fills"
             transform="translate(292, 188)"
@@ -7455,6 +8498,30 @@ div {
         <text class="centred xp-cost" y="2">4</text>
     </g>
         <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
+        <g
             class="effects"
             transform="translate(0, 232)"
         >
@@ -7510,6 +8577,30 @@ div {
             />
         <text class="centred xp-cost" y="2">3</text>
     </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(12, 28)">
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text 
+                class="alignRight"
+                y="8px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 24)">
+            </g>
+        </g>
         <g
             class="effects"
             transform="translate(0, 232)"

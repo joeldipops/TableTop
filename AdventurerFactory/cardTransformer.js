@@ -68,6 +68,7 @@ const lineToJson = function(line, metaData) {
 const highlightSpecialCosts = function(costs) {
     const specials = ["Encounter", "Consume"];
     specials.forEach((cost) => {
+        // For each special cost, strip out the markdown syntax for bold (**) and replace with html
         const regex = new RegExp(`^(.*?)([*]{0,2}${cost}[*]{0,2})(.*)$`);
         costs = costs.replace(regex, `$1<em class="special-cost">${cost}</em>$3`);
     });

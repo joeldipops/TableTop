@@ -87,14 +87,9 @@ div {
 
 .effects > div {
     margin-bottom: 16px;
-    margin-left: 4px;
     margin-right: 4px;
     line-height: 20px;
     padding-left: 6px;
-}
-
-.effects > .action {
-    text-indent: -6px;
 }
 
 .effects > .simple-effect {
@@ -102,10 +97,14 @@ div {
 }
 
 .effect-cost {
-    border-width: 2px;
-    border-style: solid;
+    outline: 2px solid;
+    box-decoration-break: clone;
+    border-style: none;
     border-radius: 12px;
+    margin-right: 4px;
     padding: 2px 4px;
+    border-collapse: separate;
+
 }
 
     .effect-cost strong {
