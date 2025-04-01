@@ -65,6 +65,16 @@ const lineToJson = function(line, metaData) {
     return result;
 };
 
+const highlightSpecialCosts = function(costs) {
+    const specials = ["Encounter", "Consume"];
+    specials.forEach((cost) => {
+        const regex = new RegExp(`^(.*?)([*]{0,2}${cost}[*]{0,2})(.*)$`);
+        costs = costs.replace(regex, `$1<em class="special-cost">${cost}</em>$3`);
+    });
+
+    return costs;
+};
+
 const messageEffects = function(data) {
     return data.split("<br />").map((effectText) => {;
         const effect = {};
@@ -74,16 +84,7 @@ const messageEffects = function(data) {
             effect.isAction = true;
             effect.cost = parts[0];
 
-            // Need to be more granular than this,
-            // but enough for tonight.
-            if (
-                effect.cost === "**Encounter**"
-                || effect.cost === "**Consume**"
-            ) {
-                // This is markdown syntax for "bold" - we'll use CSS.
-                effect.cost = effect.cost.replaceAll("**", "");
-                effect.costClass = "special-cost";
-            }
+            effect.cost = highlightSpecialCosts(effect.cost);
 
             effect.text = parts[1];
         } else {

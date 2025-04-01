@@ -1,7 +1,7 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="300"
-    height="45000"
+    height="145000"
 >
     <defs>
         <g id="Assassin">
@@ -114,9 +114,10 @@ div {
         margin-left: 2px;
     }
 
-.special-cost > span:first-child {
+.special-cost {
     font-weight: bold;
     text-decoration: underline;
+    font-style: normal;
 }
 
 .symbols {
@@ -206,7 +207,7 @@ div {
                 {{#each this.effects}}
                 {{#if this.isAction}}
                     <div class="action">
-                        <span class="effect-cost {{this.costClass}}"><span>{{this.cost}}</span><strong>:</strong></span>
+                        <span class="effect-cost"><span>{{{this.cost}}}</span><strong>:</strong></span>
                         <span>{{this.text}}</span>
                     </div>
                 {{else}}
