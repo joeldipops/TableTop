@@ -80,8 +80,14 @@ circle {
         <svg id="Back">
             <rect width="16" height="16" fill="#654321" stroke="black" />
         </svg>
+        <svg id="Pack">
+            <rect width="16" height="16" fill="#1FE23D" stroke="black" />
+        </svg>
         <svg id="Neck">
             <rect width="16" height="16" fill="#789ABC" stroke="black" />
+        </svg>
+        <svg id="Gloves">
+            <rect width="16" height="16" fill="#102938" stroke="black" />
         </svg>
         <svg id="slash">
             <text y="14" x="6" font-weight="bold">/</text>

@@ -1,7 +1,7 @@
 | Sort-Index |  Name  |  Type(s)  |  Cost  |  Needs  |  Fills  |  Text
 |---|---|---|---|---|---|---|
 | 0-A0 |  Assassin   |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Assassin <br />+1💗<br />+1⚡<br />_This_ cannot be Discarded
-| 0-A1 |  Hide  |  Feature  |  3  |   Assassin  |  Self  | **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn. <br /> Discard _this_; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. 
+| 0-A1 |  Hide  |  Feature  |  3  |   Assassin  |  Body  | **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn. <br /> Discard _this_; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. 
 | 0-A1 |  Poison Dagger  |  Item / Weapon  |  0  |  Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a Simple Attack.  If the die showed a 1 or 2, add 1d4 to the damage.
 | 0-A1 |  Special Training  |  Feature  |  2  |  Assassin  |  --  | **Encounter**: Choose any `Need` type. Provides 1 Need of that type until the end of this turn. <br />When _this_ is Discarded, Discard all of your in-play cards that could not legally be played.
 | 0-A2 |  Assassinate  |  Feature  |  4  |  Assassin Assassin  |  --  |  **Encounter**: If you skipped your last Encounter step, you may perform 1 Simple Parley and 2 Simple Attacks.
@@ -16,11 +16,11 @@
 | 0-B1 |  Big Ole Ruby  | Item / Loot  |  2  |  Bard  |  Beltpouch  |  **Encounter**: +2🌈 <br /> Discard _this_: Take a card from opponent's Discard and put it on top of their Deck. 
 | 0-B1 |  Lute  |  Item / Weapon  |  3  |  Bard  |  Back  | You may use a 1d6 Diplomacy Die. <br />: Negate all effects of your cards with Right-hand and Left-hand slots and get +2🎵 until the end of this turn.
 | 0-B1 |  Sleight of Hand  |  Feature  |  3  |  Bard  |  --  |  **Encounter**: Make a Simple Parley.  If ⚡ damage was 3 or more, both players discard a card from their hands.
-| 0-B1 |  Trick Coin  |  Item / Loot  |  0  |  Bard  | --- | +1🎵 <br />Shuffle _this_ into your deck: +2🌈
+| 0-B1 |  Trick Coin  |  Item / Loot  |  0  |  Bard  | -- | +1🎵 <br />Shuffle _this_ into your deck: +2🌈
 | 0-B2 |  Tune of Seduction  |  Consumable / Spell  |  2  | Bard Bard  |  --  |  **Consume**; **Encounter**: Take an amount of 🌈 from opponent up to `your 🎵 - their 🎵`
 | 0-B2 |  Valet  |  Minion  |  4  |  Bard Bard  |  --  |  A card attached to _this_ does not Fill any slots, but does not have any Actions or Effects. <br /> : If there are any cards attached to _this_, Detach them.  If a detached card is not legally playable, Discard it.  You may Attach one of your in-play cards to _this_ unless it cannot be Discarded. 
 | 0-B2 |  Witty Riposte  |  Feature  |  3  |  Bard Bard  |  --  |  -2🌈: If you took ⚡ damage this turn, your Opponent loses ⚡ equal to your 🎵.
-| 0-B3 |  Flourish  |  Feature  |  4  |  Bard Bard Bard  |  𖨆  |  -2🌈: Attach a card to _this_. <br />When a card Attached to _this_ refers to your "Simple Attack" or "Violence Die", treat it as referrring to a "Simple Parley" or "Diplomacy Die" respectively.
+| 0-B3 |  Flourish  |  Feature  |  4  |  Bard Bard Bard  |  --  |  -2🌈: Attach a card to _this_. <br />When a card Attached to _this_ refers to your "Simple Attack" or "Violence Die", treat it as referrring to a "Simple Parley" or "Diplomacy Die" respectively.
 | 0-B3 |  Refined Spirits  |  Consumable / Potion  |  2  |  Bard Bard Bard  |  --  |   **Consume**; -x🌈: + x⚡; + 1💗
 | 0-B4 |  Chorus of Power |  Spell  |  4  |  Bard Bard Bard Bard  |  Left-hand  |  Whenever you play a card, get +1🌈
 | 0-C0 | Knight |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Knight <br />+2 💗 <br />_This_ cannot be Discarded
@@ -29,7 +29,7 @@
 | 0-K1 |  Sword  |  Item / Weapon  |  3  |  Knight  |  Left-hand / Right-hand  |  You may use a 1d8 Violence Die
 | 0-K2 |  --  |  --  |  --  |  Knight Knight  |  --  |  -- 
 | 0-K2 |  --  |  --  |  --  |  Knight Knight  |  --  |  -- 
-| 0-K2 |  Quick Thrust  |  Feature  | 4 |  Knight Knight  | --- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
+| 0-K2 |  Quick Thrust  |  Feature  | 4 |  Knight Knight  | -- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
 | 0-K3 |  --  |  --  |  --  |  Knight Knight Knight  |  --  |  -- 
 | 0-K3 |  Full Plate  |  Item / Armour  |  4  | Knight Knight Knight  |  Body  | + 5⛊ <br />+ 10⚡
 | 0-K4 |  Glowing Sword  |  Item / Weapon  |  4  |  Knight Knight Knight Knight   |  Left-hand / Right-hand  | You may use a 1d12 Violence Die.
@@ -83,7 +83,7 @@
 | 2 |  Dodge  |  Consumable / Feature  |  1  |  --  |  --  |  **Consume**: Take no 💗 damage this turn.
 | 2 |  Extra Ration  |  Consumable / Supply  |  2  |  --  |  Pack  |  **Consume**: Search your deck for a Minion, then shuffle. Either play the Minion for 1 less than its 🌈 cost, or put it on the bottom of your Deck.
 | 2 |  Field of Flowers  |  Spell  |  3  |  --  |  --  |  When played, both players get +5⚡. <br /> Discard _this_: Both players get -5⚡
-| 2 |  Fine Clothes  |  Item / Armour  |  2  |  --  |  Body  |  You may use a 1d4 Diplomacy Die.
+| 2 |  Fine Clothes  |  Item / Armour  |  2  |  --  | Body |  You may use a 1d4 Diplomacy Die.
 | 2 |  Frantic Search  |  Feature  |  3  |  --  |  --  | Shuffle 3 cards from your Discard into your Deck: Discard the top three cards of your Deck <br />Discard _this_: Shuffle 3 cards from your Discard in to your Deck
 | 2 |  Gauntlet  |  Item / Armour  |  1  |  --  |  Gloves  | + 1⛊
 | 2 |  Gold Coin  |  Item / Loot  |  0  |  --  |  --  | +1🎵 <br />Discard _this_: +1🌈
