@@ -86,7 +86,7 @@ const messageEffects = function(data) {
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
 
     _symbolTokens.forEach((token) => {
-        data = data.replaceAll(token, `<img height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
+        data = data.replaceAll(token, `<img class="symbol" height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
     });
 
     return data.split("<br />").map((effectText) => {;
@@ -126,6 +126,10 @@ const massageFills = function(data) {
             val = "slash";
         }
 
+        if (val === "&") {
+            val = "and";
+        }
+
         result.push({
             key : val,
             xOffset : -index * 16
@@ -150,10 +154,12 @@ const massageNeeds = function(data) {
     }, []);
 }
 
+const CARD_HEIGHT = 450;
+
 const jsonToSvg = function(data, index) {
     return viewModel = {
         x: 4,
-        y: (index * 450),
+        y: (index * CARD_HEIGHT),
         name: data.Name,
         types: data["Type(s)"],
         cost: data.Cost,
@@ -172,7 +178,7 @@ const jsonToSvg = function(data, index) {
     const templateSvg = await loadFile("CardTemplate.svg");
     const template = Handlebars.compile(templateSvg);
 
-    const viewModel = { cards : [] };
+    const viewModel = { cards : [], totalHeight : data.length * CARD_HEIGHT };
     data.forEach(function(cardJson, index) {
         if (!cardJson) {
             return;
@@ -181,14 +187,14 @@ const jsonToSvg = function(data, index) {
     });
 
     await new Promise((resolve, reject) => {
-        fs.writeFile("Cards.svg", template(viewModel), (err) => {
-            if (err) {
-                console.log(err);
-                return reject(err);
-            }
+            fs.writeFile("Cards.svg", template(viewModel), (err) => {
+                if (err) {
+                    console.log(err);
+                    return reject(err);
+                }
 
-            return resolve();
-        });
+                return resolve();
+            });
     });
 
     console.log("done");

@@ -1,0 +1,80 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    width="16px"
+    height="16px"
+    viewBox="0 0 16 16"
+>
+    <style type="text/css">
+        <![CDATA[
+svg > svg:not(:target) { display: none; }
+
+circle {
+    cy: 8px
+    cx: 8px;
+}
+        ]]>
+    </style>
+        <svg id="C1">
+            <rect width="16" height="16" stroke="black" fill="white" />
+            <text x="2" y="14" style="font-family: sans-serif;">C</text>
+        </svg>
+        <svg id="Race">
+            <rect width="16" height="16" stroke="black" fill="white" />
+            <text x="2" y="14" style="font-family: sans-serif;">R</text>
+        </svg>
+        <svg id="Assassin">
+            <circle r="8" cx="8" cy="8" stroke="black" fill="gray" />
+        </svg>
+        <svg id="Bard">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="yellow" />
+        </svg>
+        <svg id="Knight">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="green" />
+        </svg>
+        <svg id="Sorceror">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="red" />
+        </svg>
+        <svg id="Dwarf">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="#0FF00F" />
+        </svg>
+        <svg id="Ork">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="#F00FF0" />
+        </svg>
+        <svg id="Undead">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="#FFF000" />
+        </svg>
+        <svg id="Beast">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="#00F0FF" />
+        </svg>
+        <svg id="Tail">
+            <circle r="8"  cx="8" cy="8" stroke="black" fill="#F0F0FF" />
+        </svg>
+        <svg id="Body">
+            <rect width="16" height="16" fill="blue" stroke="black" />
+        </svg>
+        <svg id="Head">
+            <rect width="16" height="16" fill="red" stroke="black" />
+        </svg>
+        <svg id="Left-hand">
+            <rect width="16" height="16" fill="green" stroke="black" />
+        </svg>
+        <svg id="Right-hand">
+            <rect width="16" height="16" fill="white" stroke="black" />
+        </svg>
+        <svg id="Beltpouch">
+            <rect width="16" height="16" fill="#123456" stroke="black" />
+        </svg>
+        <svg id="Back">
+            <rect width="16" height="16" fill="#654321" stroke="black" />
+        </svg>
+        <svg id="Neck">
+            <rect width="16" height="16" fill="#789ABC" stroke="black" />
+        </svg>
+        <svg id="slash">
+            <text y="14" x="6" font-weight="bold">/</text>
+        </svg>
+        <svg id="and">
+            <text y="14" x="3" font-weight="bold" font-family="sans-serif">&amp;</text>
+        </svg>
+</svg>

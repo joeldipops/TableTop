@@ -1,55 +1,8 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="300"
-    height="145000"
+    height="{{totalHeight}}"
 >
-    <defs>
-        <g id="C1">
-            <rect width="16" height="16" fill="white" stroke="black" />
-            <text x="2" y="14">C</text>
-        </g>
-        <g id="Assassin">
-            <circle r="8" fill="gray" />
-        </g>
-        <g id="Bard">
-            <circle r="8" fill="yellow" />
-        </g>
-        <g id="Knight">
-            <circle r="8" fill="green" />
-        </g>
-        <g id="Sorceror">
-            <circle r="8" fill="red" />
-        </g>
-        <g id="Dwarf">
-            <circle r="8" fill="#0FF00F" />
-        </g>
-        <g id="Ork">
-            <circle r="8" fill="#F00FF0" />
-        </g>
-        <g id="Undead">
-            <circle r="8" fill="#FFF000" />
-        </g>
-        <g id="Beast">
-            <circle r="8" fill="#00F0FF" />
-        </g>
-        <g id="Tail">
-            <circle r="8" fill="#00F0FF" />
-        </g>
-
-        <g id="Body">
-            <rect width="16" height="16" fill="blue" stroke="black" />
-        </g>
-        <g id="Head">
-            <rect width="16" height="16" fill="red" stroke="black" />
-        </g>
-        <g id="Left-hand">
-            <rect width="16" height="16" fill="green" stroke="black" />
-        </g>
-        <g id="Right-hand">
-            <rect width="16" height="16" fill="white" stroke="black" />
-        </g>
-        <text id="slash" y="14" x="6" font-weight="bold">/</text>
-    </defs>
     <style>
       <![CDATA[
 circle { stroke : black; }
@@ -103,16 +56,20 @@ div {
     padding-top: 4px;
 }
 
-.effects > div {
-    margin-bottom: 16px;
-    margin-right: 4px;
-    line-height: 20px;
-    padding-left: 6px;
-}
+    .effects > div {
+        margin-bottom: 16px;
+        margin-right: 4px;
+        line-height: 20px;
+        padding-left: 6px;
+    }
 
-.effects > .simple-effect {
-    font-weight: bold;
-}
+    .effects > .simple-effect {
+        font-weight: bold;
+    }
+
+    .effects .symbol {
+        vertical-align: top;
+    }
 
 .effect-cost {
     outline: 2px solid;
@@ -174,13 +131,14 @@ div {
             width="284"
             height="150"
         />
-    <g transform="translate(150, 188)">
-        <circle 
+        <g transform="translate(150, 188)">
+            <circle
                 class="border"
                 r="24"
             />
-        <text class="centred xp-cost" y="2">{{this.cost}}</text>
-    </g>
+            <text class="centred xp-cost" y="2">{{this.cost}}</text>
+        </g>
+        {{#if this.needs}}
         <g
             class="needs"
             transform="translate(0, 188)"
@@ -190,27 +148,30 @@ div {
                 dy="4"
                 x="4"
             >Needs</text>
-            <g transform="translate(12, 28)">
+            <g transform="translate(4, 20)">
             {{#each this.needs}}
-                <use href="#{{this.key}}" x="{{this.xOffset}}" />
+                <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" />
             {{/each}}
             </g> 
         </g>
+        {{/if}}
+        {{#if this.fills}}
         <g
             class="fills"
             transform="translate(292, 188)"
         >
-            <text 
+            <text
                 class="alignRight"
-                y="8px"
+                y="4px"
                 x="-4"
             >Fills</text>
-            <g transform="translate(-22, 24)">
+            <g transform="translate(-22, 20)">
                 {{#each this.fills}}
-                    <use href="#{{this.key}}" x="{{this.xOffset}}" />
+                    <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" />
                 {{/each}}
             </g>
         </g>
+        {{/if}}
         <g
             class="effects"
             transform="translate(0, 232)"
