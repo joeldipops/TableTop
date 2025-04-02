@@ -16,7 +16,19 @@ circle {
         ]]>
     </style>
         <svg id="C1">
-            <rect width="16" height="16" stroke="black" fill="white" />
+            <rect width="16" height="16" stroke="black" fill="#5555FF" />
+            <text x="2" y="14" style="font-family: sans-serif;">C</text>
+        </svg>
+        <svg id="C2">
+            <rect width="16" height="16" stroke="black" fill="#FF5555" />
+            <text x="2" y="14" style="font-family: sans-serif;">C</text>
+        </svg>
+        <svg id="C3">
+            <rect width="16" height="16" stroke="black" fill="#55FF55" />
+            <text x="2" y="14" style="font-family: sans-serif;">C</text>
+        </svg>
+        <svg id="C4">
+            <rect width="16" height="16" stroke="black" fill="#FFFFFF" />
             <text x="2" y="14" style="font-family: sans-serif;">C</text>
         </svg>
         <svg id="Race">

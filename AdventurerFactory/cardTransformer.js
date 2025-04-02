@@ -2,6 +2,9 @@ const fs = require("fs");
 const readline = require("readline");
 const Handlebars = require("handlebars");
 
+/**
+ * Load a file from the file system into memory.
+ */
 const loadFile = function(filePath) {
     return new Promise((resolve, reject) => {
         fs.open(filePath, "r", function(err, fileToRead) {
@@ -22,6 +25,9 @@ const loadFile = function(filePath) {
     });
 };
 
+/**
+ * Read a file line by line, applying a transformation function to each line.
+ */
 const transformFile = function(filePath, transformer) {
     const result = new Promise((resolve, reject) => {
         const interface = readline.createInterface({
@@ -42,6 +48,10 @@ const transformFile = function(filePath, transformer) {
     return result;
 };
 
+/**
+ * Convert a line from the mark-down document (more or less CSV) into
+ * json.
+ */
 const lineToJson = function(line, metaData) {
     if (!metaData.lineNumber) {
         metaData.lineNumber = 1;
@@ -65,9 +75,13 @@ const lineToJson = function(line, metaData) {
     return result;
 };
 
+/**
+ * Where a cost with a particular rule associated with it appears in a card effect, 
+ * use css styling to show it more prominently.
+ */
+const SPECIAL_COSTS = ["Encounter", "Consume"];
 const highlightSpecialCosts = function(costs) {
-    const specials = ["Encounter", "Consume"];
-    specials.forEach((cost) => {
+    SPECIAL_COSTS.forEach((cost) => {
         // For each special cost, strip out the markdown syntax for bold (**) and replace with html
         const regex = new RegExp(`^(.*?)([*]{0,2}${cost}[*]{0,2})(.*)$`);
         costs = costs.replace(regex, `$1<em class="special-cost">${cost}</em>$3`);
@@ -76,16 +90,17 @@ const highlightSpecialCosts = function(costs) {
     return costs;
 };
 
-const _symbolTokens = [
+const SYMBOL_TOKENS = [
     "Assassin", "Bard", "Knight", "Sorceror",
-    "Dwarf", "Ork", "Undead", "Beast", "Tail"
+    "Dwarf", "Ork", "Undead", "Beast", "Tail",
+    "Beltpouch"
 ];
-
 const messageEffects = function(data) {
     // Replace markdown italics with html italics
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
 
-    _symbolTokens.forEach((token) => {
+    // Replace symbols relating to particular cards or rules into icons built with svg.
+    SYMBOL_TOKENS.forEach((token) => {
         data = data.replaceAll(token, `<img class="symbol" height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
     });
 
@@ -115,6 +130,10 @@ const messageEffects = function(data) {
     });
 };
 
+/**
+ * Converts the human-editable list of slots a card fills from the markdown
+ * into an array useable by the svg template.
+ */
 const massageFills = function(data) {
     return data.split(/\s+/).reduce((result, val, index) => {
         val = val.trim();
@@ -138,6 +157,10 @@ const massageFills = function(data) {
     }, []);
 }
 
+/**
+ * Converts the human-editable list of requirements a card needs from the markdown
+ * into an array useable by the svg template.
+ */
 const massageNeeds = function(data) {
     return data.split(/\s+/).reduce((result, val, index) => {
         val = val.trim();
@@ -156,10 +179,13 @@ const massageNeeds = function(data) {
 
 const CARD_HEIGHT = 450;
 
-const jsonToSvg = function(data, index) {
+/**
+ * Converts a card's json representation to one useable by the svg template.
+ */
+const jsonToTemplateData = function(data, index) {
     return viewModel = {
         x: 4,
-        y: (index * CARD_HEIGHT),
+        y: (index * CARD_HEIGHT) + 4,
         name: data.Name,
         types: data["Type(s)"],
         cost: data.Cost,
@@ -179,22 +205,24 @@ const jsonToSvg = function(data, index) {
     const template = Handlebars.compile(templateSvg);
 
     const viewModel = { cards : [], totalHeight : data.length * CARD_HEIGHT };
-    data.forEach(function(cardJson, index) {
-        if (!cardJson) {
-            return;
-        }
-        viewModel.cards.push(jsonToSvg(cardJson, index));
+    // Filter out lines that aren't actually cards.
+    const sortableRegex = /^[0-9]+.*$/;
+    data.filter((cardJson) => {
+        return cardJson && sortableRegex.test(cardJson["Sort-Index"]);
+    })
+    .forEach(function(cardJson, index) {
+        viewModel.cards.push(jsonToTemplateData(cardJson, index));
     });
 
     await new Promise((resolve, reject) => {
-            fs.writeFile("Cards.svg", template(viewModel), (err) => {
-                if (err) {
-                    console.log(err);
-                    return reject(err);
-                }
+        fs.writeFile("Cards.svg", template(viewModel), (err) => {
+            if (err) {
+                console.log(err);
+                return reject(err);
+            }
 
-                return resolve();
-            });
+            return resolve();
+        });
     });
 
     console.log("done");

@@ -102,86 +102,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 450)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >---</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >---</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">---</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#---" x="0" />
-            </g> 
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#---" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="simple-effect">---</div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 900)"
+        transform="translate(4, 4)"
     >
         <rect
             class="border"
@@ -246,7 +167,8 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Assassin" alt="Assassin" /></div>
-                    <div class="">+1💗, +1⚡</div>
+                    <div class="simple-effect">+1💗</div>
+                    <div class="simple-effect">+1⚡</div>
                     <div class=""><i>This</i> cannot be Discarded</div>
                 </div>
             </foreignObject>
@@ -255,7 +177,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 1350)"
+        transform="translate(4, 454)"
     >
         <rect
             class="border"
@@ -328,7 +250,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Encounter</em>; Discard one of your in-play cards</span><strong>:</strong></span>
-                        <span>Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter <i>this</i> turn.</span>
+                        <span>Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn.</span>
                     </div>
                     <div class="action">
                         <span class="effect-cost"><span>Discard <i>this</i>; -2⚡</span><strong>:</strong></span>
@@ -341,7 +263,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 1800)"
+        transform="translate(4, 904)"
     >
         <rect
             class="border"
@@ -425,7 +347,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 2250)"
+        transform="translate(4, 1354)"
     >
         <rect
             class="border"
@@ -485,7 +407,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Encounter</em></span><strong>:</strong></span>
-                        <span>Choose any `Need` type. Provides 1 Need of that type until the end of <i>this</i> turn.</span>
+                        <span>Choose any `Need` type. Provides 1 Need of that type until the end of this turn.</span>
                     </div>
                     <div class="">When <i>this</i> is Discarded, Discard all of your in-play cards that could not legally be played.</div>
                 </div>
@@ -495,7 +417,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 2700)"
+        transform="translate(4, 1804)"
     >
         <rect
             class="border"
@@ -565,7 +487,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 3150)"
+        transform="translate(4, 2254)"
     >
         <rect
             class="border"
@@ -632,7 +554,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 3600)"
+        transform="translate(4, 2704)"
     >
         <rect
             class="border"
@@ -702,7 +624,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 4050)"
+        transform="translate(4, 3154)"
     >
         <rect
             class="border"
@@ -772,7 +694,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 4500)"
+        transform="translate(4, 3604)"
     >
         <rect
             class="border"
@@ -854,7 +776,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 4950)"
+        transform="translate(4, 4054)"
     >
         <rect
             class="border"
@@ -940,7 +862,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 5400)"
+        transform="translate(4, 4504)"
     >
         <rect
             class="border"
@@ -1008,7 +930,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 5850)"
+        transform="translate(4, 4954)"
     >
         <rect
             class="border"
@@ -1080,7 +1002,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 6300)"
+        transform="translate(4, 5404)"
     >
         <rect
             class="border"
@@ -1144,7 +1066,7 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Provides 1<img class="symbol" height="16" width="16" src="Icons.svg#Bard" alt="Bard" /></div>
+                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Bard" alt="Bard" /></div>
                     <div class="simple-effect">+2⚡</div>
                     <div class=""><i>This</i> cannot be Discarded</div>
                 </div>
@@ -1154,7 +1076,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 6750)"
+        transform="translate(4, 5854)"
     >
         <rect
             class="border"
@@ -1240,7 +1162,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 7200)"
+        transform="translate(4, 6304)"
     >
         <rect
             class="border"
@@ -1314,7 +1236,7 @@ div {
                     <div class="">You may use a 1d6 Diplomacy Die.</div>
                     <div class="action">
                         <span class="effect-cost"><span></span><strong>:</strong></span>
-                        <span>Negate all effects of your cards with Right-hand and Left-hand slots and get +2🎵 until the end of <i>this</i> turn.</span>
+                        <span>Negate all effects of your cards with Right-hand and Left-hand slots and get +2🎵 until the end of this turn.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -1323,7 +1245,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 7650)"
+        transform="translate(4, 6754)"
     >
         <rect
             class="border"
@@ -1392,7 +1314,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 8100)"
+        transform="translate(4, 7204)"
     >
         <rect
             class="border"
@@ -1475,7 +1397,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 8550)"
+        transform="translate(4, 7654)"
     >
         <rect
             class="border"
@@ -1545,7 +1467,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 9000)"
+        transform="translate(4, 8104)"
     >
         <rect
             class="border"
@@ -1616,7 +1538,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 9450)"
+        transform="translate(4, 8554)"
     >
         <rect
             class="border"
@@ -1677,7 +1599,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-2🌈</span><strong>:</strong></span>
-                        <span>If you took ⚡ damage <i>this</i> turn, your Opponent loses ⚡ equal to your 🎵.</span>
+                        <span>If you took ⚡ damage this turn, your Opponent loses ⚡ equal to your 🎵.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -1686,7 +1608,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 9900)"
+        transform="translate(4, 9004)"
     >
         <rect
             class="border"
@@ -1771,7 +1693,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 10350)"
+        transform="translate(4, 9454)"
     >
         <rect
             class="border"
@@ -1842,7 +1764,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 10800)"
+        transform="translate(4, 9904)"
     >
         <rect
             class="border"
@@ -1924,7 +1846,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 11250)"
+        transform="translate(4, 10354)"
     >
         <rect
             class="border"
@@ -1998,7 +1920,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 11700)"
+        transform="translate(4, 10804)"
     >
         <rect
             class="border"
@@ -2067,7 +1989,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 12150)"
+        transform="translate(4, 11254)"
     >
         <rect
             class="border"
@@ -2148,7 +2070,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 12600)"
+        transform="translate(4, 11704)"
     >
         <rect
             class="border"
@@ -2229,7 +2151,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 13050)"
+        transform="translate(4, 12154)"
     >
         <rect
             class="border"
@@ -2296,7 +2218,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 13500)"
+        transform="translate(4, 12604)"
     >
         <rect
             class="border"
@@ -2363,7 +2285,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 13950)"
+        transform="translate(4, 13054)"
     >
         <rect
             class="border"
@@ -2446,7 +2368,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 14400)"
+        transform="translate(4, 13504)"
     >
         <rect
             class="border"
@@ -2514,7 +2436,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 14850)"
+        transform="translate(4, 13954)"
     >
         <rect
             class="border"
@@ -2596,7 +2518,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 15300)"
+        transform="translate(4, 14404)"
     >
         <rect
             class="border"
@@ -2680,7 +2602,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 15750)"
+        transform="translate(4, 14854)"
     >
         <rect
             class="border"
@@ -2745,7 +2667,8 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Sorceror" alt="Sorceror" /></div>
-                    <div class="">+3⚡, -1💗</div>
+                    <div class="simple-effect">+3⚡</div>
+                    <div class="simple-effect">-1💗</div>
                     <div class=""><i>This</i> cannot be Discarded</div>
                 </div>
             </foreignObject>
@@ -2754,7 +2677,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 16200)"
+        transform="translate(4, 15304)"
     >
         <rect
             class="border"
@@ -2787,7 +2710,7 @@ div {
                 class="border"
                 r="24"
             />
-            <text class="centred xp-cost" y="2">--</text>
+            <text class="centred xp-cost" y="2">2</text>
         </g>
         <g
             class="needs"
@@ -2823,7 +2746,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 16650)"
+        transform="translate(4, 15754)"
     >
         <rect
             class="border"
@@ -2892,7 +2815,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 17100)"
+        transform="translate(4, 16204)"
     >
         <rect
             class="border"
@@ -2952,7 +2875,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Consume</em>; <em class="special-cost">Encounter</em></span><strong>:</strong></span>
-                        <span>Choose one of Opponent's <i>Equipment</i> and return it to their hand, then do a Simple Attack.</span>
+                        <span>Choose one of Opponent's <i>Items</i> and return it to their hand, then do a Simple Attack.</span>
                     </div>
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Encounter</em></span><strong>:</strong></span>
@@ -2965,7 +2888,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 17550)"
+        transform="translate(4, 16654)"
     >
         <rect
             class="border"
@@ -3034,7 +2957,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 18000)"
+        transform="translate(4, 17104)"
     >
         <rect
             class="border"
@@ -3112,11 +3035,11 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-2🌈</span><strong>:</strong></span>
-                        <span>Shuffle one of your in-play <i>Consumable</i>s back into your deck.</span>
+                        <span>Shuffle one of your in-play <i>Consumables</i> back into your deck.</span>
                     </div>
                     <div class="action">
                         <span class="effect-cost"><span>-5🌈</span><strong>:</strong></span>
-                        <span>Shuffle an opponent's in-play consumable back into their deck.</span>
+                        <span>Shuffle an opponent's in-play <i>Consumable</i> back into their deck.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -3125,7 +3048,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 18450)"
+        transform="translate(4, 17554)"
     >
         <rect
             class="border"
@@ -3192,7 +3115,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 18900)"
+        transform="translate(4, 18004)"
     >
         <rect
             class="border"
@@ -3275,7 +3198,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 19350)"
+        transform="translate(4, 18454)"
     >
         <rect
             class="border"
@@ -3337,7 +3260,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-1🌈</span><strong>:</strong></span>
-                        <span>If an opponent made an Encounter <i>this</i> turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard <i>this</i>.</span>
+                        <span>If an opponent made an Encounter this turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard <i>this</i>.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -3346,7 +3269,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 19800)"
+        transform="translate(4, 18904)"
     >
         <rect
             class="border"
@@ -3423,7 +3346,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-1🌈</span><strong>:</strong></span>
-                        <span>Choose a  <i>Spell</i> of yours that was discarded <i>this</i> turn and return it to your hand.</span>
+                        <span>Choose a  <i>Spell</i> of yours that was discarded this turn and return it to your hand.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -3432,7 +3355,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 20250)"
+        transform="translate(4, 19354)"
     >
         <rect
             class="border"
@@ -3465,7 +3388,7 @@ div {
                 class="border"
                 r="24"
             />
-            <text class="centred xp-cost" y="2">--</text>
+            <text class="centred xp-cost" y="2">6</text>
         </g>
         <g
             class="needs"
@@ -3494,13 +3417,10 @@ div {
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
-                        <span class="effect-cost"><span><i>This</i> has x Tokens</span><strong>:</strong></span>
-                        <span>Opponent's ⚡ is 0;</span>
+                        <span class="effect-cost"><span></span><strong>:</strong></span>
+                        <span>If this has 10 tokens, your Opponent's ⚡ becomes 0</span>
                     </div>
-                    <div class="action">
-                        <span class="effect-cost"><span>Your 💪, ⛊, 🎵 or ⚡ increases</span><strong>:</strong></span>
-                        <span>Add a token to <i>this</i> for each stat that was increased.</span>
-                    </div>
+                    <div class="">When your 💪, ⛊, 🎵 or ⚡ increases, add a token to <i>this</i>.</div>
                 </div>
             </foreignObject>
         </g>
@@ -3508,7 +3428,75 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 20700)"
+        transform="translate(4, 19804)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Beast</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Race</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">2</text>
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text
+                class="alignRight"
+                y="4px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 20)">
+                    <image href="Icons.svg#Race" x="0" />
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Beast" alt="Beast" /></div>
+                    <div class="">When played, you get +5⚡</div>
+                    <div class=""><i>This</i> cannot be Discarded</div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 20254)"
     >
         <rect
             class="border"
@@ -3566,7 +3554,7 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Your may use A 1d8 Diplomacy Die</div>
+                    <div class="">Your may use a 1d8 Diplomacy Die</div>
                 </div>
             </foreignObject>
         </g>
@@ -3574,7 +3562,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 21150)"
+        transform="translate(4, 20704)"
     >
         <rect
             class="border"
@@ -3646,7 +3634,7 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="simple-effect">+ 1⛊</div>
+                    <div class="simple-effect">+1⛊</div>
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Encounter</em>; Make a Simple Attack</span><strong>:</strong></span>
                         <span>Add your 🎵 to the damage.</span>
@@ -3658,7 +3646,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 21600)"
+        transform="translate(4, 21154)"
     >
         <rect
             class="border"
@@ -3724,7 +3712,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 22050)"
+        transform="translate(4, 21604)"
     >
         <rect
             class="border"
@@ -3805,7 +3793,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 22500)"
+        transform="translate(4, 22054)"
     >
         <rect
             class="border"
@@ -3872,7 +3860,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 22950)"
+        transform="translate(4, 22504)"
     >
         <rect
             class="border"
@@ -3886,7 +3874,7 @@ div {
             <text
                 class="heading"
                 x="50%"
-            >Beast</text>
+            >Dwarf</text>
             <text
                 class="heading"
                 x="50%"
@@ -3930,8 +3918,8 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Beast" alt="Beast" />.</div>
-                    <div class="">When played, you get +5⚡</div>
+                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Dwarf" alt="Dwarf" /></div>
+                    <div class="simple-effect">+1⛊</div>
                     <div class=""><i>This</i> cannot be Discarded</div>
                 </div>
             </foreignObject>
@@ -3940,7 +3928,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 23400)"
+        transform="translate(4, 22954)"
     >
         <rect
             class="border"
@@ -4006,7 +3994,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 23850)"
+        transform="translate(4, 23404)"
     >
         <rect
             class="border"
@@ -4092,7 +4080,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 24300)"
+        transform="translate(4, 23854)"
     >
         <rect
             class="border"
@@ -4173,7 +4161,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 24750)"
+        transform="translate(4, 24304)"
     >
         <rect
             class="border"
@@ -4233,7 +4221,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-3🌈</span><strong>:</strong></span>
-                        <span>Prevent the effects of one <i>Armour</i> or <i>Weapon</i> card until the end of <i>this</i> turn.</span>
+                        <span>Prevent the effects of one <i>Armour</i> or <i>Weapon</i> card until the end of this turn.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -4242,7 +4230,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 25200)"
+        transform="translate(4, 24754)"
     >
         <rect
             class="border"
@@ -4321,7 +4309,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 25650)"
+        transform="translate(4, 25204)"
     >
         <rect
             class="border"
@@ -4335,7 +4323,7 @@ div {
             <text
                 class="heading"
                 x="50%"
-            >Dwarf</text>
+            >Ork</text>
             <text
                 class="heading"
                 x="50%"
@@ -4379,8 +4367,8 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Dwarf" alt="Dwarf" /></div>
-                    <div class="simple-effect">+1⛊</div>
+                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Ork" alt="Ork" /></div>
+                    <div class="simple-effect">+1💪</div>
                     <div class=""><i>This</i> cannot be Discarded</div>
                 </div>
             </foreignObject>
@@ -4389,7 +4377,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 26100)"
+        transform="translate(4, 25654)"
     >
         <rect
             class="border"
@@ -4455,7 +4443,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 26550)"
+        transform="translate(4, 26104)"
     >
         <rect
             class="border"
@@ -4524,7 +4512,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 27000)"
+        transform="translate(4, 26554)"
     >
         <rect
             class="border"
@@ -4590,7 +4578,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 27450)"
+        transform="translate(4, 27004)"
     >
         <rect
             class="border"
@@ -4677,7 +4665,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 27900)"
+        transform="translate(4, 27454)"
     >
         <rect
             class="border"
@@ -4761,469 +4749,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 28350)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Ork</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Race</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">2</text>
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#Race" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Provides <img class="symbol" height="16" width="16" src="Icons.svg#Ork" alt="Ork" /></div>
-                    <div class="simple-effect">+1💪</div>
-                    <div class=""><i>This</i> cannot be Discarded</div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 28800)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Echoes of Life</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Feature</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">--</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#🪦" x="0" />
-            </g> 
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="action">
-                        <span class="effect-cost"><span><em class="special-cost">Encounter</em></span><strong>:</strong></span>
-                        <span>The next card you play may be from any C-type-1</span>
-                    </div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 29250)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Necromancy</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Consumable  / Spell</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">--</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#🪦" x="0" />
-            </g> 
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#Head" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="action">
-                        <span class="effect-cost"><span><em class="special-cost">Consume</em></span><strong>:</strong></span>
-                        <span>Search your Discard for any card and shuffle it back into the Deck.</span>
-                    </div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 29700)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Out of Phase</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Feature</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">--</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#🪦" x="0" />
-            </g> 
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#𖨆" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="action">
-                        <span class="effect-cost"><span>Shuffle <i>this</i> into your deck</span><strong>:</strong></span>
-                        <span>Opponent gets -1⚡ and skips their next Encounter step.</span>
-                    </div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 30150)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Patchwork Monstrosity</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Feature</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">--</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#🪦" x="0" />
-            </g> 
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#𖨆" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">You may have two 🫱-slots in play.  If <i>this</i> is discarded from play, discard all 🫱 slots</div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 30600)"
-    >
-        <rect
-            class="border"
-            width="292px"
-            height="442px"
-        />
-        <g 
-            transform="translate(0, 4)"
-            class="head"
-        >
-            <text
-                class="heading"
-                x="50%"
-            >Skeletal Minion</text>
-            <text
-                class="heading"
-                x="50%"
-                dy="20"
-            >Minion</text>
-        </g>
-        <rect
-            class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
-        />
-        <g transform="translate(150, 188)">
-            <circle
-                class="border"
-                r="24"
-            />
-            <text class="centred xp-cost" y="2">--</text>
-        </g>
-        <g
-            class="needs"
-            transform="translate(0, 188)"
-        >
-            <text
-                class="alignLeft"
-                dy="4"
-                x="4"
-            >Needs</text>
-            <g transform="translate(4, 20)">
-                <image href="Icons.svg#🪦" x="0" />
-            </g> 
-        </g>
-        <g
-            class="fills"
-            transform="translate(292, 188)"
-        >
-            <text
-                class="alignRight"
-                y="4px"
-                x="-4"
-            >Fills</text>
-            <g transform="translate(-22, 20)">
-                    <image href="Icons.svg#Head" x="0" />
-            </g>
-        </g>
-        <g
-            class="effects"
-            transform="translate(0, 232)"
-        >
-            <foreignObject
-                x="4px"
-                width="280px"
-                height="200px"
-            >
-                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="action">
-                        <span class="effect-cost"><span><em class="special-cost">Encounter</em>; Discard a card from your hand</span><strong>:</strong></span>
-                        <span>Make any other Encounter you have, then 1 Simple Attack.</span>
-                    </div>
-                </div>
-            </foreignObject>
-        </g>
-    </g>
-    <g
-        width="300"
-        height="450"
-        transform="translate(4, 31050)"
+        transform="translate(4, 27904)"
     >
         <rect
             class="border"
@@ -5291,7 +4817,401 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 31500)"
+        transform="translate(4, 28354)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Echoes of Life</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Feature</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">--</text>
+        </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(4, 20)">
+                <image href="Icons.svg#Undead" x="0" />
+            </g> 
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="action">
+                        <span class="effect-cost"><span><em class="special-cost">Encounter</em></span><strong>:</strong></span>
+                        <span>The next card you play may be from any C-type-1</span>
+                    </div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 28804)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Necromancy</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Consumable  / Spell</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">--</text>
+        </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(4, 20)">
+                <image href="Icons.svg#Undead" x="0" />
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text
+                class="alignRight"
+                y="4px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 20)">
+                    <image href="Icons.svg#Head" x="0" />
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="action">
+                        <span class="effect-cost"><span><em class="special-cost">Consume</em></span><strong>:</strong></span>
+                        <span>Search your Discard for any card and shuffle it back into the Deck.</span>
+                    </div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 29254)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Out of Phase</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Feature</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">--</text>
+        </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(4, 20)">
+                <image href="Icons.svg#Undead" x="0" />
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text
+                class="alignRight"
+                y="4px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 20)">
+                    <image href="Icons.svg#Body" x="0" />
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="action">
+                        <span class="effect-cost"><span>Shuffle <i>this</i> into your deck</span><strong>:</strong></span>
+                        <span>Opponent gets -1⚡ and skips their next Encounter step.</span>
+                    </div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 29704)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Patchwork Monstrosity</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Feature</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">--</text>
+        </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(4, 20)">
+                <image href="Icons.svg#Undead" x="0" />
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text
+                class="alignRight"
+                y="4px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 20)">
+                    <image href="Icons.svg#Body" x="0" />
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="">You may have two Right-hand slots in play.  If <i>this</i> is discarded from play, discard all cards filling Right-hand slots</div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 30154)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Skeletal Minion</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Minion</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">--</text>
+        </g>
+        <g
+            class="needs"
+            transform="translate(0, 188)"
+        >
+            <text
+                class="alignLeft"
+                dy="4"
+                x="4"
+            >Needs</text>
+            <g transform="translate(4, 20)">
+                <image href="Icons.svg#Undead" x="0" />
+            </g> 
+        </g>
+        <g
+            class="fills"
+            transform="translate(292, 188)"
+        >
+            <text
+                class="alignRight"
+                y="4px"
+                x="-4"
+            >Fills</text>
+            <g transform="translate(-22, 20)">
+                    <image href="Icons.svg#Head" x="0" />
+            </g>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="action">
+                        <span class="effect-cost"><span><em class="special-cost">Encounter</em>; Discard a card from your hand</span><strong>:</strong></span>
+                        <span>Make any other Encounter you have, then 1 Simple Attack.</span>
+                    </div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 30604)"
     >
         <rect
             class="border"
@@ -5347,7 +5267,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 31950)"
+        transform="translate(4, 31054)"
     >
         <rect
             class="border"
@@ -5416,7 +5336,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 32400)"
+        transform="translate(4, 31504)"
     >
         <rect
             class="border"
@@ -5473,7 +5393,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 32850)"
+        transform="translate(4, 31954)"
     >
         <rect
             class="border"
@@ -5518,14 +5438,14 @@ div {
                 height="200px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                    <div class="">Ignore all of your "Needs Beltpouch" symbols in play</div>
+                    <div class="">Ignore all of your "Needs <img class="symbol" height="16" width="16" src="Icons.svg#Beltpouch" alt="Beltpouch" />" symbols in play</div>
                     <div class="action">
                         <span class="effect-cost"><span>Discard a card of yours from play</span><strong>:</strong></span>
-                        <span>Search your Deck for a *Looand add it to your Hand, then shuffle</span>
+                        <span>Search your Deck for a <i>Loot</i> and add it to your Hand, then shuffle</span>
                     </div>
                     <div class="action">
-                        <span class="effect-cost"><span>Discard <i>this</i> OR Discard a card of yours with "Needs Beltpouch"</span><strong>:</strong></span>
-                        <span>Search your Deck for a card with "Needs Beltpouch", then shuffle.</span>
+                        <span class="effect-cost"><span>Discard <i>this</i> OR Discard a card of yours with "Needs <img class="symbol" height="16" width="16" src="Icons.svg#Beltpouch" alt="Beltpouch" />"</span><strong>:</strong></span>
+                        <span>Search your Deck for a card with "Needs <img class="symbol" height="16" width="16" src="Icons.svg#Beltpouch" alt="Beltpouch" />", then shuffle.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -5534,7 +5454,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 33300)"
+        transform="translate(4, 32404)"
     >
         <rect
             class="border"
@@ -5590,7 +5510,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 33750)"
+        transform="translate(4, 32854)"
     >
         <rect
             class="border"
@@ -5659,7 +5579,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 34200)"
+        transform="translate(4, 33304)"
     >
         <rect
             class="border"
@@ -5727,7 +5647,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 34650)"
+        transform="translate(4, 33754)"
     >
         <rect
             class="border"
@@ -5780,7 +5700,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 35100)"
+        transform="translate(4, 34204)"
     >
         <rect
             class="border"
@@ -5846,7 +5766,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 35550)"
+        transform="translate(4, 34654)"
     >
         <rect
             class="border"
@@ -5914,7 +5834,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 36000)"
+        transform="translate(4, 35104)"
     >
         <rect
             class="border"
@@ -5983,7 +5903,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 36450)"
+        transform="translate(4, 35554)"
     >
         <rect
             class="border"
@@ -6055,7 +5975,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 36900)"
+        transform="translate(4, 36004)"
     >
         <rect
             class="border"
@@ -6102,7 +6022,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span><em class="special-cost">Consume</em></span><strong>:</strong></span>
-                        <span>Take no 💗 damage <i>this</i> turn.</span>
+                        <span>Take no 💗 damage this turn.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -6111,7 +6031,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 37350)"
+        transform="translate(4, 36454)"
     >
         <rect
             class="border"
@@ -6180,7 +6100,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 37800)"
+        transform="translate(4, 36904)"
     >
         <rect
             class="border"
@@ -6237,7 +6157,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 38250)"
+        transform="translate(4, 37354)"
     >
         <rect
             class="border"
@@ -6303,7 +6223,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 38700)"
+        transform="translate(4, 37804)"
     >
         <rect
             class="border"
@@ -6363,7 +6283,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 39150)"
+        transform="translate(4, 38254)"
     >
         <rect
             class="border"
@@ -6429,7 +6349,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 39600)"
+        transform="translate(4, 38704)"
     >
         <rect
             class="border"
@@ -6486,7 +6406,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 40050)"
+        transform="translate(4, 39154)"
     >
         <rect
             class="border"
@@ -6555,7 +6475,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 40500)"
+        transform="translate(4, 39604)"
     >
         <rect
             class="border"
@@ -6621,7 +6541,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 40950)"
+        transform="translate(4, 40054)"
     >
         <rect
             class="border"
@@ -6683,7 +6603,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-1🌈</span><strong>:</strong></span>
-                        <span>If your opponent made a Simple Attack <i>this</i> turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard <i>this</i></span>
+                        <span>If your opponent made a Simple Attack this turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard <i>this</i></span>
                     </div>
                 </div>
             </foreignObject>
@@ -6692,7 +6612,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 41400)"
+        transform="translate(4, 40504)"
     >
         <rect
             class="border"
@@ -6745,7 +6665,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 41850)"
+        transform="translate(4, 40954)"
     >
         <rect
             class="border"
@@ -6799,7 +6719,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 42300)"
+        transform="translate(4, 41404)"
     >
         <rect
             class="border"
@@ -6866,7 +6786,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 42750)"
+        transform="translate(4, 41854)"
     >
         <rect
             class="border"
@@ -6922,7 +6842,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 43200)"
+        transform="translate(4, 42304)"
     >
         <rect
             class="border"
@@ -6975,7 +6895,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 43650)"
+        transform="translate(4, 42754)"
     >
         <rect
             class="border"
@@ -7031,7 +6951,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 44100)"
+        transform="translate(4, 43204)"
     >
         <rect
             class="border"
@@ -7100,7 +7020,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 44550)"
+        transform="translate(4, 43654)"
     >
         <rect
             class="border"
@@ -7156,7 +7076,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 45000)"
+        transform="translate(4, 44104)"
     >
         <rect
             class="border"
@@ -7225,7 +7145,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 45450)"
+        transform="translate(4, 44554)"
     >
         <rect
             class="border"
@@ -7294,7 +7214,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 45900)"
+        transform="translate(4, 45004)"
     >
         <rect
             class="border"
@@ -7313,7 +7233,7 @@ div {
                 class="heading"
                 x="50%"
                 dy="20"
-            >Equipment / Weapon</text>
+            >Item / Weapon</text>
         </g>
         <rect
             class="border art"
@@ -7356,7 +7276,7 @@ div {
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                     <div class="action">
                         <span class="effect-cost"><span>-2🌈</span><strong>:</strong></span>
-                        <span>If your opponent rolls or rolled their Violence Die <i>this</i> turn, Roll yours. If you rolled higher, discard one of Opponent's <i>Weapons</i>.</span>
+                        <span>If your opponent rolls or rolled their Violence Die this turn, Roll yours. If you rolled higher, discard one of Opponent's <i>Weapons</i>.</span>
                     </div>
                 </div>
             </foreignObject>
@@ -7365,7 +7285,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 46350)"
+        transform="translate(4, 45454)"
     >
         <rect
             class="border"
@@ -7421,7 +7341,7 @@ div {
     <g
         width="300"
         height="450"
-        transform="translate(4, 46800)"
+        transform="translate(4, 45904)"
     >
         <rect
             class="border"
