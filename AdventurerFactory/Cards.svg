@@ -1,7 +1,7 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="300"
-    height="47250"
+    height="48150"
 >
     <style>
       <![CDATA[
@@ -130,6 +130,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Assassin.png" x="4" y="38" height="150" width="284" alt="Assassin" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -205,6 +206,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Hide.png" x="4" y="38" height="150" width="284" alt="Hide" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -291,6 +293,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Poison Dagger.png" x="4" y="38" height="150" width="284" alt="Poison Dagger" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -375,6 +378,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Special Training.png" x="4" y="38" height="150" width="284" alt="Special Training" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -445,6 +449,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Assassinate.png" x="4" y="38" height="150" width="284" alt="Assassinate" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -515,6 +520,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Grovel!.png" x="4" y="38" height="150" width="284" alt="Grovel!" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -582,6 +588,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Reconnoiter.png" x="4" y="38" height="150" width="284" alt="Reconnoiter" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -652,6 +659,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Spiked Tea.png" x="4" y="38" height="150" width="284" alt="Spiked Tea" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -722,6 +730,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Bystander Disguise.png" x="4" y="38" height="150" width="284" alt="Bystander Disguise" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -804,6 +813,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Concealed Crossboy.png" x="4" y="38" height="150" width="284" alt="Concealed Crossboy" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -890,6 +900,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Terrify.png" x="4" y="38" height="150" width="284" alt="Terrify" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -958,6 +969,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Final Blow.png" x="4" y="38" height="150" width="284" alt="Final Blow" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1030,6 +1042,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Bard.png" x="4" y="38" height="150" width="284" alt="Bard" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1104,6 +1117,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Big Ole Ruby.png" x="4" y="38" height="150" width="284" alt="Big Ole Ruby" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1190,6 +1204,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Lute.png" x="4" y="38" height="150" width="284" alt="Lute" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1273,6 +1288,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Sleight of Hand.png" x="4" y="38" height="150" width="284" alt="Sleight of Hand" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1342,6 +1358,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Trick Coin.png" x="4" y="38" height="150" width="284" alt="Trick Coin" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1425,6 +1442,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Tune of Seduction.png" x="4" y="38" height="150" width="284" alt="Tune of Seduction" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1495,6 +1513,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Valet.png" x="4" y="38" height="150" width="284" alt="Valet" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1566,6 +1585,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Witty Riposte.png" x="4" y="38" height="150" width="284" alt="Witty Riposte" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1636,6 +1656,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Flourish.png" x="4" y="38" height="150" width="284" alt="Flourish" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1721,6 +1742,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Refined Spirits.png" x="4" y="38" height="150" width="284" alt="Refined Spirits" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1792,6 +1814,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Chorus of Power.png" x="4" y="38" height="150" width="284" alt="Chorus of Power" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1874,6 +1897,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Knight.png" x="4" y="38" height="150" width="284" alt="Knight" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -1948,6 +1972,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Dual Wielding.png" x="4" y="38" height="150" width="284" alt="Dual Wielding" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2017,6 +2042,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Pike.png" x="4" y="38" height="150" width="284" alt="Pike" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2098,6 +2124,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Sword.png" x="4" y="38" height="150" width="284" alt="Sword" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2179,6 +2206,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/--.png" x="4" y="38" height="150" width="284" alt="--" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2246,6 +2274,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/--.png" x="4" y="38" height="150" width="284" alt="--" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2313,6 +2342,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Quick Thrust.png" x="4" y="38" height="150" width="284" alt="Quick Thrust" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2396,6 +2426,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/--.png" x="4" y="38" height="150" width="284" alt="--" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2464,6 +2495,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Full Plate.png" x="4" y="38" height="150" width="284" alt="Full Plate" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2546,6 +2578,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Glowing Sword.png" x="4" y="38" height="150" width="284" alt="Glowing Sword" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2630,6 +2663,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Sorcerer.png" x="4" y="38" height="150" width="284" alt="Sorcerer" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2705,6 +2739,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Gale.png" x="4" y="38" height="150" width="284" alt="Gale" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2774,6 +2809,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Gather Magic.png" x="4" y="38" height="150" width="284" alt="Gather Magic" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2843,6 +2879,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Heat Manipulation.png" x="4" y="38" height="150" width="284" alt="Heat Manipulation" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2916,6 +2953,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Life Drain.png" x="4" y="38" height="150" width="284" alt="Life Drain" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -2985,6 +3023,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Hand Mirror.png" x="4" y="38" height="150" width="284" alt="Hand Mirror" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3076,6 +3115,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Magic Staff.png" x="4" y="38" height="150" width="284" alt="Magic Staff" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3143,6 +3183,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Shift Shape.png" x="4" y="38" height="150" width="284" alt="Shift Shape" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3226,6 +3267,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Force Field.png" x="4" y="38" height="150" width="284" alt="Force Field" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3297,6 +3339,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Spell Book.png" x="4" y="38" height="150" width="284" alt="Spell Book" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3383,6 +3426,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Ritual of the Eldritch Flows.png" x="4" y="38" height="150" width="284" alt="Ritual of the Eldritch Flows" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3456,6 +3500,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Beast.png" x="4" y="38" height="150" width="284" alt="Beast" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3524,6 +3569,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Ferocious Roar.png" x="4" y="38" height="150" width="284" alt="Ferocious Roar" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3590,6 +3636,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Horns.png" x="4" y="38" height="150" width="284" alt="Horns" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3674,6 +3721,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Hulking Physique.png" x="4" y="38" height="150" width="284" alt="Hulking Physique" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3740,6 +3788,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Spiked Tail.png" x="4" y="38" height="150" width="284" alt="Spiked Tail" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3821,6 +3870,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Tail.png" x="4" y="38" height="150" width="284" alt="Tail" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3888,6 +3938,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Dwarf.png" x="4" y="38" height="150" width="284" alt="Dwarf" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -3956,6 +4007,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/--.png" x="4" y="38" height="150" width="284" alt="--" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4022,6 +4074,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Big Ole Emerald.png" x="4" y="38" height="150" width="284" alt="Big Ole Emerald" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4108,6 +4161,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Dwarf Gauntlet.png" x="4" y="38" height="150" width="284" alt="Dwarf Gauntlet" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4189,6 +4243,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Smith&#x27;s Almanac.png" x="4" y="38" height="150" width="284" alt="Smith&#x27;s Almanac" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4258,6 +4313,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Trash/Treasure.png" x="4" y="38" height="150" width="284" alt="Trash/Treasure" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4337,6 +4393,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Ork.png" x="4" y="38" height="150" width="284" alt="Ork" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4405,6 +4462,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/--.png" x="4" y="38" height="150" width="284" alt="--" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4471,6 +4529,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Filth.png" x="4" y="38" height="150" width="284" alt="Filth" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4540,6 +4599,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Out Clubbin&#x27;.png" x="4" y="38" height="150" width="284" alt="Out Clubbin&#x27;" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4606,6 +4666,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Stench.png" x="4" y="38" height="150" width="284" alt="Stench" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4693,6 +4754,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Vile Vial.png" x="4" y="38" height="150" width="284" alt="Vile Vial" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4777,6 +4839,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Undead.png" x="4" y="38" height="150" width="284" alt="Undead" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4845,6 +4908,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Echoes of Life.png" x="4" y="38" height="150" width="284" alt="Echoes of Life" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4914,6 +4978,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Necromancy.png" x="4" y="38" height="150" width="284" alt="Necromancy" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -4996,6 +5061,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Out of Phase.png" x="4" y="38" height="150" width="284" alt="Out of Phase" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5078,6 +5144,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Patchwork Monstrosity.png" x="4" y="38" height="150" width="284" alt="Patchwork Monstrosity" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5157,6 +5224,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Skeletal Minion.png" x="4" y="38" height="150" width="284" alt="Skeletal Minion" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5239,6 +5307,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Ancient Secrets.png" x="4" y="38" height="150" width="284" alt="Ancient Secrets" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5295,6 +5364,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Bedroll.png" x="4" y="38" height="150" width="284" alt="Bedroll" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5364,6 +5434,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Begging For Scraps.png" x="4" y="38" height="150" width="284" alt="Begging For Scraps" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5421,6 +5492,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Beltpouch.png" x="4" y="38" height="150" width="284" alt="Beltpouch" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5482,6 +5554,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Big Ole Diamond.png" x="4" y="38" height="150" width="284" alt="Big Ole Diamond" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5538,6 +5611,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Big Ole Fake.png" x="4" y="38" height="150" width="284" alt="Big Ole Fake" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5607,6 +5681,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Buckler.png" x="4" y="38" height="150" width="284" alt="Buckler" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5675,6 +5750,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Canine.png" x="4" y="38" height="150" width="284" alt="Canine" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5728,6 +5804,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Cashflow.png" x="4" y="38" height="150" width="284" alt="Cashflow" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5794,6 +5871,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Club.png" x="4" y="38" height="150" width="284" alt="Club" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5862,6 +5940,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Crossbow.png" x="4" y="38" height="150" width="284" alt="Crossbow" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -5931,6 +6010,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Dagger.png" x="4" y="38" height="150" width="284" alt="Dagger" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6003,6 +6083,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Dodge.png" x="4" y="38" height="150" width="284" alt="Dodge" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6059,6 +6140,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Extra Ration.png" x="4" y="38" height="150" width="284" alt="Extra Ration" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6128,6 +6210,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Field of Flowers.png" x="4" y="38" height="150" width="284" alt="Field of Flowers" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6185,6 +6268,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Fine Clothes.png" x="4" y="38" height="150" width="284" alt="Fine Clothes" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6251,6 +6335,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Frantic Search.png" x="4" y="38" height="150" width="284" alt="Frantic Search" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6311,6 +6396,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Gauntlet.png" x="4" y="38" height="150" width="284" alt="Gauntlet" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6377,6 +6463,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Gold Coin.png" x="4" y="38" height="150" width="284" alt="Gold Coin" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6434,6 +6521,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Health Potion.png" x="4" y="38" height="150" width="284" alt="Health Potion" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6503,6 +6591,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Helm.png" x="4" y="38" height="150" width="284" alt="Helm" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6569,6 +6658,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Homemade Shield.png" x="4" y="38" height="150" width="284" alt="Homemade Shield" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6640,6 +6730,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Income.png" x="4" y="38" height="150" width="284" alt="Income" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6693,6 +6784,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Initiate&#x27;s Notes.png" x="4" y="38" height="150" width="284" alt="Initiate&#x27;s Notes" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6747,6 +6839,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Jerkin.png" x="4" y="38" height="150" width="284" alt="Jerkin" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6814,6 +6907,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Liquid Courage.png" x="4" y="38" height="150" width="284" alt="Liquid Courage" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6870,6 +6964,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Loot.png" x="4" y="38" height="150" width="284" alt="Loot" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6923,6 +7018,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Mirror Shard.png" x="4" y="38" height="150" width="284" alt="Mirror Shard" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -6979,6 +7075,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Pack.png" x="4" y="38" height="150" width="284" alt="Pack" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7048,6 +7145,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Prudence.png" x="4" y="38" height="150" width="284" alt="Prudence" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7104,6 +7202,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Psychic Bomb.png" x="4" y="38" height="150" width="284" alt="Psychic Bomb" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7173,6 +7272,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Ribbon.png" x="4" y="38" height="150" width="284" alt="Ribbon" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7242,6 +7342,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Sword Breaker.png" x="4" y="38" height="150" width="284" alt="Sword Breaker" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7313,6 +7414,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Whisperer.png" x="4" y="38" height="150" width="284" alt="Whisperer" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7369,6 +7471,7 @@ div {
             width="284"
             height="150"
         />
+        <image href="art/Wise Old Mentor.png" x="4" y="38" height="150" width="284" alt="Wise Old Mentor" />
         <g transform="translate(150, 188)">
             <circle
                 class="border"
@@ -7390,6 +7493,114 @@ div {
                         <span class="effect-cost"><span><em class="special-cost">Consume</em></span><strong>:</strong></span>
                         <span>Search your Deck for any <i>Class</i> and put it in to your Hand, then shuffle your Deck.</span>
                     </div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 46354)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Binoculars</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Item / Tool</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <image href="art/Binoculars.png" x="4" y="38" height="150" width="284" alt="Binoculars" />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">5</text>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="">012 cbft5</div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+    <g
+        width="300"
+        height="450"
+        transform="translate(4, 46804)"
+    >
+        <rect
+            class="border"
+            width="292px"
+            height="442px"
+        />
+        <g 
+            transform="translate(0, 4)"
+            class="head"
+        >
+            <text
+                class="heading"
+                x="50%"
+            >Nightwatcher</text>
+            <text
+                class="heading"
+                x="50%"
+                dy="20"
+            >Minion</text>
+        </g>
+        <rect
+            class="border art"
+            x="4"
+            y="38"
+            width="284"
+            height="150"
+        />
+        <image href="art/Nightwatcher.png" x="4" y="38" height="150" width="284" alt="Nightwatcher" />
+        <g transform="translate(150, 188)">
+            <circle
+                class="border"
+                r="24"
+            />
+            <text class="centred xp-cost" y="2">5</text>
+        </g>
+        <g
+            class="effects"
+            transform="translate(0, 232)"
+        >
+            <foreignObject
+                x="4px"
+                width="280px"
+                height="200px"
+            >
+                <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
+                    <div class="">012 cbft5</div>
                 </div>
             </foreignObject>
         </g>

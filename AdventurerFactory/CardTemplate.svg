@@ -131,6 +131,9 @@ div {
             width="284"
             height="150"
         />
+        {{#if this.artFile}}
+        <image href="{{this.artFile}}" x="4" y="38" height="150" width="284" />
+        {{/if}}
         <g transform="translate(150, 188)">
             <circle
                 class="border"

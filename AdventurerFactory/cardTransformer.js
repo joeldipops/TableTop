@@ -1,6 +1,7 @@
 const fs = require("fs");
 const readline = require("readline");
 const Handlebars = require("handlebars");
+const svgConverter = require("convert-svg-to-png");
 
 /**
  * Load a file from the file system into memory.
@@ -95,7 +96,7 @@ const SYMBOL_TOKENS = [
     "Dwarf", "Ork", "Undead", "Beast", "Tail",
     "Beltpouch"
 ];
-const messageEffects = function(data) {
+const massageEffects = function(data) {
     // Replace markdown italics with html italics
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
 
@@ -179,6 +180,14 @@ const massageNeeds = function(data) {
 
 const CARD_HEIGHT = 450;
 
+const setArt = function(name) {
+    return null;
+};
+
+const santiseForFilename = function(name) {
+    return name.replace(/[^a-z0-9]/gi, '_');
+}
+
 /**
  * Converts a card's json representation to one useable by the svg template.
  */
@@ -191,18 +200,65 @@ const jsonToTemplateData = function(data, index) {
         cost: data.Cost,
         needs: massageNeeds(data.Needs),
         fills: massageFills(data.Fills),
-        effects: messageEffects(data.Text)
+        effects: massageEffects(data.Text),
+        artFile: setArt(data.Name)
     };
 };
 
+const generatePrintable = async function(template, viewModel) {
+    return await new Promise((resolve, reject) => {
+        fs.writeFile("cards/Cards.svg", template(viewModel), (err) => {
+            if (err) {
+                console.log(err);
+                return reject(err);
+            }
+
+            return resolve();
+        });
+    });
+};
+
+const generateDigital = async function(template, viewModel) {
+    for(let i = 0; i < viewModel.cards.length; i++) {
+        const card = viewModel.cards[i];
+        card.y = 4;
+
+        const name = santiseForFilename(card.name)
+        const fileName = `cards/${name}.svg`;
+
+        console.log("Generating ", name);
+
+        await new Promise((resolve, reject) => {
+            fs.writeFile(fileName, template({
+                cards : [card],
+                totalHeight: 450
+            }), (err) => {
+                if (err) {
+                    console.log(err);
+                    return reject(err);
+                }
+
+                return resolve();
+            });
+        });
+
+        console.log("Converting ", name, " to png");
+
+        await svgConverter.convertFile(fileName, { outputFilePath : `generated/${name}.png` });
+
+        console.log("Done with ", name);
+    }
+
+    return;
+};
+
 (async function main() {
+    const args = process.argv;
+
     const data = await transformFile("Cards.md", {
         metaData: {},
         fn: lineToJson
     });
-
-    const templateSvg = await loadFile("CardTemplate.svg");
-    const template = Handlebars.compile(templateSvg);
 
     const viewModel = { cards : [], totalHeight : data.length * CARD_HEIGHT };
     // Filter out lines that aren't actually cards.
@@ -214,16 +270,16 @@ const jsonToTemplateData = function(data, index) {
         viewModel.cards.push(jsonToTemplateData(cardJson, index));
     });
 
-    await new Promise((resolve, reject) => {
-        fs.writeFile("Cards.svg", template(viewModel), (err) => {
-            if (err) {
-                console.log(err);
-                return reject(err);
-            }
+    const templateSvg = await loadFile("CardTemplate.svg");
+    const template = Handlebars.compile(templateSvg);
 
-            return resolve();
-        });
-    });
+    if(args.includes("-p") || args.includes("--printable")) {
+        await generatePrintable(template, viewModel);
+    }
+
+    if(args.includes("-d") || args.includes("--digital")) {
+        await generateDigital(template, viewModel);
+    }
 
     console.log("done");
 })();

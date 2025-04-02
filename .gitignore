@@ -1,1 +1,5 @@
 *node_modules*
+generated/
+cards/
+!cards/Icons.svg
+art/Binoculars.png

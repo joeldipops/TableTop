@@ -9,7 +9,7 @@
 | 0-A2 |  Reconnoiter  |  Feature  |  2  |  Assassin Assassin  |  --  |  : Skip your next encounter step; Look at 2 random cards in Opponent's hand.
 | 0-A2 |  Spiked Tea  |  Item / Consumable  |  0  |  Assassin Assassin  |  --  |  **Consume**; Both players roll their Diplomacy Dice: If you rolled higher, Opponent loses 💗 equal to the difference.
 | 0-A3 |  Bystander Disguise  |  Item / Tool  |  2  |  Assassin Assassin Assassin  |  Body  | You get -1🎵 for each counter on _this_ <br />Once per turn when your Opponent plays a card, you both roll 1d6+🎵.  If you roll higher, Negate the effects of Opponent's card and Discard it, then add a counter to _this_.  If you roll equal or lower, Discard _this_.
-| 0-A3 |  Concealed Crossboy  |  Item / Weapon  |  4  |  Assassin Assassin Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a simple attach.  On opponent's next turn, if an _Encounter_ would reduce your HP, first roll 1d6.  If the roll was 3 or lower, HP is not reduced.
+| 0-A3 |  Concealed Crossbow  |  Item / Weapon  |  4  |  Assassin Assassin Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a simple attach.  On opponent's next turn, if an _Encounter_ would reduce your HP, first roll 1d6.  If the roll was 3 or lower, HP is not reduced.
 | 0-A3 |  Terrify  |  Feature  |  1  |  Assassin Assassin Assassin  |   |  Opponent gets -2🎵.
 | 0-A4 |  Final Blow  |  Feature  |  5  |  Assassin Assassin Assassin Assassin  |  --  |  -10💗; -10⚡: If Opponent's combined `💗 + ⚡` is 20 or less, Opponent's 💗 becomes 0
 | 0-B0 | Bard |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Bard <br />+2⚡ <br />_This_ cannot be Discarded 
@@ -103,3 +103,5 @@
 | 2 |  Sword Breaker  |  Item / Weapon  |  4  |  --  |  Left-hand & Right-hand  |  -2🌈: If your opponent rolls or rolled their Violence Die this turn, Roll yours. If you rolled higher, discard one of Opponent's _Weapons_.
 | 2 |  Whisperer  |  Minion  |  4  |  --  |  --  |  **Encounter**: Make a Simple Parley and add 1d4 to the damage.
 | 2 |  Wise Old Mentor  |  Consumable / Minion  |  3  |  --  |  --  |  **Consume**: Search your Deck for any _Class_ and put it in to your Hand, then shuffle your Deck.
+|2| Binoculars | Item / Tool | 5 | --|--|012 cbft5|
+|2| Nightwatcher | Minion | 5 | --|--|012 cbft5|

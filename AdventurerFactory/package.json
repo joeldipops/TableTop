@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "convert-svg-to-png": "^0.6.4",
     "handlebars": "^4.7.8"
   }
 }
