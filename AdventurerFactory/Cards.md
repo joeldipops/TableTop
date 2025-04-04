@@ -87,7 +87,7 @@ At the end of your turn, discard any cards attached to _this_.
 | 2 |  Fine Clothes  |  Item / Armour  |  2  |  --  | Body |  You may use a 1d4 Diplomacy Die.
 | 2 |  Frantic Search  |  Feature  |  3  |  --  |  --  | Shuffle 3 cards from your Discard into your Deck: Discard the top three cards of your Deck <br />Discard _this_: Shuffle 3 cards from your Discard in to your Deck
 | 2 |  Gauntlet  |  Item / Armour  |  1  |  --  |  Gloves  | + 1⛊
-| 2 |  Gold Coin  |  Item / Loot  |  0  |  --  |  --  | +1🎵 <br />Discard _this_: +1🌈
+| 2 |  Gold Coin  |  Item / Loot  |  0  |  --  |  --  | -1🌈: You get +1🎵 until end of this turn. <br />Discard _this_: +1🌈
 | 2 |  Health Potion  |  Consumable / Potion  |  1  |  --  |  Beltpouch  |  **Consume**: +10💗
 | 2 |  Helm  |  Item / Armour  |  1  |  --  |  Head  |  +1⛊
 | 2 |  Homemade Shield  |  Item / Armour  |  3  |  --  |  Left-hand / Right-hand  |  -1🌈: If your opponent made a Simple Attack this turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard _this_
@@ -99,7 +99,7 @@ At the end of your turn, discard any cards attached to _this_.
 | 2 |  Mirror Shard  |  Consumable / Loot  |  1  |  --  |  --  |  **Consume**: Shuffle a Consumable in play back into its owners deck. 
 | 2 |  Pack  |  Item / Tool  |  4  |  --  |  Back  |  Discard one of your in-play cards: Search your deck for a loot and add it to your hand.  Shuffle your deck.
 | 2 |  Prudence  |  Consumable / Spell  |  0  |  --  |  --  |  **Consume**; Discard a card from your Hand: Add 🌈 equal to the card's 🌈 cost.
-| 2 |  Psychic Bomb  |  Consumable / Spell  |  3  |  --  |  Head  |  **Consume**: Discard one of your _Features_ from play: Select 1 Opponent's _Feature_ and discard it.
+| 2 |  Psychic Bomb  |  Consumable / Spell  |  3  |  --  |  Head  |  **Consume**; Discard one of your _Features_ from play: Select 1 Opponent's _Feature_ and discard it.
 | 2 |  Ribbon  |  Item / Armour  |  1  |  --  |  Head  |  **Encounter**: Search your Deck for a card with a cost of 0🌈
 | 2 |  Sword Breaker  |  Item / Weapon  |  4  |  --  |  Left-hand & Right-hand  |  -2🌈: If your opponent rolls or rolled their Violence Die this turn, Roll yours. If you rolled higher, discard one of Opponent's _Weapons_.
 | 2 |  Whisperer  |  Minion  |  4  |  --  |  --  |  **Encounter**: Make a Simple Parley and add 1d4 to the damage.
