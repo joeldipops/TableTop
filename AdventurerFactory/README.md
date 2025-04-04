@@ -23,7 +23,7 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
       bonuses + any other card-specific resources.
 
 ## Setup
-1. Each player starts with 30 💗 and 30 ⚡
+1. Each player starts with 20 💗 and 20 ⚡
 2. Each Players starts with a Violence and Diplomacy Die of 1d1 (that is, a flat 1 damage)
 2. Player 1 takes 3 🌈
 3. Player 2 takes 5 🌈
