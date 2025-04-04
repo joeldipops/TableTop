@@ -32,12 +32,12 @@ text, div {
         dominant-baseline: middle;
     }
 
-    text.alignLeft {
+    text.align-left {
         text-anchor: start;
         dominant-baseline: hanging;
     }
 
-    text.alignRight {
+    text.align-right {
         text-anchor: end;
         dominant-baseline: hanging;
     }
@@ -65,6 +65,8 @@ div {
 
     .effects > .simple-effect {
         font-weight: bold;
+        text-align: center;
+        font-size: larger;
     }
 
     .effects .symbol {
@@ -147,7 +149,7 @@ div {
             transform="translate(0, 188)"
         >
             <text
-                class="alignLeft"
+                class="align-left"
                 dy="4"
                 x="4"
             >Needs</text>
@@ -164,7 +166,7 @@ div {
             transform="translate(292, 188)"
         >
             <text
-                class="alignRight"
+                class="align-right"
                 y="4px"
                 x="-4"
             >Fills</text>

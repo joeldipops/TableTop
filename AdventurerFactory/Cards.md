@@ -1,11 +1,11 @@
 | Sort-Index |  Name  |  Type(s)  |  Cost  |  Needs  |  Fills  |  Text
 |---|---|---|---|---|---|---|
-| 0-A0 |  Assassin   |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Assassin <br />+1💗<br />+1⚡<br />_This_ cannot be Discarded
+| 0-A0 |  Assassin   |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Assassin <br />+1💗 and +1⚡<br />_This_ cannot be Discarded
 | 0-A1 |  Hide  |  Feature  |  3  |   Assassin  |  Body  | **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn. <br /> Discard _this_; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. 
 | 0-A1 |  Poison Dagger  |  Item / Weapon  |  0  |  Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a Simple Attack.  If the die showed a 1 or 2, add 1d4 to the damage.
 | 0-A1 |  Special Training  |  Feature  |  2  |  Assassin  |  --  | **Encounter**: Choose any `Need` type. Provides 1 Need of that type until the end of this turn. <br />When _this_ is Discarded, Discard all of your in-play cards that could not legally be played.
 | 0-A2 |  Assassinate  |  Feature  |  4  |  Assassin Assassin  |  --  |  **Encounter**: If you skipped your last Encounter step, you may perform 1 Simple Parley and 2 Simple Attacks.
-| 0-A2 |  Grovel!  |  Feature  |  4  | Assassin Assassin  |  --  |  +2🎵; You may use 1d8 as your Diplomacy Die
+| 0-A2 |  Grovel!  |  Feature  |  4  | Assassin Assassin  |  --  |  -2🎵 <br /> You may use a 1d8 your Diplomacy Die
 | 0-A2 |  Reconnoiter  |  Feature  |  2  |  Assassin Assassin  |  --  |  : Skip your next encounter step; Look at 2 random cards in Opponent's hand.
 | 0-A2 |  Spiked Tea  |  Item / Consumable  |  0  |  Assassin Assassin  |  --  |  **Consume**; Both players roll their Diplomacy Dice: If you rolled higher, Opponent loses 💗 equal to the difference.
 | 0-A3 |  Bystander Disguise  |  Item / Tool  |  2  |  Assassin Assassin Assassin  |  Body  | You get -1🎵 for each counter on _this_ <br />Once per turn when your Opponent plays a card, you both roll 1d6+🎵.  If you roll higher, Negate the effects of Opponent's card and Discard it, then add a counter to _this_.  If you roll equal or lower, Discard _this_.
@@ -27,13 +27,13 @@
 | 0-K1 |  Dual Wielding  |  Feature  |  3  |  Knight  |  --  |  **Encounter**; -1🌈: If you have two _Weapons_ in play, perform two Simple Attacks.
 | 0-K1 |  Pike  |  Item / Weapon  |  5  |  Knight  |  Left-hand / Right-hand  |  You may use a 2d8 Violence Die
 | 0-K1 |  Sword  |  Item / Weapon  |  3  |  Knight  |  Left-hand / Right-hand  |  You may use a 1d8 Violence Die
-| 0-K2 |  --  |  --  |  --  |  Knight Knight  |  --  |  -- 
-| 0-K2 |  --  |  --  |  --  |  Knight Knight  |  --  |  -- 
+| 0-K2 |  Shield  |  Item / Armour  |  3  |  Knight Knight |  Left-hand / Right-hand  |  +2⛊ <br /> -1🌈: If your opponent made a Simple Attack this turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard _this_
+| 0-K2 |  Valour  |  Feature  |  5  |  Knight Knight  |  --  | -3💗 : For the rest of this turn, all effects involving your 🎵 use your ⛊ instead.
 | 0-K2 |  Quick Thrust  |  Feature  | 4 |  Knight Knight  | -- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
-| 0-K3 |  --  |  --  |  --  |  Knight Knight Knight  |  --  |  -- 
+| 0-K3 |  Steed  |  Minion / Pet |  --  |  Knight Knight Knight  |  --  |  -- 
 | 0-K3 |  Full Plate  |  Item / Armour  |  4  | Knight Knight Knight  |  Body  | + 5⛊ <br />+ 10⚡
 | 0-K4 |  Glowing Sword  |  Item / Weapon  |  4  |  Knight Knight Knight Knight   |  Left-hand / Right-hand  | You may use a 1d12 Violence Die.
-| 0-S0 |  Sorcerer  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Sorceror <br />+3⚡<br />-1💗<br />_This_ cannot be Discarded 
+| 0-S0 |  Sorcerer  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Sorceror <br />+3⚡ and -1💗<br />_This_ cannot be Discarded 
 | 0-S1 |  Gale  |  Consumable / Spell  |  2  |  Sorceror  |  --  |  **Consume**; **Encounter**: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
 | 0-S1 |  Gather Magic  |  Feature  |  2  |  Sorceror  |  --  |  **Encounter**: +10⚡, shuffle _this_ back into your Deck.
 | 0-S1 |  Heat Manipulation  |  Consumable / Spell  |  --  |  Sorceror  |  --  |  **Consume**; **Encounter**: Choose one of Opponent's _Items_ and return it to their hand, then do a Simple Attack. <br />**Encounter**: TODO  
@@ -103,5 +103,5 @@
 | 2 |  Sword Breaker  |  Item / Weapon  |  4  |  --  |  Left-hand & Right-hand  |  -2🌈: If your opponent rolls or rolled their Violence Die this turn, Roll yours. If you rolled higher, discard one of Opponent's _Weapons_.
 | 2 |  Whisperer  |  Minion  |  4  |  --  |  --  |  **Encounter**: Make a Simple Parley and add 1d4 to the damage.
 | 2 |  Wise Old Mentor  |  Consumable / Minion  |  3  |  --  |  --  |  **Consume**: Search your Deck for any _Class_ and put it in to your Hand, then shuffle your Deck.
-|2| Binoculars | Item / Tool | 5 | --|--|012 cbft5|
-|2| Nightwatcher | Minion | 5 | --|--|012 cbft5|
+| 2 | Binoculars | Item / Tool | 5 | --| Neck | Show your opponent one card in your hand: Opponent must do the same for you. |
+| 2 | The Nightwatcher | Minion / Cryptid | 4 | -- | -- | Without looking, show your opponent the top card of your deck: Opponent must do the same for you. |

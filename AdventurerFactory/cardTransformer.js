@@ -105,6 +105,8 @@ const massageEffects = function(data) {
         data = data.replaceAll(token, `<img class="symbol" height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
     });
 
+    const simpleEffectRegex = /^([+-][0-9]+\w?.+[^:]*)|(Provides .+)$/
+
     return data.split("<br />").map((effectText) => {;
         const effect = {};
 
@@ -121,8 +123,7 @@ const massageEffects = function(data) {
         } else {
             effect.text = parts[0] || "";
 
-            // Shit check, do this properly
-            if (effect.text.length <= 5) {
+            if (simpleEffectRegex.test(effect.text)) {
                 effect.effectClass = "simple-effect";
             }
         }
@@ -181,7 +182,8 @@ const massageNeeds = function(data) {
 const CARD_HEIGHT = 450;
 
 const setArt = function(name) {
-    return null;
+    const fileName = `art/${santiseForFilename(name)}.png`;
+    return fs.existsSync(fileName) ? `../${fileName}` : null
 };
 
 const santiseForFilename = function(name) {
