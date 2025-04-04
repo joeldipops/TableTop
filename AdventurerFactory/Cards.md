@@ -5,11 +5,11 @@
 | 0-A1 |  Poison Dagger  |  Item / Weapon  |  0  |  Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a Simple Attack.  If the die showed a 1 or 2, add 1d4 to the damage.
 | 0-A1 |  Special Training  |  Feature  |  2  |  Assassin  |  --  | **Encounter**: Choose any `Need` type. Provides 1 Need of that type until the end of this turn. <br />When _this_ is Discarded, Discard all of your in-play cards that could not legally be played.
 | 0-A2 |  Assassinate  |  Feature  |  4  |  Assassin Assassin  |  --  |  **Encounter**: If you skipped your last Encounter step, you may perform 1 Simple Parley and 2 Simple Attacks.
-| 0-A2 |  Grovel!  |  Feature  |  4  | Assassin Assassin  |  --  |  -2🎵 <br /> You may use a 1d8 your Diplomacy Die
+| 0-A2 |  Grovel!  |  Feature  |  4  | Assassin Assassin  |  --  |  -2🎵 <br /> You may use a 1d8 Diplomacy Die
 | 0-A2 |  Reconnoiter  |  Feature  |  2  |  Assassin Assassin  |  --  |  : Skip your next encounter step; Look at 2 random cards in Opponent's hand.
 | 0-A2 |  Spiked Tea  |  Item / Consumable  |  0  |  Assassin Assassin  |  --  |  **Consume**; Both players roll their Diplomacy Dice: If you rolled higher, Opponent loses 💗 equal to the difference.
 | 0-A3 |  Bystander Disguise  |  Item / Tool  |  2  |  Assassin Assassin Assassin  |  Body  | You get -1🎵 for each counter on _this_ <br />Once per turn when your Opponent plays a card, you both roll 1d6+🎵.  If you roll higher, Negate the effects of Opponent's card and Discard it, then add a counter to _this_.  If you roll equal or lower, Discard _this_.
-| 0-A3 |  Concealed Crossbow  |  Item / Weapon  |  4  |  Assassin Assassin Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a simple attach.  On opponent's next turn, if an _Encounter_ would reduce your HP, first roll 1d6.  If the roll was 3 or lower, HP is not reduced.
+| 0-A3 |  Concealed Crossbow  |  Item / Weapon  |  4  |  Assassin Assassin Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a simple attack.  On opponent's next turn, if an _Encounter_ would reduce your HP, first roll 1d6.  If the roll was 3 or lower, HP is not reduced.
 | 0-A3 |  Terrify  |  Feature  |  1  |  Assassin Assassin Assassin  |   |  Opponent gets -2🎵.
 | 0-A4 |  Final Blow  |  Feature  |  5  |  Assassin Assassin Assassin Assassin  |  --  |  -10💗; -10⚡: If Opponent's combined `💗 + ⚡` is 20 or less, Opponent's 💗 becomes 0
 | 0-B0 | Bard |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Bard <br />+2⚡ <br />_This_ cannot be Discarded 
@@ -30,44 +30,45 @@
 | 0-K2 |  Shield  |  Item / Armour  |  3  |  Knight Knight |  Left-hand / Right-hand  |  +2⛊ <br /> -1🌈: If your opponent made a Simple Attack this turn, your  💗 is not reduced by that attack.  If the damage would have been 4 or more, Discard _this_
 | 0-K2 |  Valour  |  Feature  |  5  |  Knight Knight  |  --  | -3💗 : For the rest of this turn, all effects involving your 🎵 use your ⛊ instead.
 | 0-K2 |  Quick Thrust  |  Feature  | 4 |  Knight Knight  | -- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
-| 0-K3 |  Steed  |  Minion / Pet |  --  |  Knight Knight Knight  |  --  |  -- 
+| 0-K3 | Steed |  Minion / Pet | 6 | Knight Knight Knight  | Mount | +1🎵 <br /> : Make a Simple Attack
 | 0-K3 |  Full Plate  |  Item / Armour  |  4  | Knight Knight Knight  |  Body  | + 5⛊ <br />+ 10⚡
 | 0-K4 |  Glowing Sword  |  Item / Weapon  |  4  |  Knight Knight Knight Knight   |  Left-hand / Right-hand  | You may use a 1d12 Violence Die.
 | 0-S0 |  Sorcerer  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Sorceror <br />+3⚡ and -1💗<br />_This_ cannot be Discarded 
 | 0-S1 |  Gale  |  Consumable / Spell  |  2  |  Sorceror  |  --  |  **Consume**; **Encounter**: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
 | 0-S1 |  Gather Magic  |  Feature  |  2  |  Sorceror  |  --  |  **Encounter**: +10⚡, shuffle _this_ back into your Deck.
-| 0-S1 |  Heat Manipulation  |  Consumable / Spell  |  --  |  Sorceror  |  --  |  **Consume**; **Encounter**: Choose one of Opponent's _Items_ and return it to their hand, then do a Simple Attack. <br />**Encounter**: TODO  
+| 0-S1 |  Heat Manipulation  |  Consumable / Spell  |  4  |  Sorceror  |  --  |  **Consume**; **Encounter**: Choose one of Opponent's _Items_ and return it to their hand, then perform a Simple Attack. <br /> -2🌈: If your opponent has any _Armour_ in play, reduce their 💗 by 1d4.
 | 0-S1 |  Life Drain  |  Consumable / Spell  |  1  |  Sorceror  |  --  |  **Consume**; **Encounter**: Make a Simple Parley. Increase your ⚡ by the amount of ⚡ damage
 | 0-S2 |  Hand Mirror  |  Item  |  2  |  Sorceror Sorceror  |   Left-hand / Right-hand / Neck  | -2🌈: Shuffle one of your in-play _Consumables_ back into your deck. <br />-5🌈: Shuffle an opponent's in-play _Consumable_ back into their deck.
-| 0-S2 |  Magic Staff  |  --  |  --  |  Sorceror Sorceror  |  --  |  --
+| 0-S2 |  Magic Staff  |  Item / Weapon  |  4  |  Sorceror Sorceror  |  Left-hand & Right-hand | Encounter: Search your deck for a _Spell_ and pay its 🌈 cost to attach it to this card. <br /> Cards attached to _this_ are considered in play and have their usual effects. <br />
+At the end of your turn, discard any cards attached to _this_.
 | 0-S2 |  Shift Shape  |  Spell  |  2  |  Sorceror Sorceror  |  Body  |  : Discard any cards attached to _this_.  Choose a card from your hand that includes 1 or more _Fills_ symbols you already have filled.  The card must otherwise be playable. Pay its cost and Attach it to _this_.  The card is now considered in-play.  If _this_ is discarded, any attached cards are also discarded.
 | 0-S3 |  Force Field  |  Feature  |  3  |  Sorceror Sorceror Sorceror  |  --  |  -1🌈: If an opponent made an Encounter this turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard _this_.
 | 0-S3 |  Spell Book  |  Item / Book  |  2  |  Sorceror Sorceror Sorceror  |  Left-hand / Right-hand  |  -1🌈: Choose a  _Spell_ of yours that was discarded this turn and return it to your hand.
 | 0-S4 |  Ritual of the Eldritch Flows  |  Spell  |  6  |  Sorceror Sorceror Sorceror Sorceror  | -- | : If this has 10 tokens, your Opponent's ⚡ becomes 0<br />When your 💪, ⛊, 🎵 or ⚡ increases, add a token to _this_.
 | 1-RB0 |  Beast  |  Race  |  2  |  --  |  Race  | Provides Beast <br />When played, you get +5⚡ <br />_This_ cannot be Discarded
-| 1-RB1 |  Ferocious Roar  |  Feature  |  --  |  Beast  |  -- |  Your may use a 1d8 Diplomacy Die
-| 1-RB1 |  Horns |  Feature / Weapon  |  --  |  Beast Tail  | Head | +1⛊ <br /> **Encounter**; Make a Simple Attack: Add your 🎵 to the damage.
-| 1-RB1 |  Hulking Physique |  Feature  |  --  |  Beast  |  --  |  You may have 1 additional 🫱 and 🫲 non-Weapon card in play.
-| 1-RB1 |  Spiked Tail |  Feature  | --  |  Beast Tail  |  Tail  | +1⛊ <br />You may use a 2d8 Violence Die.
-| 1-RB1 |  Tail  |  Feature  |  --  |  Beast  |  --  | +5💗 <br /> Provides Tail
+| 1-RB1 |  Ferocious Roar  |  Feature  |  3  |  Beast  |  -- |  You may use a 1d8 Diplomacy Die
+| 1-RB1 |  Horns |  Feature / Weapon  |  2  |  Beast | Head | +1⛊ <br /> **Encounter**; Make a Simple Attack: Add your 🎵 to the damage.
+| 1-RB1 |  Hulking Physique |  Feature  |  4  |  Beast  |  --  |  While _this_ is in play, you may ignore 1 Left-hand or Right-hand symbol on a card that is not a _Weapon_. <br />When the above effect ends, discard any cards that could not be in play.
+| 1-RB1 |  Spiked Tail |  Feature  | 3  |  Beast Tail  |  Tail  | +1⛊ <br />You may use a 2d8 Violence Die.
+| 1-RB1 |  Tail  |  Feature  |  1  |  Beast  |  --  | Provides Tail <br /> When played, you get +5💗
 | 1-0RD |  Dwarf  |  Race  |  2  |  --  |  Race  | Provides Dwarf <br />+1⛊ <br />_This_ cannot be Discarded
-| 1-RD1 |  --  |  --  |  --  |  Dwarf  |  --  |  --
-| 1-RD1 |  Big Ole Emerald  | Item / Loot  |  --  |  Dwarf  |  Beltpouch  | **Encounter**: +2🌈 <br />**Encounter**: Take a card from your Discard and put it on top of your Deck.
+| 1-RD1 |  Miner's Pick | Item / Tool |  3  |  Dwarf  |  Left-hand & Right-hand | -1⚡: Roll your Violence die and add the amount to you 🌈
+| 1-RD1 |  Big Ole Emerald  | Item / Loot  |  2  |  Dwarf  |  Beltpouch  | **Encounter**: +2🌈 <br />**Encounter**: Take a card from your Discard and put it on top of your Deck.
 | 1-RD1 |  Dwarf Gauntlet  |  Item / Armour  |  3  |  Dwarf  |  Gloves  |  +1⛊ <br /> Weapons you play require 1 less Knight <br /> When the above effect ends, Discard any in-play cards that could not be played at that time.
 | 1-RD1 |  Smith's Almanac |  Item / Book  |  3  |  Dwarf  |  --  |  -3🌈: Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.
 | 1-RD1 |  Trash/Treasure  |  Feature  |  6  |  Dwarf  |  Pack  |  When an in-play card of yours is discarded as part of an action or effect, gain 🌈 equal to the 🌈 cost of that card.
 | 1-RO0 |  Ork  |  Race  |  2  |  --  |  Race  | Provides Ork <br />+1💪 <br />_This_ cannot be Discarded
-| 1-RO1 |  --  |  --  |  --  |  Ork  |  --  |  --
+| 1-RO1 |  Rotten Cuisine  | Supply | 1 |  Ork  |  --  |  -1💗: Opponent gets -2💗
 | 1-RO1 |  Filth  |  Feature  |  5  |  Ork  |  --  | **Encounter**; -1💗: Make a Simple Attack, or a Simple Parley, then choose one of opponent's in-play Items.  They must either discard it, or discard a card from their hand.
-| 1-RO1 |  Out Clubbin'  |  Feature  |  --  |  Ork  |  --  |  If you have two or more _Clubs_ in play, you may use a 2d4+1 Violence Die.
+| 1-RO1 |  Out Clubbin'  |  Feature  |  2  |  Ork  |  --  |  If you have two or more _Clubs_ in play, you may use a 2d4+1 Violence Die.
 | 1-RO1 |  Stench  |  Feature  |  2  |  Ork  |  Body  | -1💗, +1⛊ <br />**Encounter**: Make a Simple Attack, in addition, Opponent gets -1💗 and -1d4⚡ <br />**Encounter**: Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.
 | 1-RO1 |  Vile Vial  |  Item / Potion  |  2  |  Ork  |  Beltpouch  | You get +1🎵 for each card attached to _this_ <br />Without looking, attach the top card of your deck to _this_: +2💗 <br />When _this_ is discarded, all attached cards are discarded.
 | 1-RU0 | Undead |  Race  |  2  |  --  |  Race  | Provides Undead. <br />When played, you get +5💗 <br />_This_ cannot be Discarded
-| 1-RU1 |  Echoes of Life  |  Feature  |  --  | Undead  |  --  |  **Encounter**: The next card you play may be from any C-type-1
-| 1-RU1 |  Necromancy  |  Consumable  / Spell  |  -- |  Undead  |  Head  |  **Consume**: Search your Discard for any card and shuffle it back into the Deck.
-| 1-RU1 |  Out of Phase  |  Feature  |  --  | Undead  | Body |  Shuffle _this_ into your deck: Opponent gets -1⚡ and skips their next Encounter step.
-| 1-RU1 |  Patchwork Monstrosity  |  Feature  |  --  |  Undead  |  Body  |  You may have two Right-hand slots in play.  If _this_ is discarded from play, discard all cards filling Right-hand slots 
-| 1-RU1 |  Skeletal Minion  |  Minion  |  --  |  Undead  |  Head  |  **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
+| 1-RU1 |  Echoes of Life  |  Feature  |  6  | Undead  |  --  |  **Encounter**: Attach a card from your hand that Needs exactly 1 of Assassin, Bard, Sorceror or Knight. <br /> Pay the XP cost of one card attached to this: The card is considered in-play until the end of this turn, and has its usual effects.
+| 1-RU1 |  Necromancy  |  Consumable  / Spell  |  1 |  Undead  |  Head  |  **Consume**: Search your Discard for any card and shuffle it back into the Deck.
+| 1-RU1 |  Out of Phase  |  Feature  |  2  | Undead  | Body |  Shuffle _this_ into your deck: Opponent gets -1⚡ and skips their next Encounter step.
+| 1-RU1 |  Patchwork Monstrosity  |  Feature  |  4  |  Undead  |  Body  |  Attach a card from your hand that fills Right-hand and has no Needs to _this_; Pay its 🌈 cost: The card is considered in-play and has its usual effects, but does not fill any slot.
+| 1-RU1 |  Skeletal Minion  |  Minion  |  5  |  Undead  |  Head  |  **Encounter**; Discard a card from your hand: Make any other Encounter you have, then 1 Simple Attack.
 | 2 |  Ancient Secrets  |  Spell  |  4  |  --  |  --  |  **Encounter**; -2⚡: Search your Discard for any _Spell_ and put it in to your Hand.
 | 2 |  Bedroll  |  Item / Tool  |  2  |  --  |  Pack  |  : +1💗
 | 2 |  Begging For Scraps  |  Consumable / Feature  |  2  |  --  |  --  |  -2🎵 <br /> **Consume**; -1💗: Search your discard pile for any _Potion_ and put it into your Hand.

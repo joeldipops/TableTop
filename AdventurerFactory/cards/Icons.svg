@@ -89,7 +89,9 @@ circle {
         <svg id="Gloves">
             <rect width="16" height="16" fill="#102938" stroke="black" />
         </svg>
-        <svg id="slash">
+        <svg id="Mount">
+            <rect width="16" height="16" fill="#420024" stroke="black" />
+        </svg>        <svg id="slash">
             <text y="14" x="6" font-weight="bold">/</text>
         </svg>
         <svg id="and">

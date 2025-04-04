@@ -94,7 +94,7 @@ const highlightSpecialCosts = function(costs) {
 const SYMBOL_TOKENS = [
     "Assassin", "Bard", "Knight", "Sorceror",
     "Dwarf", "Ork", "Undead", "Beast", "Tail",
-    "Beltpouch"
+    "Beltpouch", "Mount"
 ];
 const massageEffects = function(data) {
     // Replace markdown italics with html italics
