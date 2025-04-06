@@ -3,7 +3,7 @@
 | 0-A0 |  Assassin   |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Assassin <br />+1💗 and +1⚡<br />_This_ cannot be Discarded
 | 0-A1 |  Hide  |  Feature  |  3  |   Assassin  |  Body  | **Encounter**; Discard one of your in-play cards: Your opponent cannot use an Encounter on their next turn. On your next turn, play as if you did not use an Encounter this turn. <br /> Discard _this_; -2⚡: Opponent skips their next Encounter step or ends their Encounter step before you take damage. 
 | 0-A1 |  Poison Dagger  |  Item / Weapon  |  0  |  Assassin  |  Left-hand / Right-hand  |  **Encounter**: Make a Simple Attack.  If the die showed a 1 or 2, add 1d4 to the damage.
-| 0-A1 |  Special Training  |  Feature  |  2  |  Assassin  |  --  | **Encounter**: Choose any `Need` type. Provides 1 Need of that type until the end of this turn. <br />When _this_ is Discarded, Discard all of your in-play cards that could not legally be played.
+| 0-A1 |  Special Training  |  Feature  |  2  |  Assassin  |  --  | When this is discarded, discard any cards attached to it. <br /> **Encounter**: If there is a card attached to _this_, you cannot use this action.  Select a card from your hand that has any 1 Need symbol.  Pay any costs to play it then attach it to _this_.  The attached card has its normal effects.
 | 0-A2 |  Assassinate  |  Feature  |  4  |  Assassin Assassin  |  --  |  **Encounter**: If you skipped your last Encounter step, you may perform 1 Simple Parley and 2 Simple Attacks.
 | 0-A2 |  Grovel!  |  Feature  |  4  | Assassin Assassin  |  --  |  -2🎵 <br /> You may use a 1d8 Diplomacy Die
 | 0-A2 |  Reconnoiter  |  Feature  |  2  |  Assassin Assassin  |  --  |  : Skip your next encounter step; Look at 2 random cards in Opponent's hand.
@@ -18,7 +18,7 @@
 | 0-B1 |  Sleight of Hand  |  Feature  |  3  |  Bard  |  --  |  **Encounter**: Make a Simple Parley.  If ⚡ damage was 3 or more, both players discard a card from their hands.
 | 0-B1 |  Trick Coin  |  Item / Loot  |  0  |  Bard  | -- | +1🎵 <br />Shuffle _this_ into your deck: +2🌈
 | 0-B2 |  Tune of Seduction  |  Consumable / Spell  |  2  | Bard Bard  |  --  |  **Consume**; **Encounter**: Take an amount of 🌈 from opponent up to `your 🎵 - their 🎵`
-| 0-B2 |  Valet  |  Minion  |  4  |  Bard Bard  |  --  |  A card attached to _this_ does not Fill any slots, but does not have any Actions or Effects. <br /> : If there are any cards attached to _this_, Detach them.  If a detached card is not legally playable, Discard it.  You may Attach one of your in-play cards to _this_ unless it cannot be Discarded. 
+| 0-B2 |  Valet  |  Minion  |  1  |  Bard Bard  |  --  |  All _Fills_ symbols and effects of cards attached to _this_ are ignored.<br /> : Attach an in-play card to _this_.  If there are any cards attached to _this_, you cannot use this action. <br /> : Detach a card attached to this.  If it could not legally be played, discard it.
 | 0-B2 |  Witty Riposte  |  Feature  |  3  |  Bard Bard  |  --  |  -2🌈: If you took ⚡ damage this turn, your Opponent loses ⚡ equal to your 🎵.
 | 0-B3 |  Flourish  |  Feature  |  4  |  Bard Bard Bard  |  --  |  -2🌈: Attach a card to _this_. <br />When a card Attached to _this_ refers to your "Simple Attack" or "Violence Die", treat it as referrring to a "Simple Parley" or "Diplomacy Die" respectively.
 | 0-B3 |  Refined Spirits  |  Consumable / Potion  |  2  |  Bard Bard Bard  |  --  |   **Consume**; -x🌈: + x⚡; + 1💗
@@ -31,7 +31,7 @@
 | 0-K2 |  Valour  |  Feature  |  5  |  Knight Knight  |  --  | -3💗 : For the rest of this turn, all effects involving your 🎵 use your ⛊ instead.
 | 0-K2 |  Quick Thrust  |  Feature  | 4 |  Knight Knight  | -- | : If you have a _Weapon_ in play, make a simple attack with a 1d4 Violence Die.
 | 0-K3 | Steed |  Minion / Pet | 6 | Knight Knight Knight  | Mount | +1🎵 <br /> : Make a Simple Attack
-| 0-K3 |  Full Plate  |  Item / Armour  |  4  | Knight Knight Knight  |  Body  | + 5⛊ <br />+ 10⚡
+| 0-K3 |  Full Plate  |  Item / Armour  |  4  | Knight Knight Knight  |  Body  | +5⛊ <br /> When _this_ is played, you get +10⚡
 | 0-K4 |  Glowing Sword  |  Item / Weapon  |  4  |  Knight Knight Knight Knight   |  Left-hand / Right-hand  | You may use a 1d12 Violence Die.
 | 0-S0 |  Sorcerer  |  Class  |  2  |  --  |  C1 / C2 / C3 / C4  | Provides Sorceror <br />+3⚡ and -1💗<br />_This_ cannot be Discarded 
 | 0-S1 |  Gale  |  Consumable / Spell  |  2  |  Sorceror  |  --  |  **Consume**; **Encounter**: Make a Simple Attack.  If you rolled a 1 or 2, Opponent skips their next Encounter step
@@ -41,29 +41,29 @@
 | 0-S2 |  Hand Mirror  |  Item  |  2  |  Sorceror Sorceror  |   Left-hand / Right-hand / Neck  | -2🌈: Shuffle one of your in-play _Consumables_ back into your deck. <br />-5🌈: Shuffle an opponent's in-play _Consumable_ back into their deck.
 | 0-S2 |  Magic Staff  |  Item / Weapon  |  4  |  Sorceror Sorceror  |  Left-hand & Right-hand | Encounter: Search your deck for a _Spell_ and pay its 🌈 cost to attach it to this card. <br /> Cards attached to _this_ are considered in play and have their usual effects. <br />
 At the end of your turn, discard any cards attached to _this_.
-| 0-S2 |  Shift Shape  |  Spell  |  2  |  Sorceror Sorceror  |  Body  |  : Discard any cards attached to _this_.  Choose a card from your hand that includes 1 or more _Fills_ symbols you already have filled.  The card must otherwise be playable. Pay its cost and Attach it to _this_.  The card is now considered in-play.  If _this_ is discarded, any attached cards are also discarded.
+| 0-S2 |  Shift Shape  |  Spell  |  5  |  Sorceror Sorceror  |  Body  | Cards attached to this have their usual effects but their Fills symbols are ignored. <br />: Discard any card attached to this. <br /> : Attach a card from your hand to this that you could otherwise play, then pay all costs to play the card.  You cannot use this action if a card is already attached to _this_.
 | 0-S3 |  Force Field  |  Feature  |  3  |  Sorceror Sorceror Sorceror  |  --  |  -1🌈: If an opponent made an Encounter this turn that reduced your 💗 OR ⚡, negate that damage. If the total damage was 5 or more, Discard _this_.
 | 0-S3 |  Spell Book  |  Item / Book  |  2  |  Sorceror Sorceror Sorceror  |  Left-hand / Right-hand  |  -1🌈: Choose a  _Spell_ of yours that was discarded this turn and return it to your hand.
 | 0-S4 |  Ritual of the Eldritch Flows  |  Spell  |  6  |  Sorceror Sorceror Sorceror Sorceror  | -- | : If this has 10 tokens, your Opponent's ⚡ becomes 0<br />When your 💪, ⛊, 🎵 or ⚡ increases, add a token to _this_.
-| 1-RB0 |  Beast  |  Race  |  2  |  --  |  Race  | Provides Beast <br />When played, you get +5⚡ <br />_This_ cannot be Discarded
+| 1-RB0 |  Beast  |  Race  |  2  |  --  |  Race  | Provides Beast <br />+5⚡ <br />_This_ cannot be Discarded
 | 1-RB1 |  Ferocious Roar  |  Feature  |  3  |  Beast  |  -- |  You may use a 1d8 Diplomacy Die
 | 1-RB1 |  Horns |  Feature / Weapon  |  2  |  Beast | Head | +1⛊ <br /> **Encounter**; Make a Simple Attack: Add your 🎵 to the damage.
 | 1-RB1 |  Hulking Physique |  Feature  |  4  |  Beast  |  --  |  While _this_ is in play, you may ignore 1 Left-hand or Right-hand symbol on a card that is not a _Weapon_. <br />When the above effect ends, discard any cards that could not be in play.
 | 1-RB1 |  Spiked Tail |  Feature  | 3  |  Beast Tail  |  Tail  | +1⛊ <br />You may use a 2d8 Violence Die.
-| 1-RB1 |  Tail  |  Feature  |  1  |  Beast  |  --  | Provides Tail <br /> When played, you get +5💗
+| 1-RB1 |  Tail  |  Feature  |  1  |  Beast  |  --  | Provides Tail <br /> +5💗
 | 1-0RD |  Dwarf  |  Race  |  2  |  --  |  Race  | Provides Dwarf <br />+1⛊ <br />_This_ cannot be Discarded
 | 1-RD1 |  Miner's Pick | Item / Tool |  3  |  Dwarf  |  Left-hand & Right-hand | -1⚡: Roll your Violence die and add the amount to you 🌈
 | 1-RD1 |  Big Ole Emerald  | Item / Loot  |  2  |  Dwarf  |  Beltpouch  | **Encounter**: +2🌈 <br />**Encounter**: Take a card from your Discard and put it on top of your Deck.
-| 1-RD1 |  Dwarf Gauntlet  |  Item / Armour  |  3  |  Dwarf  |  Gloves  |  +1⛊ <br /> Weapons you play require 1 less Knight <br /> When the above effect ends, Discard any in-play cards that could not be played at that time.
+| 1-RD1 |  Dwarf Gauntlet  |  Item / Armour  |  3  |  Dwarf  |  Gloves  |  +1⛊ <br /> Weapons you play require 1 less Knight, if any.<br /> When the above effect ends, Discard any in-play cards that could not be played at that time.
 | 1-RD1 |  Smith's Almanac |  Item / Book  |  3  |  Dwarf  |  --  |  -3🌈: Prevent the effects of one _Armour_ or _Weapon_ card until the end of this turn.
 | 1-RD1 |  Trash/Treasure  |  Feature  |  6  |  Dwarf  |  Pack  |  When an in-play card of yours is discarded as part of an action or effect, gain 🌈 equal to the 🌈 cost of that card.
 | 1-RO0 |  Ork  |  Race  |  2  |  --  |  Race  | Provides Ork <br />+1💪 <br />_This_ cannot be Discarded
 | 1-RO1 |  Rotten Cuisine  | Supply | 1 |  Ork  |  --  |  -1💗: Opponent gets -2💗
 | 1-RO1 |  Filth  |  Feature  |  5  |  Ork  |  --  | **Encounter**; -1💗: Make a Simple Attack, or a Simple Parley, then choose one of opponent's in-play Items.  They must either discard it, or discard a card from their hand.
 | 1-RO1 |  Out Clubbin'  |  Feature  |  2  |  Ork  |  --  |  If you have two or more _Clubs_ in play, you may use a 2d4+1 Violence Die.
-| 1-RO1 |  Stench  |  Feature  |  2  |  Ork  |  Body  | -1💗, +1⛊ <br />**Encounter**: Make a Simple Attack, in addition, Opponent gets -1💗 and -1d4⚡ <br />**Encounter**: Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.
-| 1-RO1 |  Vile Vial  |  Item / Potion  |  2  |  Ork  |  Beltpouch  | You get +1🎵 for each card attached to _this_ <br />Without looking, attach the top card of your deck to _this_: +2💗 <br />When _this_ is discarded, all attached cards are discarded.
-| 1-RU0 | Undead |  Race  |  2  |  --  |  Race  | Provides Undead. <br />When played, you get +5💗 <br />_This_ cannot be Discarded
+| 1-RO1 |  Stench  |  Feature  |  2  |  Ork  |  Body  | +1⛊ and -1💗<br />**Encounter**: Make a Simple Attack, in addition, Opponent gets -1💗 and -1d4⚡ <br />**Encounter**: Make a Simple Parley; Opponents 🎵 is 0 until the end of their next turn.
+| 1-RO1 |  Vile Vial  |  Item / Potion  |  2  |  Ork  |  Beltpouch  | You get +1🎵 for each card attached to _this_ <br />: Without looking, attach the top card of your deck to _this_.  You get +2💗 <br />When _this_ is discarded, all attached cards are discarded.
+| 1-RU0 | Undead |  Race  |  2  |  --  |  Race  | Provides Undead <br />+5💗 <br />_This_ cannot be Discarded
 | 1-RU1 |  Echoes of Life  |  Feature  |  6  | Undead  |  --  |  **Encounter**: Attach a card from your hand that Needs exactly 1 of Assassin, Bard, Sorceror or Knight. <br /> Pay the XP cost of one card attached to this: The card is considered in-play until the end of this turn, and has its usual effects.
 | 1-RU1 |  Necromancy  |  Consumable  / Spell  |  1 |  Undead  |  Head  |  **Consume**: Search your Discard for any card and shuffle it back into the Deck.
 | 1-RU1 |  Out of Phase  |  Feature  |  2  | Undead  | Body |  Shuffle _this_ into your deck: Opponent gets -1⚡ and skips their next Encounter step.
@@ -72,7 +72,7 @@ At the end of your turn, discard any cards attached to _this_.
 | 2 |  Ancient Secrets  |  Spell  |  4  |  --  |  --  |  **Encounter**; -2⚡: Search your Discard for any _Spell_ and put it in to your Hand.
 | 2 |  Bedroll  |  Item / Tool  |  2  |  --  |  Pack  |  : +1💗
 | 2 |  Begging For Scraps  |  Consumable / Feature  |  2  |  --  |  --  |  -2🎵 <br /> **Consume**; -1💗: Search your discard pile for any _Potion_ and put it into your Hand.
-| 2 |  Beltpouch  |  Item / Tool  |  5  |  --  |  --  | Ignore all of your "Needs Beltpouch" symbols in play <br />Discard a card of yours from play: Search your Deck for a _Loot_ and add it to your Hand, then shuffle <br />Discard _this_ OR Discard a card of yours with "Needs Beltpouch": Search your Deck for a card with "Needs Beltpouch", then shuffle.
+| 2 |  Beltpouch  |  Item / Tool  |  5  |  --  |  --  | Ignore all Beltpouch symbols on your cards in play. <br />Discard a card of yours from play: Search your Deck for a _Loot_ and add it to your Hand, then shuffle <br />Discard _this_ OR Discard a card of yours with Beltpouch: Search your Deck for a card with Beltpouch, then shuffle.
 | 2 |  Big Ole Diamond  |  Item / Loot  |  2  |  --  |  --  |  **Encounter**: +2🌈
 | 2 |  Big Ole Fake  |  Consumable / Loot  |  2  |  --  |  Beltpouch  |  **Consume**: Discard any loot or consumable from play.
 | 2 |  Buckler  |  Item / Armour  |  2  |  --  |  Left-hand / Right-hand  |  +2⛊
