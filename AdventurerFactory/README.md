@@ -25,14 +25,15 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
 ## Setup
 1. Each player starts with 20 💗 and 20 ⚡
 2. Each Players starts with a Violence and Diplomacy Die of 1d1 (that is, a flat 1 damage)
-2. Player 1 takes 3 🌈
-3. Player 2 takes 5 🌈
+2. Player 1 takes 2 🌈
+3. Player 2 takes 4 🌈
 4. Each deck is shuffled and each player draws 5 cards.
 
 ## Phases each Turn
 ### Resource Step
-1. Take 1🌈 for each card you have in play, with a minimum of 1 and a maximum of 7.
-2. Draw 1 card if possible.
+1. Take 1🌈 for each card you have in play, with a minimum of 1.
+2. If you have more than 10🌈, discard the surplus.
+3. Draw 1 card if possible.
 
 ### Main step
 As many times as you like / can afford do the following.
