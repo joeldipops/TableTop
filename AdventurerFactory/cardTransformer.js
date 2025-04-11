@@ -102,7 +102,7 @@ const massageEffects = function(data) {
 
     // Replace symbols relating to particular cards or rules into icons built with svg.
     SYMBOL_TOKENS.forEach((token) => {
-        data = data.replaceAll(token, `<img class="symbol" height="16" width="16" src="Icons.svg#${token}" alt="${token}" />`);
+        data = data.replaceAll(token, `<img class="symbol" height="32" width="32" src="Icons.svg#${token}" alt="${token}" />`);
     });
 
     const simpleEffectRegex = /^([+-][0-9]+\w?.+[^:]*)|(Provides .+)$/
@@ -153,7 +153,7 @@ const massageFills = function(data) {
 
         result.push({
             key : val,
-            xOffset : -index * 16
+            xOffset : (-index * 32)
         });
         return result;
     }, []);
@@ -172,14 +172,14 @@ const massageNeeds = function(data) {
 
         result.push({
             key: val,
-            xOffset : index * 20
+            xOffset : index * 40
         });
 
         return result;
     }, []);
 }
 
-const CARD_HEIGHT = 450;
+const CARD_HEIGHT = 900;
 
 const setArt = function(name) {
     const fileName = `art/${santiseForFilename(name)}.png`;

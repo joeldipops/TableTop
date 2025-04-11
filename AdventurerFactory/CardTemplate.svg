@@ -1,6 +1,6 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="300"
+    width="600"
     height="{{totalHeight}}"
 >
     <style>
@@ -14,12 +14,13 @@ circle { stroke : black; }
 }
 
 .head > text:first-child {
-    font-size: larger;
+    font-size: 40px;
     font-weight: bold;
 }
 
 text, div {
     font-family: sans-serif;
+    font-size: 30px;
 }
 
     text.heading {
@@ -43,23 +44,24 @@ text, div {
     }
 
 div {
-    font-size: small;
+    font-size: 24px;
 }
 
 .xp-cost {
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .effects {
     border-style: dotted;
-    padding-top: 4px;
+    border-width: 4px;
+    padding-top: 8px;
 }
 
     .effects > div {
         margin-bottom: 16px;
         margin-right: 4px;
-        line-height: 20px;
+        line-height: 36px;
         padding-left: 6px;
     }
 
@@ -74,20 +76,19 @@ div {
     }
 
 .effect-cost {
-    outline: 2px solid;
+    outline: 4px solid;
     box-decoration-break: clone;
     border-style: none;
     border-radius: 12px;
     margin-right: 4px;
-    padding: 2px 6px 2px 4px;
+    padding: 4px 12px 4px 8px;
     border-collapse: separate;
-
 }
 
     .effect-cost strong {
         font-weight: bold;
         font-size: larger;
-        margin-left: 2px;
+        margin-left: 4px;
     }
 
 .special-cost {
@@ -103,17 +104,17 @@ div {
     </style>
     {{#each cards}}
     <g
-        width="300"
-        height="450"
-        transform="translate(4, {{this.y}})"
+        width="600"
+        height="900"
+        transform="translate(8, {{this.y}})"
     >
         <rect
             class="border"
-            width="292px"
-            height="442px"
+            width="584px"
+            height="884px"
         />
         <g 
-            transform="translate(0, 4)"
+            transform="translate(0, 8)"
             class="head"
         >
             <text
@@ -123,39 +124,39 @@ div {
             <text
                 class="heading"
                 x="50%"
-                dy="20"
+                dy="40"
             >{{this.types}}</text>
         </g>
         <rect
             class="border art"
-            x="4"
-            y="38"
-            width="284"
-            height="150"
+            x="8"
+            y="76"
+            width="568"
+            height="300"
         />
         {{#if this.artFile}}
-        <image href="{{this.artFile}}" x="4" y="38" height="150" width="284" />
+        <image href="{{this.artFile}}" x="4" y="76" height="300" width="568" />
         {{/if}}
-        <g transform="translate(150, 188)">
+        <g transform="translate(300, 376)">
             <circle
                 class="border"
-                r="24"
+                r="48"
             />
-            <text class="centred xp-cost" y="2">{{this.cost}}</text>
+            <text class="centred xp-cost" y="4">{{this.cost}}</text>
         </g>
         {{#if this.needs}}
         <g
             class="needs"
-            transform="translate(0, 188)"
+            transform="translate(0, 380)"
         >
             <text
                 class="align-left"
                 dy="4"
-                x="4"
+                x="8"
             >Needs</text>
-            <g transform="translate(4, 20)">
+            <g transform="translate(8, 36)">
             {{#each this.needs}}
-                <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" />
+                <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" width="32" height="32" />
             {{/each}}
             </g> 
         </g>
@@ -163,28 +164,28 @@ div {
         {{#if this.fills}}
         <g
             class="fills"
-            transform="translate(292, 188)"
+            transform="translate(584, 380)"
         >
             <text
                 class="align-right"
                 y="4px"
-                x="-4"
+                x="-12"
             >Fills</text>
-            <g transform="translate(-22, 20)">
+            <g transform="translate(-44, 36)">
                 {{#each this.fills}}
-                    <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" />
+                    <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" width="32" height="32" />
                 {{/each}}
             </g>
         </g>
         {{/if}}
         <g
             class="effects"
-            transform="translate(0, 232)"
+            transform="translate(0, 464)"
         >
             <foreignObject
                 x="4px"
-                width="280px"
-                height="200px"
+                width="560px"
+                height="400px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
                 {{#each this.effects}}
