@@ -1,4 +1,9 @@
 # Adventurer Factory
+_No-one knew who had cast the spell that caused the ground to crumble and the oceans to swallow the land, but, as everyone said "Well, it certainly wasn't me!"
+
+Mistrust reigned far wider than any King or Empress, and nobody was spared from the fever. Disputes and skirmishes and wars naturally spread across the realm, and even the basest of commoners would preface every greeting and goodbye with a sideways glance.
+
+And so this is how it is when you, a mysterious traveller on a dusty road, chance to meet another.  Who are they?  What are they hiding? *Why are they looking at _you_ like that?*  Should you chase them off, bring them to reason, or simply leave them bleeding on the well trodden dirt?  Or will they get to you first? 
 
 ## Goal
 Deplete opponents _Health_ (💗) or _Willpower_ (⚡) to 0 by building a powerful character and then using his or her best abilities.
