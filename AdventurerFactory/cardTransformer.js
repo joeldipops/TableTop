@@ -233,7 +233,7 @@ const generateDigital = async function(template, viewModel) {
         await new Promise((resolve, reject) => {
             fs.writeFile(fileName, template({
                 cards : [card],
-                totalHeight: 450
+                totalHeight: 900
             }), (err) => {
                 if (err) {
                     console.log(err);
