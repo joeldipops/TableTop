@@ -41,7 +41,7 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
 3. Draw 1 card if possible.
 
 ### Main step
-As many times as you like / can afford do the following.
+As many times as you like / can afford, do the following.
 - Play a card
     1. Check whether the card has any `Needs` listed.  The card cannot be played unless all `Needs` are met.
         - For example, your only card in play is `Knight` which provides `1xKnight`.  In your hand, you have `Silent Steps`, which needs 1x`Assasin`,`Silver Ring` which has no needs,  `Squire` which needs 1x`Knight` and  `Knightly Banner` which needs `2xKnight`.  You may play `Silver Ring` or `Squire`, but you may not play `Silent Steps` or `Knightly Banner`.        
@@ -60,7 +60,12 @@ As many times as you like / can afford do the following.
     2. Pay the cost
     2. If the action was from a `Consumable` card, turn it on its side to indicate it has now been _Consumed_.
     3. Perform the action
-    4. Allow your opponent to respond with an action and so on...    
+    4. Allow your opponent to respond with an action and so on...
+ 
+- Discard one of your in-play cards.
+     There may be times when you find it advantageous to remove one of your cards from play.  You may do this on your turn unless a card says otherwise.
+     1. Pay 1🌈
+     2. Put the card in the discard pile.
 
 ### Encounter Step
 In the encounter step, you may do one of the following.
