@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+
+    body > section {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+#filteredList {
+    list-style-type: none;
+}
+
+    #filteredList > li {
+        display: flex;
+    }
+
+    #filteredList [name='add'] {
+        height: 50px;
+        margin: auto 0;
+        margin-left: 10px;
+    }
+
+* {
+    font-family: sans-serif;
+}
+

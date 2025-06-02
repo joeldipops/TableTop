@@ -254,6 +254,19 @@ const generateDigital = async function(template, viewModel) {
     return;
 };
 
+const generateJson = async function(viewModel) {
+    return await new Promise((resolve, reject) => {
+        fs.writeFile("cards.json", JSON.stringify(viewModel), (err) => {
+            if (err) {
+                console.log(err);
+                return reject(err);
+            }
+
+            return resolve();
+        });
+    });
+};
+
 (async function main() {
     const args = process.argv;
 
@@ -274,6 +287,8 @@ const generateDigital = async function(template, viewModel) {
 
     const templateSvg = await loadFile("CardTemplate.svg");
     const template = Handlebars.compile(templateSvg);
+
+    await generateJson(viewModel);
 
     if(args.includes("-p") || args.includes("--printable")) {
         await generatePrintable(template, viewModel);
