@@ -1,18 +1,17 @@
 // Main logic of the application.
 (async function() {
-    const currentFilters = {};
+    let currentFilters = {};
     const onAddClick = function(event) {
         alert(`Clicked: ${event.currentTarget.getAttribute("data-cardid")}`);
     };
 
     const onFilterChange = function(event) {
+        currentFilters = {};
         document.querySelectorAll("#filters select")
         .forEach(function(el) {
             const name = el.getAttribute("name");
-            if (el.value === "Any") {
-                delete el[name];
-            } else {
-                filters[el.getAttribute("name")] = el.value;
+            if (el.value !== "Any") {
+                currentFilters[el.getAttribute("name")] = el.value;
             }
         });
 
@@ -20,11 +19,15 @@
         displayList = sortList(displayList);
 
         renderList(displayList, _cardTemplate);
+        bindEvents(events);
     }
 
     const events = [
         ["click", "add", onAddClick],
-        ["change", "types", onFilterChange]
+        ["change", "types", onFilterChange],
+        ["change", "types_2", onFilterChange],
+        ["change", "needs", onFilterChange],
+        ["change", "fills", onFilterChange]
     ];
 
     const santiseForFilename = function(name) {
@@ -50,6 +53,41 @@
     };
 
     const filterList = function(list) {
+        // Filters are ANDed together.
+        if (currentFilters.types) {
+            list = list.filter(function(card) {
+                return card.types.includes(currentFilters.types);
+            });
+        }
+
+        if (currentFilters.types_2) {
+            list = list.filter(function(card) {
+                return card.types.includes(currentFilters.types_2);
+            });
+        }
+
+        if (currentFilters.needs) {
+            const providesRegex = new RegExp(`Provides.+alt="${currentFilters.needs}".+`);
+            list = list.filter(function(card) {
+                return (
+                    card.needs.some(function(n) { return n.key === currentFilters.needs; })
+                    || card.effects.some(function(e) { return providesRegex.test(e.text); })
+                );
+            });
+        }
+
+        if (currentFilters.fills) {
+            list = list.filter(function(card) {
+                let matches;
+                if (currentFilters.fills === "Class") {
+                    matches = ["C1", "C2", "C3", "C4"]
+                } else {
+                    matches = [currentFilters.fills];
+                }
+
+                return card.fills.some(function(n) { return matches.includes(n.key); });
+            });
+        }
         return list;
     };
 
@@ -59,6 +97,7 @@
 
     const renderList = function(list, template) {
         const container = document.getElementById("filteredList");
+        container.innerHTML = "";
         list.forEach(function(card) {
             let html;
 
@@ -126,6 +165,7 @@
 
     const getFilterValues = function(list, name) {
         switch(name) {
+            case "types_2":
             case "types": return getAllTypes(list);
             case "fills": return getAllFills(list);
             case "needs": return getAllNeeds(list);
@@ -158,6 +198,8 @@
         events.forEach(function(ev) {
             const controls = document.querySelectorAll(`[name='${ev[name]}']`);
             controls.forEach(function(ctrl) {
+                // Remove in case it was added previously.
+                ctrl.removeEventListener(ev[event], ev[handler]);
                 ctrl.addEventListener(ev[event], ev[handler]);
             });
         });

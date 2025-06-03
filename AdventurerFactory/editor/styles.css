@@ -1,5 +1,6 @@
 body {
     display: flex;
+    margin: 0 16px;
 }
 
     body > section {
@@ -7,7 +8,10 @@ body {
         margin: 0 auto;
     }
 
-/* #filters {} */
+#filters {
+    margin: 0;
+    width: 300px;
+}
 
     #filters label {
         display: block;
@@ -15,18 +19,54 @@ body {
     }
 
 
+#cardList {
+    width: fit-content;
+}
+
+
+:root {
+    --card-width: 240px;
+}
+
+
 #filteredList {
     list-style-type: none;
+    padding-left: 0;
+    /* Enough room for two columns of cards */
+    width: calc(var(--card-width) * 2 + 48px);
+    overflow-y: scroll;
+    height: 100vh;
 }
 
     #filteredList > li {
-        display: flex;
+        display: inline-block;
+        break-inside: avoid-column;
+        page-break-inside: avoid;
+    }
+
+    #filteredList > li > div {
+        width: fit-content;
+        padding: 6px;
+    }
+
+    #filteredList > li:nth-child(4n+1) > div,
+    #filteredList > li:nth-child(4n+2) > div {
+        background-color: #dddddd;
+    }
+
+    #filteredList > li:nth-child(4n) > div,
+    #filteredList > li:nth-child(4n+3) > div {
+        background-color: #eeeeee;
+    }
+
+    #filteredList img {
+        display: block;
     }
 
     #filteredList [name='add'] {
-        height: 50px;
-        margin: auto 0;
-        margin-left: 10px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
 
 * {
