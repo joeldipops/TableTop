@@ -7,6 +7,14 @@ body {
         margin: 0 auto;
     }
 
+/* #filters {} */
+
+    #filters label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+
 #filteredList {
     list-style-type: none;
 }
