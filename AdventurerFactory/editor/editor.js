@@ -1,8 +1,28 @@
 // Main logic of the application.
 (async function() {
     let currentFilters = {};
+    const _deckList = [];
+
     const onAddClick = function(event) {
-        alert(`Clicked: ${event.currentTarget.getAttribute("data-cardid")}`);
+        const cardId = event.currentTarget.getAttribute("data-cardid")
+
+        const fnFind = function(card) {
+            return card.identity === cardId;
+        };
+
+        const card = _fullList.find(fnFind);
+
+        let deckCard = _deckList.find(fnFind);
+
+        if (!deckCard) {
+            deckCard = structuredClone(card);
+            deckCard.quantity = 0;
+            _deckList.push(card);
+        }
+
+        deckCard.quantity++;
+
+        renderDeck(_deckList, _deckCardTemplate);
     };
 
     const onFilterChange = function(event) {
@@ -52,6 +72,13 @@
         });
     };
 
+    const loadDeckCardTemplate = async function() {
+        return await sendHttpRequest("/editor/deckItem.html", "GET")
+        .then(function(response) {
+            return response.responseText;
+        });
+    }
+
     const filterList = function(list) {
         // Filters are ANDed together.
         if (currentFilters.types) {
@@ -94,6 +121,24 @@
     const sortList = function(list) {
         return list;
     }
+
+    const renderDeck = function(list, template) {
+        const container = document.getElementById("deckList");
+        container.innerHTML = "";
+        list.forEach(function(card) {
+            let html;
+
+            for(let key in card) {
+                if(!card.hasOwnProperty(key)) {
+                    continue;
+                }
+
+                html = template.replace(new RegExp("{" + key + "}", "g"), card[key]);
+            }
+
+            container.insertAdjacentHTML("beforeend", html);
+        });
+    };
 
     const renderList = function(list, template) {
         const container = document.getElementById("filteredList");
@@ -205,9 +250,12 @@
         });
     }
 
-    const response = await Promise.all([loadCardList(), loadCardTemplate()]);
+    const response = await Promise.all([
+        loadCardList(), loadCardTemplate(), loadDeckCardTemplate()
+    ]);
     const _fullList = response[0];
     const _cardTemplate = response[1];
+    const _deckCardTemplate = response[2];
 
     renderFilters(_fullList);
 
@@ -215,6 +263,7 @@
     displayList = sortList(displayList);
 
     renderList(displayList, _cardTemplate);
+    renderDeck(_deckList, _deckCardTemplate);
 
     bindEvents(events);
 })();
