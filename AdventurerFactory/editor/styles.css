@@ -5,7 +5,7 @@ body {
 
     body > section {
         width: 30%;
-        margin: 0 auto;
+        margin: 0 0;
     }
 
 #filters {
@@ -25,15 +25,45 @@ body {
 
 
 :root {
-    --card-width: 240px;
+    --list-card-width: 240px;
+    --deck-card-width: 160px;
 }
 
+#deckList {
+    list-style-type: none;
+    list-style-type: none;
+    padding-left: 0;
+    /* Enough room for two columns of cards */
+    width: calc(var(--deck-card-width) * 3 + 64px);
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+    .deckItemControls {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+        .deckItemControls > span {
+            margin: 0 8px;
+        }
+
+    #deckList > li {
+        display: inline-block;
+        break-inside: avoid-column;
+        page-break-inside: avoid;
+    }
+
+    #deckList > li > div {
+        width: fit-content;
+        padding: 6px;
+    }
 
 #filteredList {
     list-style-type: none;
     padding-left: 0;
     /* Enough room for two columns of cards */
-    width: calc(var(--card-width) * 2 + 48px);
+    width: calc(var(--list-card-width) * 2 + 48px);
     overflow-y: scroll;
     height: 100vh;
 }

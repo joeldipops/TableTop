@@ -3,6 +3,30 @@
     let currentFilters = {};
     const _deckList = [];
 
+
+    const onRemoveClick = function(event) {
+        const cardId = event.currentTarget.getAttribute("data-cardid")
+
+        const fnFind = function(card) {
+            return card.identity === cardId;
+        };
+
+        let card = _deckList.find(fnFind);
+        if (!card) {
+            return;
+        }
+
+        card.quantity--;
+
+        // Remove it altogether.
+        if (!card.quantity) {
+            _deckList.splice(_deckList.indexOf(card), 1);
+        }
+
+        renderDeck(_deckList, _deckCardTemplate);
+        bindEvents(events);
+    }
+
     const onAddClick = function(event) {
         const cardId = event.currentTarget.getAttribute("data-cardid")
 
@@ -17,12 +41,14 @@
         if (!deckCard) {
             deckCard = structuredClone(card);
             deckCard.quantity = 0;
-            _deckList.push(card);
+            _deckList.push(deckCard);
         }
 
-        deckCard.quantity++;
-
-        renderDeck(_deckList, _deckCardTemplate);
+        if (deckCard.quantity < window.DeckEditor.COPY_LIMIT) {
+            deckCard.quantity++;
+            renderDeck(_deckList, _deckCardTemplate);
+            bindEvents(events);
+        }
     };
 
     const onFilterChange = function(event) {
@@ -44,6 +70,7 @@
 
     const events = [
         ["click", "add", onAddClick],
+        ["click", "remove", onRemoveClick],
         ["change", "types", onFilterChange],
         ["change", "types_2", onFilterChange],
         ["change", "needs", onFilterChange],
@@ -126,14 +153,14 @@
         const container = document.getElementById("deckList");
         container.innerHTML = "";
         list.forEach(function(card) {
-            let html;
+            let html = template;
 
             for(let key in card) {
                 if(!card.hasOwnProperty(key)) {
                     continue;
                 }
 
-                html = template.replace(new RegExp("{" + key + "}", "g"), card[key]);
+                html = html.replace(new RegExp("{" + key + "}", "g"), card[key]);
             }
 
             container.insertAdjacentHTML("beforeend", html);
@@ -144,14 +171,14 @@
         const container = document.getElementById("filteredList");
         container.innerHTML = "";
         list.forEach(function(card) {
-            let html;
+            let html = template;
 
             for(let key in card) {
                 if(!card.hasOwnProperty(key)) {
                     continue;
                 }
 
-                html = template.replace(new RegExp("{" + key + "}", "g"), card[key]);
+                html = html.replace(new RegExp("{" + key + "}", "g"), card[key]);
             }
 
             container.insertAdjacentHTML("beforeend", html);
