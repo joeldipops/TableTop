@@ -1,53 +1,46 @@
 // Main logic of the application.
 (async function() {
     let currentFilters = {};
-    const _deckList = [];
 
+    const fnFind = function(cardId, card) {
+        return card.identity === cardId;
+    };
 
     const onRemoveClick = function(event) {
         const cardId = event.currentTarget.getAttribute("data-cardid")
+        const card = _fullList.find(fnFind.bind(null, cardId));
 
-        const fnFind = function(card) {
-            return card.identity === cardId;
-        };
-
-        let card = _deckList.find(fnFind);
-        if (!card) {
-            return;
-        }
+        const updateList = card.quantity >=  window.DeckEditor.COPY_LIMIT;
 
         card.quantity--;
-
-        // Remove it altogether.
-        if (!card.quantity) {
-            _deckList.splice(_deckList.indexOf(card), 1);
-        }
-
-        renderDeck(_deckList, _deckCardTemplate);
+        renderDeck(_fullList, _deckCardTemplate);
         bindEvents(events);
+
+        // enable the button since we're under the limit.
+        if (updateList) {
+            const li = document.getElementById(`listCard_${card.identity}`);
+            renderListItem(card, li, _cardTemplate, "", "beforebegin");
+            li.parentElement.removeChild(li);
+        }
     }
 
     const onAddClick = function(event) {
         const cardId = event.currentTarget.getAttribute("data-cardid")
 
-        const fnFind = function(card) {
-            return card.identity === cardId;
-        };
+        const card = _fullList.find(fnFind.bind(null, cardId));
+        card.quantity = card.quantity || 0;
 
-        const card = _fullList.find(fnFind);
-
-        let deckCard = _deckList.find(fnFind);
-
-        if (!deckCard) {
-            deckCard = structuredClone(card);
-            deckCard.quantity = 0;
-            _deckList.push(deckCard);
+        if (card.quantity < window.DeckEditor.COPY_LIMIT) {
+            card.quantity++;
+            renderDeck(_fullList, _deckCardTemplate);
+            bindEvents(events);
         }
 
-        if (deckCard.quantity < window.DeckEditor.COPY_LIMIT) {
-            deckCard.quantity++;
-            renderDeck(_deckList, _deckCardTemplate);
-            bindEvents(events);
+        // Disable the button since we're over the limit.
+        if (card.quantity >= window.DeckEditor.COPY_LIMIT) {
+            const li = document.getElementById(`listCard_${card.identity}`);
+            renderListItem(card, li, _cardTemplate, "disabled", "beforebegin");
+            li.parentElement.removeChild(li);
         }
     };
 
@@ -57,7 +50,7 @@
         .forEach(function(el) {
             const name = el.getAttribute("name");
             if (el.value !== "Any") {
-                currentFilters[el.getAttribute("name")] = el.value;
+                currentFilters[name] = el.value;
             }
         });
 
@@ -68,36 +61,84 @@
         bindEvents(events);
     }
 
+    const onCsvLoad = function (event) {
+        const lines = event.target.result.split(/[\r\n]+/);
+
+        const nameRegex = /(.+)\..*/;
+        const cards = lines.map(line => {
+            const cardArr = line.split(",");
+
+            const regexResult = nameRegex.exec(cardArr[1])
+            if (!regexResult) {
+                return;
+            }
+
+            const card = _fullList.find(fnFind.bind({}, regexResult[1]));
+            if (!card) {
+                return;
+            }
+
+            card.foreignLink = cardArr[0];
+            card.quantity = parseInt(cardArr[2], 10);
+            card.foreignToken = cardArr[3];
+
+            return card;
+        });
+
+        let displayList = filterList(_fullList);
+        displayList = sortList(displayList);
+
+        renderList(displayList, _cardTemplate);
+        renderDeck(_fullList, _deckCardTemplate);
+    };
+
+    const onCsvSelected = function(event) {
+        const fileHandle = event.currentTarget.files[0];
+
+        const reader = new FileReader();
+
+        reader.addEventListener("load", onCsvLoad);
+        reader.readAsText(fileHandle);
+    };
+
     const events = [
         ["click", "add", onAddClick],
         ["click", "remove", onRemoveClick],
         ["change", "types", onFilterChange],
         ["change", "types_2", onFilterChange],
         ["change", "needs", onFilterChange],
-        ["change", "fills", onFilterChange]
+        ["change", "fills", onFilterChange],
+        ["change", "load", onCsvSelected]
     ];
 
     const santiseForFilename = function(name) {
         return name.replace(/[^a-z0-9]/gi, '_');
     }
 
+    const getDeckLength = function(list) {
+        return list.reduce(function(memo, card) {
+            return memo + (card.quantity || 0);
+        }, 0);
+    };
+
     const loadCardList = async function() {
         return await sendHttpRequest("/cards.json", "GET")
         .then(function(response) {
             const cards = JSON.parse(response.responseText).cards;
             cards.forEach(function(card) {
+                card.disabled = "";
                 card.identity = santiseForFilename(card.name);
             });
             return cards;
         });
     };
 
-    const loadCardTemplate = async function() {
-        return await sendHttpRequest("/editor/listItem.html", "GET")
+    const loadFile = async function(fileName) {
+        return await sendHttpRequest(`/editor/${fileName}`, "GET")
         .then(function(response) {
             return response.responseText;
         });
-    };
+    }
 
     const loadDeckCardTemplate = async function() {
         return await sendHttpRequest("/editor/deckItem.html", "GET")
@@ -152,7 +193,20 @@
     const renderDeck = function(list, template) {
         const container = document.getElementById("deckList");
         container.innerHTML = "";
+
+        const deckDetails = {
+            total: 0,
+            limit: window.DeckEditor.DECK_LIMIT
+        };
+
         list.forEach(function(card) {
+            if (!card.quantity) {
+                return;
+            }
+
+            card.disabledAttr = (card.quantity >= window.DeckEditor.COPY_LIMIT ? "disabled" : "");
+            deckDetails.total += card.quantity || 0;
+
             let html = template;
 
             for(let key in card) {
@@ -165,23 +219,50 @@
 
             container.insertAdjacentHTML("beforeend", html);
         });
+
+        if (deckDetails.total === deckDetails.limit) {
+            deckDetails.class = "full";
+        } else if (deckDetails.total > deckDetails.limit) {
+            deckDetails.class = "over";
+        }
+
+        html = _deckDetailsTemplate;
+        for(let key in deckDetails) {
+            if(!deckDetails.hasOwnProperty(key)) {
+                continue;
+            }
+
+            html = html.replace(new RegExp("{" + key + "}", "g"), deckDetails[key]);
+        }
+
+        const detailsContainer = document.getElementById("deckDetails");
+        while(detailsContainer.firstChild) {
+            detailsContainer.removeChild(detailsContainer.firstChild);
+        }
+        detailsContainer.insertAdjacentHTML("beforeend", html);
+    };
+
+    const renderListItem = function(card, container, template, disabledAttr, position) {
+        let html = template;
+
+        card.disabledAttr = disabledAttr || (card.quantity >= window.DeckEditor.COPY_LIMIT ? "disabled" : "");
+        for(let key in card) {
+            if(!card.hasOwnProperty(key)) {
+                continue;
+            }
+
+            html = html.replace(new RegExp("{" + key + "}", "g"), card[key]);
+        }
+
+        container.insertAdjacentHTML(position || "beforeend", html);
     };
 
     const renderList = function(list, template) {
         const container = document.getElementById("filteredList");
         container.innerHTML = "";
+
         list.forEach(function(card) {
-            let html = template;
-
-            for(let key in card) {
-                if(!card.hasOwnProperty(key)) {
-                    continue;
-                }
-
-                html = html.replace(new RegExp("{" + key + "}", "g"), card[key]);
-            }
-
-            container.insertAdjacentHTML("beforeend", html);
+            renderListItem(card, container, template, null);
         });
     };
 
@@ -278,11 +359,12 @@
     }
 
     const response = await Promise.all([
-        loadCardList(), loadCardTemplate(), loadDeckCardTemplate()
+        loadCardList(), loadFile("listItem.html"), loadFile("deckDetails.html"), loadFile("deckItem.html")
     ]);
     const _fullList = response[0];
     const _cardTemplate = response[1];
-    const _deckCardTemplate = response[2];
+    const _deckDetailsTemplate = response[2];
+    const _deckCardTemplate = response[3];
 
     renderFilters(_fullList);
 
@@ -290,7 +372,7 @@
     displayList = sortList(displayList);
 
     renderList(displayList, _cardTemplate);
-    renderDeck(_deckList, _deckCardTemplate);
+    renderDeck(_fullList, _deckCardTemplate);
 
     bindEvents(events);
 })();

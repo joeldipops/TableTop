@@ -1,3 +1,8 @@
+:root {
+    --list-card-width: 240px;
+    --deck-card-width: 160px;
+}
+
 body {
     display: flex;
     margin: 0 16px;
@@ -7,6 +12,8 @@ body {
         width: 30%;
         margin: 0 0;
     }
+
+[for='loadFile'] { display: block; }
 
 #filters {
     margin: 0;
@@ -21,12 +28,6 @@ body {
 
 #cardList {
     width: fit-content;
-}
-
-
-:root {
-    --list-card-width: 240px;
-    --deck-card-width: 160px;
 }
 
 #deckList {
@@ -58,6 +59,18 @@ body {
         width: fit-content;
         padding: 6px;
     }
+
+
+#deckDetails .full {
+    font-weight: bold;
+    color: green;
+}
+
+#deckDetails .over {
+    font-weight: bold;
+    font-size: larger;
+    color: red;
+}
 
 #filteredList {
     list-style-type: none;
