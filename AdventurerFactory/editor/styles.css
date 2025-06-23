@@ -112,6 +112,10 @@ body {
         margin: 0 auto;
     }
 
+.general-control {
+    margin: 4px 0;
+}
+
 * {
     font-family: sans-serif;
 }

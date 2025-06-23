@@ -1,3 +1,6 @@
-<label for="loadFile">Load: <input id="loadFile" type="file" name="load" accept="text/csv, application/csv" /></label>
-<label for="deckName">Name: <input type="text" name="deckName" id="deckName" /></label>
-<span>(<span class="{class}">{total}</span>/{limit})</span>
+<label class="general-control" for="loadFile">Import: <input id="loadFile" type="file" name="load" accept="text/csv, application/csv" /></label>
+<div class="general-control">
+    <label for="deckName">Name: <input type="text" name="deckName" id="deckName" /></label>
+    <span>(<span class="{class}">{total}</span>/{limit})</span>
+    <button class="general-control" name="export">Export</button>
+</div>

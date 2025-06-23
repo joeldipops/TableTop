@@ -1,6 +1,7 @@
 // Main logic of the application.
 (async function() {
     let currentFilters = {};
+    let _headers;
 
     const fnFind = function(cardId, card) {
         return card.identity === cardId;
@@ -61,11 +62,12 @@
         bindEvents(events);
     }
 
-    const onCsvLoad = function (event) {
-        const lines = event.target.result.split(/[\r\n]+/);
+    const nameRegex = /(.+)\..*/;
+    const parseCsv = function(lines, isTemplate) {
+        // First line are headers, which are required for foreign consumer to be able to understand our csv.
+        _headers = lines.shift();
 
-        const nameRegex = /(.+)\..*/;
-        const cards = lines.map(line => {
+        return lines.map(line => {
             const cardArr = line.split(",");
 
             const regexResult = nameRegex.exec(cardArr[1])
@@ -84,6 +86,25 @@
 
             return card;
         });
+    };
+
+    const buildCsv = function(list) {
+        let result = `data:text/csv;charset=utf-8,${_headers}\r`;
+        list.forEach(function(card) {
+            if (!card.quantity) {
+                return;
+            }
+
+            result += `${card.foreignLink},${card.identity}.png,${card.quantity},${card.foreignToken}\r`;
+        });
+
+        return result;
+    }
+
+    const onCsvLoad = function (event) {
+        const lines = event.target.result.split(/[\r\n]+/);
+
+        const cards = parseCsv(lines);
 
         let displayList = filterList(_fullList);
         displayList = sortList(displayList);
@@ -101,9 +122,29 @@
         reader.readAsText(fileHandle);
     };
 
+    const onExportClick = function(event) {
+        // Can't save the deck without a file name for it.
+        const el = document.querySelector("[name='deckName']")
+        if (!el || !el.value) {
+            return;
+        }
+
+        const csv = encodeURI(buildCsv(_fullList));
+
+        const link = document.createElement("a");
+        link.setAttribute("href", csv);
+        link.setAttribute("download", `${el.value}.csv`);
+        document.body.appendChild(link);
+
+        link.click();
+
+        link.parentElement.removeChild(link);
+    };
+
     const events = [
         ["click", "add", onAddClick],
         ["click", "remove", onRemoveClick],
+        ["click", "export", onExportClick],
         ["change", "types", onFilterChange],
         ["change", "types_2", onFilterChange],
         ["change", "needs", onFilterChange],
@@ -359,12 +400,20 @@
     }
 
     const response = await Promise.all([
-        loadCardList(), loadFile("listItem.html"), loadFile("deckDetails.html"), loadFile("deckItem.html")
+        loadCardList(),
+        loadFile("listItem.html"), 
+        loadFile("deckDetails.html"),
+        loadFile("deckItem.html"),
+        loadFile("index.csv")
     ]);
     const _fullList = response[0];
     const _cardTemplate = response[1];
     const _deckDetailsTemplate = response[2];
     const _deckCardTemplate = response[3];
+    const _foreignLinkCsv = response[4];
+
+    // apply external images
+    parseCsv(_foreignLinkCsv.split(/[\r\n]+/), true);
 
     renderFilters(_fullList);
 
