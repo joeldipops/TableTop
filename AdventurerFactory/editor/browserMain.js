@@ -547,7 +547,7 @@ var setup = function() {
         mainEl = document.getElementById("main");
         if (mainEl) {
             window.coreReady = true;
-            loadExternalScript("editor", "/editor/editor.js");
+            loadExternalScript("editor", "./editor/editor.js");
             return true;
         }
         return false;

@@ -23,13 +23,13 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
 - Set of D&D dice ie. d4, d6, d8, d10, d12, d20
 - Some way to keep track of Experience (🌈), Health (💗) and Willpower (⚡)
 ### Optional
-- Something to track your _Violence Die_ and _Diplomacy Die_.
+- Something to track your _Attack Die_ and _Parley Die_.
 - Something to track _Attack_ (💪), _Defense_ (⛊) and _Charisma_ (🎵)
       bonuses + any other card-specific resources.
 
 ## Setup
 1. Each player starts with 20 💗 and 20 ⚡
-2. Each Players starts with a Violence and Diplomacy Die of 1d1 (that is, a flat 1 damage)
+2. Each Players starts with a Violence and Parley Die of 1d1 (that is, a flat 1 damage)
 2. Player 1 takes 2 🌈
 3. Player 2 takes 4 🌈
 4. Each deck is shuffled and each player draws 5 cards.
@@ -69,11 +69,11 @@ As many times as you like / can afford, do the following.
 
 ### Encounter Step
 In the encounter step, you may do one of the following.
-- Attack by rolling your _Violence Die_ in order to lower your opponents 💗 and defeat them in combat.
-    - The formula is `New 💗 = Old 💗 - (Violence Die + Your 💪 - Their ⛊)`
+- Attack by rolling your _Attack Die_ in order to lower your opponents 💗 and defeat them in combat.
+    - The formula is `New 💗 = Old 💗 - (Attack Die + Your 💪 - Their ⛊)`
     - This is called a Simple Attack
-- Roll your _Diplomacy Die_ to lower their Willpower, and give up the fight.
-    - The formula is `New ⚡ = Old ⚡ - (Diplomacy Die + Your 🎵 - Their 🎵)`
+- Roll your _Parley Die_ to lower their Willpower, and give up the fight.
+    - The formula is `New ⚡ = Old ⚡ - (Parley Die + Your 🎵 - Their 🎵)`
     - This is called a Simple Parley
 - Perform the action on a card you have in play that includes a cost of _<ins>Encounter</ins>_:
 

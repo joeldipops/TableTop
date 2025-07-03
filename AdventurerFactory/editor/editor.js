@@ -163,7 +163,7 @@
     };
 
     const loadCardList = async function() {
-        return await sendHttpRequest("/cards.json", "GET")
+        return await sendHttpRequest("cards.json", "GET")
         .then(function(response) {
             const cards = JSON.parse(response.responseText).cards;
             cards.forEach(function(card) {
@@ -175,14 +175,14 @@
     };
 
     const loadFile = async function(fileName) {
-        return await sendHttpRequest(`/editor/${fileName}`, "GET")
+        return await sendHttpRequest(`editor/${fileName}`, "GET")
         .then(function(response) {
             return response.responseText;
         });
     }
 
     const loadDeckCardTemplate = async function() {
-        return await sendHttpRequest("/editor/deckItem.html", "GET")
+        return await sendHttpRequest("editor/deckItem.html", "GET")
         .then(function(response) {
             return response.responseText;
         });
