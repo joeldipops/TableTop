@@ -100,6 +100,10 @@ div {
 .symbols {
     font-size: larger;
 }
+
+.legal {
+    font-size: 18px;
+}
       ]]>
     </style>
     {{#each cards}}
@@ -201,6 +205,7 @@ div {
                 </div>
             </foreignObject>
         </g>
+        <text class="legal" x="2" y="878">Copyright (C) J Roberts 2025.  All Rights Reserved</text>
     </g>
     {{/each}}
 </svg>

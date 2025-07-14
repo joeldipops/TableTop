@@ -1,7 +1,18 @@
+/**
+ * Run as node ./cardTransformer.js 
+ * Args:
+ *  -p/--printable:
+ *      Combine all cards into a single large 3*x file that can (optimsitcally) be 
+ *      printed out and cut into individual cards.
+ *  -d/--digital:
+ *      Save all cards as individual svg files that can be digitally uploaded.
+ */
+
 const fs = require("fs");
 const readline = require("readline");
 const Handlebars = require("handlebars");
 const svgConverter = require("convert-svg-to-png");
+const puppeteer = require("puppeteer");
 
 /**
  * Load a file from the file system into memory.
@@ -221,6 +232,8 @@ const generatePrintable = async function(template, viewModel) {
 };
 
 const generateDigital = async function(template, viewModel) {
+    // Ensure the output folder exists or the conversion will fail.
+    await fs.mkdir("generated", () => {});
     for(let i = 0; i < viewModel.cards.length; i++) {
         const card = viewModel.cards[i];
         card.y = 4;
@@ -246,7 +259,10 @@ const generateDigital = async function(template, viewModel) {
 
         console.log("Converting ", name, " to png");
 
-        await svgConverter.convertFile(fileName, { outputFilePath : `generated/${name}.png` });
+        await svgConverter.convertFile(fileName, { 
+            outputFilePath : `generated/${name}.png`,
+            launch: { executablePath: puppeteer.executablePath }
+        });
 
         console.log("Done with ", name);
     }
