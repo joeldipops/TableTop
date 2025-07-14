@@ -111,6 +111,7 @@
 
         renderList(displayList, _cardTemplate);
         renderDeck(_fullList, _deckCardTemplate);
+        bindEvents(events);
     };
 
     const onCsvSelected = function(event) {
@@ -125,15 +126,13 @@
     const onExportClick = function(event) {
         // Can't save the deck without a file name for it.
         const el = document.querySelector("[name='deckName']")
-        if (!el || !el.value) {
-            return;
-        }
+        const csvName = (el && el.value) || "deckForJoelsThing";
 
         const csv = encodeURI(buildCsv(_fullList));
 
         const link = document.createElement("a");
         link.setAttribute("href", csv);
-        link.setAttribute("download", `${el.value}.csv`);
+        link.setAttribute("download", `${csvName}.csv`);
         document.body.appendChild(link);
 
         link.click();
