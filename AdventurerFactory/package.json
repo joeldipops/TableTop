@@ -5,7 +5,8 @@
         "puppeteer": "^24.12.1"
     },
     "devDependencies": {
-        "electron": "^37.2.0"
+        "electron": "^37.2.0",
+        "electron-packager": "^17.1.2"
     },
     "main": "electronMain.js",
     "scripts": {

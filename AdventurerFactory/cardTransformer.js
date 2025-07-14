@@ -8,6 +8,11 @@
  *      Save all cards as individual svg files that can be digitally uploaded.
  */
 
+// Useful commands
+// python -m http.server 8080
+// npx electron-packager . JoelsDeckBuilder --platform=win32 --arch=x64   
+
+
 const fs = require("fs");
 const readline = require("readline");
 const Handlebars = require("handlebars");
@@ -316,7 +321,6 @@ const generateJson = async function(viewModel) {
 
     console.log("done");
 })();
-
 
 
 
