@@ -111,10 +111,10 @@ const highlightSpecialCosts = function(costs) {
  * Not all tokens have icons designed for them yet,
  * so fall back a simple svg icon.
  */
-const TOKENS_WITH_ICONS = ["Assassin"];
+const TOKENS_WITH_ICONS = ["Assassin", "Body"];
 const getTokenSrc = function(token) {
     return TOKENS_WITH_ICONS.includes(token) 
-        ? `need_${token}.png`
+        ? `${token}.png`
         : `Icons.svg#${token}`
     ;
 };
@@ -124,6 +124,7 @@ const SYMBOL_TOKENS = [
     "Dwarf", "Ork", "Undead", "Beast", "Tail",
     "Beltpouch", "Mount"
 ];
+const symbolTagPrefix = `<img class="symbol" height="36" width="36"`;
 const massageEffects = function(data) {
     // Replace markdown italics with html italics
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
@@ -133,7 +134,7 @@ const massageEffects = function(data) {
         if (TOKENS_WITH_ICONS.includes(token)) {
 
         }
-        data = data.replaceAll(token, `<img class="symbol" height="64" width="64" src="${getTokenSrc(token)}" alt="${token}" />`);
+        data = data.replaceAll(token, `${symbolTagPrefix} src="${getTokenSrc(token)}" alt="${token}" />`);
     });
 
     const simpleEffectRegex = /^([+-][0-9]+\w?.+[^:]*)|(Provides .+)$/
@@ -156,6 +157,10 @@ const massageEffects = function(data) {
 
             if (simpleEffectRegex.test(effect.text)) {
                 effect.effectClass = "simple-effect";
+            
+                // Icons shown in simple effects should be large.
+                effect.cost = (effect.cost || "" ).replace(symbolTagPrefix,`<img class="symbol" height="64" width="64"`);
+                effect.text = (effect.text || "").replace(symbolTagPrefix,`<img class="symbol" height="64" width="64"`);                
             }
         }
 
@@ -168,23 +173,30 @@ const massageEffects = function(data) {
  * into an array useable by the svg template.
  */
 const massageFills = function(data) {
+    let xOffset;
     return data.split(/\s+/).reduce((result, val, index) => {
         val = val.trim();
         if (!val || val === "--") {
             return result;
         }
 
-        if (val === "/") {
-            val = "slash";
+        if (typeof xOffset !== "number") {
+            xOffset = 0;
+        } else {
+            xOffset = xOffset - 30; 
         }
 
-        if (val === "&") {
+        if (val === "/") {
+            val = "slash";
+            xOffset -= 2;
+        } else if (val === "&") {
             val = "and";
+            xOffset -= 18;
         }
 
         result.push({
-            key : val,
-            xOffset : (-index * 32)
+            key : getTokenSrc(val),
+            xOffset : xOffset
         });
         return result;
     }, []);

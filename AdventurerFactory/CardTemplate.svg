@@ -166,14 +166,9 @@ div {
             class="fills"
             transform="translate(584, 380)"
         >
-            <text
-                class="align-right"
-                y="4px"
-                x="-12"
-            >Fills</text>
-            <g transform="translate(-44, 36)">
+            <g transform="translate(-56, 4)">
                 {{#each this.fills}}
-                    <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" width="32" height="32" />
+                    <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
                 {{/each}}
             </g>
         </g>
