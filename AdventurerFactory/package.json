@@ -1,14 +1,16 @@
 {
     "devDependencies": {
         "electron": "^37.2.0",
-        "electron-packager": "^17.1.2",
-        "convert-svg-to-png": "^0.7.1",
-        "handlebars": "^4.7.8",
-        "puppeteer": "^24.12.1"        
+        "electron-packager": "^17.1.2"
     },
     "main": "electronMain.js",
     "scripts": {
         "start": "electron .",
         "test": ""
+    },
+    "dependencies": {
+        "convert-svg-to-png": "^0.7.1",
+        "handlebars": "^4.7.8",
+        "puppeteer": "^24.15.0"
     }
 }

@@ -107,6 +107,18 @@ const highlightSpecialCosts = function(costs) {
     return costs;
 };
 
+/**
+ * Not all tokens have icons designed for them yet,
+ * so fall back a simple svg icon.
+ */
+const TOKENS_WITH_ICONS = ["Assassin"];
+const getTokenSrc = function(token) {
+    return TOKENS_WITH_ICONS.includes(token) 
+        ? `need_${token}.png`
+        : `Icons.svg#${token}`
+    ;
+};
+
 const SYMBOL_TOKENS = [
     "Assassin", "Bard", "Knight", "Sorceror",
     "Dwarf", "Ork", "Undead", "Beast", "Tail",
@@ -118,7 +130,10 @@ const massageEffects = function(data) {
 
     // Replace symbols relating to particular cards or rules into icons built with svg.
     SYMBOL_TOKENS.forEach((token) => {
-        data = data.replaceAll(token, `<img class="symbol" height="32" width="32" src="Icons.svg#${token}" alt="${token}" />`);
+        if (TOKENS_WITH_ICONS.includes(token)) {
+
+        }
+        data = data.replaceAll(token, `<img class="symbol" height="64" width="64" src="${getTokenSrc(token)}" alt="${token}" />`);
     });
 
     const simpleEffectRegex = /^([+-][0-9]+\w?.+[^:]*)|(Provides .+)$/
@@ -187,8 +202,8 @@ const massageNeeds = function(data) {
         }
 
         result.push({
-            key: val,
-            xOffset : index * 40
+            key: getTokenSrc(val),
+            xOffset : index * 52
         });
 
         return result;

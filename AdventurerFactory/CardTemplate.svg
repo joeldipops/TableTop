@@ -68,7 +68,8 @@ div {
     .effects > .simple-effect {
         font-weight: bold;
         text-align: center;
-        font-size: larger;
+        font-size: 40px;
+        line-height: 64px;
     }
 
     .effects .symbol {
@@ -153,14 +154,9 @@ div {
             class="needs"
             transform="translate(0, 380)"
         >
-            <text
-                class="align-left"
-                dy="4"
-                x="8"
-            >Needs</text>
-            <g transform="translate(8, 36)">
+            <g transform="translate(8, 4)">
             {{#each this.needs}}
-                <image href="Icons.svg#{{this.key}}" x="{{this.xOffset}}" width="32" height="32" />
+                <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
             {{/each}}
             </g> 
         </g>

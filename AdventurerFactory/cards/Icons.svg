@@ -62,9 +62,14 @@ circle {
         <svg id="Tail">
             <circle r="8"  cx="8" cy="8" stroke="black" fill="#F0F0FF" />
         </svg>
+        <!--
         <svg id="Body">
             <rect width="16" height="16" fill="blue" stroke="black" />
         </svg>
+        -->
+        <svg id="Body">
+            <image href="./slot_body.png" width="16" height="16" />
+        </svg>        
         <svg id="Head">
             <rect width="16" height="16" fill="red" stroke="black" />
         </svg>
