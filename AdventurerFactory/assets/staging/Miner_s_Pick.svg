@@ -1,7 +1,7 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="600"
-    height="{{totalHeight}}"
+    height="900"
 >
     <style>
       <![CDATA[
@@ -107,11 +107,10 @@ div {
 }
       ]]>
     </style>
-    {{#each cards}}
     <g
         width="600"
         height="900"
-        transform="translate(8, {{this.y}})"
+        transform="translate(8, 4)"
     >
         <rect
             class="border"
@@ -125,12 +124,12 @@ div {
             <text
                 class="heading"
                 x="50%"
-            >{{this.name}}</text>
+            >Miner&#x27;s Pick</text>
             <text
                 class="heading"
                 x="50%"
                 dy="40"
-            >{{this.types}}</text>
+            >Item / Tool</text>
         </g>
         <rect
             class="border art"
@@ -139,40 +138,31 @@ div {
             width="568"
             height="300"
         />
-        {{#if this.artFile}}
-        <image href="{{this.artFile}}" x="4" y="76" height="300" width="568" />
-        {{/if}}
         <g transform="translate(300, 376)">
             <circle
                 class="border"
                 r="48"
             />
-            <text class="centred xp-cost" y="4">{{this.cost}}</text>
+            <text class="centred xp-cost" y="4">3</text>
         </g>
-        {{#if this.needs}}
         <g
             class="needs"
             transform="translate(0, 380)"
         >
             <g transform="translate(8, 4)">
-            {{#each this.needs}}
-                <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
-            {{/each}}
+                <image href="icons/Icons.svg#Dwarf" x="0" width="48" height="48" />
             </g> 
         </g>
-        {{/if}}
-        {{#if this.fills}}
         <g
             class="fills"
             transform="translate(584, 380)"
         >
             <g transform="translate(-56, 4)">
-                {{#each this.fills}}
-                    <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
-                {{/each}}
+                    <image href="icons/Icons.svg#Left-hand" x="0" width="48" height="48" />
+                    <image href="icons/Icons.svg#and" x="-48" width="48" height="48" />
+                    <image href="icons/Icons.svg#Right-hand" x="-78" width="48" height="48" />
             </g>
         </g>
-        {{/if}}
         <g
             class="effects"
             transform="translate(0, 464)"
@@ -183,20 +173,13 @@ div {
                 height="400px"
             >
                 <div xmlns="http://www.w3.org/1999/xhtml" class="effects">
-                {{#each this.effects}}
-                {{#if this.isAction}}
                     <div class="action">
-                        <span class="effect-cost"><span>{{{this.cost}}}</span><strong>:</strong></span>
-                        <span>{{{this.text}}}</span>
+                        <span class="effect-cost"><span>-2⚡</span><strong>:</strong></span>
+                        <span>Roll your Attack Die and add the amount to you 🌈</span>
                     </div>
-                {{else}}
-                    <div class="{{this.effectClass}}">{{{this.text}}}</div>
-                {{/if}}
-                {{/each}}
                 </div>
             </foreignObject>
         </g>
         <text class="legal" x="2" y="878">Text and Concept Copyright (C) J Roberts 2025.  All Rights Reserved</text>
     </g>
-    {{/each}}
 </svg>

@@ -114,8 +114,8 @@ const highlightSpecialCosts = function(costs) {
 const TOKENS_WITH_ICONS = ["Assassin", "Body"];
 const getTokenSrc = function(token) {
     return TOKENS_WITH_ICONS.includes(token) 
-        ? `${token}.png`
-        : `Icons.svg#${token}`
+        ? `icons/${token}.png`
+        : `icons/Icons.svg#${token}`
     ;
 };
 
@@ -225,7 +225,7 @@ const massageNeeds = function(data) {
 const CARD_HEIGHT = 900;
 
 const setArt = function(name) {
-    const fileName = `art/${santiseForFilename(name)}.png`;
+    const fileName = `assets/art/${santiseForFilename(name)}.png`;
     return fs.existsSync(fileName) ? `../${fileName}` : null
 };
 
@@ -252,7 +252,7 @@ const jsonToTemplateData = function(data, index) {
 
 const generatePrintable = async function(template, viewModel) {
     return await new Promise((resolve, reject) => {
-        fs.writeFile("cards/Cards.svg", template(viewModel), (err) => {
+        fs.writeFile("assets/Cards.svg", template(viewModel), (err) => {
             if (err) {
                 console.log(err);
                 return reject(err);
@@ -271,7 +271,7 @@ const generateDigital = async function(template, viewModel) {
         card.y = 4;
 
         const name = santiseForFilename(card.name)
-        const fileName = `cards/${name}.svg`;
+        const fileName = `assets/staging/${name}.svg`;
 
         console.log("Generating ", name);
 
