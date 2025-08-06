@@ -1,8 +1,5 @@
 *node_modules*
-generated/
-cards/
-!cards/Icons.svg
-!cards/Cards.svg
-art/Binoculars.png
+**/generated/
+**/assets/staging/
 */JoelsDeckBuilder-win32-x64*
 Junk/

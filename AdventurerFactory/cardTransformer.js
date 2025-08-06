@@ -114,8 +114,8 @@ const highlightSpecialCosts = function(costs) {
 const TOKENS_WITH_ICONS = ["Assassin", "Body"];
 const getTokenSrc = function(token) {
     return TOKENS_WITH_ICONS.includes(token) 
-        ? `icons/${token}.png`
-        : `icons/Icons.svg#${token}`
+        ? `../icons/${token}.png`
+        : `../icons/Icons.svg#${token}`
     ;
 };
 
@@ -252,7 +252,7 @@ const jsonToTemplateData = function(data, index) {
 
 const generatePrintable = async function(template, viewModel) {
     return await new Promise((resolve, reject) => {
-        fs.writeFile("assets/Cards.svg", template(viewModel), (err) => {
+        fs.writeFile("assets/staging/Cards.svg", template(viewModel), (err) => {
             if (err) {
                 console.log(err);
                 return reject(err);
