@@ -111,7 +111,7 @@ const highlightSpecialCosts = function(costs) {
  * Not all tokens have icons designed for them yet,
  * so fall back a simple svg icon.
  */
-const TOKENS_WITH_ICONS = ["Assassin", "Body"];
+const TOKENS_WITH_ICONS = ["Assassin", "Body", "Bard", "Knight", "Sorceror"];
 const getTokenSrc = function(token) {
     return TOKENS_WITH_ICONS.includes(token) 
         ? `../icons/${token}.png`

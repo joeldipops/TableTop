@@ -21,7 +21,7 @@ To keep thing interesting and add on some table-top RPG flair, effects will ofte
 
 - 40 Card Deck per player.
 - Set of D&D dice ie. d4, d6, d8, d10, d12, d20
-- Some way to keep track of Experience (🌈), Health (💗) and Willpower (⚡)
+- Some way to keep track of Experience (🌈), Health (💗) and Willpower (![image info](./assetss/icons/Willpower.png))
 ### Optional
 - Something to track your _Attack Die_ and _Parley Die_.
 - Something to track _Attack_ (💪), _Defense_ (⛊) and _Charisma_ (🎵)
