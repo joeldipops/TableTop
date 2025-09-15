@@ -111,7 +111,7 @@ const highlightSpecialCosts = function(costs) {
  * Not all tokens have icons designed for them yet,
  * so fall back a simple svg icon.
  */
-const TOKENS_WITH_ICONS = ["Assassin", "Body", "Bard", "Knight", "Sorceror"];
+const TOKENS_WITH_ICONS = ["Assassin", "Body", "Bard", "Knight", "Sorceror", "Charisma", "Experience", "Willpower"];
 const getTokenSrc = function(token) {
     return TOKENS_WITH_ICONS.includes(token) 
         ? `../icons/${token}.png`
@@ -122,20 +122,24 @@ const getTokenSrc = function(token) {
 const SYMBOL_TOKENS = [
     "Assassin", "Bard", "Knight", "Sorceror",
     "Dwarf", "Ork", "Undead", "Beast", "Tail",
-    "Beltpouch", "Mount"
+    "Beltpouch", "Mount" 
 ];
+const STAT_TOKENS = ["Charisma", "Experience", "Willpower"];
+
 const symbolTagPrefix = `<img class="symbol" height="36" width="36"`;
+const statTagPrefix = `<img class="stat" height="32" width="32"`;
 const massageEffects = function(data) {
     // Replace markdown italics with html italics
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
 
     // Replace symbols relating to particular cards or rules into icons built with svg.
     SYMBOL_TOKENS.forEach((token) => {
-        if (TOKENS_WITH_ICONS.includes(token)) {
-
-        }
         data = data.replaceAll(token, `${symbolTagPrefix} src="${getTokenSrc(token)}" alt="${token}" />`);
     });
+
+    STAT_TOKENS.forEach((token) => {
+        data = data.replaceAll(token, `${statTagPrefix} src="${getTokenSrc(token)}" alt="${token}" />`);
+    });    
 
     const simpleEffectRegex = /^([+-][0-9]+\w?.+[^:]*)|(Provides .+)$/
 

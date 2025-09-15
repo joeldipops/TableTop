@@ -76,6 +76,10 @@ div {
         vertical-align: top;
     }
 
+    .effects .stat {
+        vertical-align: sub;
+    }
+
 .effect-cost {
     outline: 4px solid;
     box-decoration-break: clone;
