@@ -5,31 +5,35 @@ Mistrust reigned far wider than any King or Empress, and nobody was spared from 
 
 And so this is how it is when you, a mysterious traveller on a dusty road, chance to meet another.  Who are they?  What are they hiding? **Why are they looking at _you_ like that?**  Should you chase them off, bring them to reason, or simply leave them bleeding on the well trodden dirt?  Or will they get to you first?</em>
 
-## Goal
-Deplete opponents _Health_ (💗) or _Willpower_ (<img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />) to 0 by building a powerful character and then using his or her best abilities.
-
 ## Summary
-The basic idea is as you play, you fill out your hypothetical character sheet with Class and Race abilities, fill out inventory slots with equipment, and level up allowing you to play more effective abilities or equip more powerful equipment. At the same time, you will be using what abilities you have to either beat down an opponent or send them packing via a more diplomatic route.
+The cards in your deck reflect the powerful adventurer who you might become.  Draw to fill out your character sheet with Class or Race abilities, gain levels and fill inventory slots with useful equipment or powerful weapons.  Use your skills and resources to surivive encounters with the hostile strangers you meet along your journey to greatness.
 
-Once you play a card that is associated with a given Class or Race, your character becomes that Class/Race. Play a second Class card to access 2nd level features, or play a different class to "Multiclass" or increase the level of a class you already have.
-
-You also have Equipment slots to manage.  Certain cards may require that you have a free hand, or not be wearing any Armour.  When playing a card like this, you can discard what you already have in order to play the new card in that slot.  The system is extensible, you don't have a limited set of slots, but cards that share a given symbol cannot be played together.
-
-To keep thing interesting and add on some table-top RPG flair, effects will often have you rolling dice, rather than eg. doing a flat amount of damage.
-
-## Equipment
+### Equipment
 
 - 40 Card Deck per player.
 - Set of D&D dice ie. d4, d6, d8, d10, d12, d20
-- Some way to keep track of Experience (<img src="./assets/icons/Experience.png" width="24" height="24" align="top" />), Health (💗) and Willpower (<img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />)
-### Optional
-- Something to track your _Attack Die_ and _Parley Die_.
-- Something to track _Attack_ (💪), _Defense_ (⛊) and _Charisma_ (<img src="./assets/icons/Charisma.png" width="24" height="24" align="top" />)
-      bonuses + any other card-specific resources.
+- Counters for Mind (<img src="./assets/icons/Experience.png" width="24" height="24" align="top" />), Health (💗) and Willpower (<img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />) stats.
+- Extra counters/tokens for any card specific resources.
+
+### Goal
+You win by forcing your opponent to stop the fight.  You can incapacitate them physically, bringing their _Health_ (💗) to 0, or use diplomacy, deceit or magic to exhaust their _Willpower_ (<img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />).
+
+### Stats
+Here are the stats you'll use as you play. <img src="./assets/icons/Experience.png" width="24" height="24" align="top" />, 💗 and <img src="./assets/icons/Willpower.png" width="24" height="24" align="top" /> must be tracked separately, but 💪, ⛊ and <img src="./assets/icons/Charisma.png" width="24" height="24" align="top" /> can always be determined from the cards and tokens in play.
+
+- <img src="./assets/icons/Experience.png" width="24" height="24" align="top" /> _Mind_: This represents your ability to learn and concentrate.  It decreases when you expend your focus on new skills, but increases as you put what you've learnt into practice. You accumulate <img src="./assets/icons/Experience.png" width="24" height="24" align="top" /> at the start of each turn and use it to play cards and use actions
+-  💗 _Health_: This is your body's ability to keep fighting. You must keep it above 0 to win the game.
+- <img src="./assets/icons/Willpower.png" width="24" height="24" align="top" /> _Willpower_: This is your drive to overcome your opponent. If your Willpower is 0 at the end of a turn, you have given up the fight and the game is over.
+- 💪 _Attack_: Your physical strength and agility.  The higher it is, the great your capacity to reduce an opponent's 💗.  In most encounters, it is offset by your opponent's ⛊.
+- ⛊ _Defence_: Your body's ability to dodge attacks or withstand injuries. In most encounters, it reduces the 💗 you lose from an Attack.
+- <img src="./assets/icons/Charisma.png" width="24" height="24" align="top" /> _Charisma_: Not every meeting must come to blows.  This is your ability to convince opponents of the strength of your arm or the righteousness of your cause, but also your ability stare down an opponent trying to convince you of their own. The higher it is, the more you can reduce an opponent's <img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />, but can be offset when the opponent's <img src="./assets/icons/Charisma.png" width="24" height="24" align="top" /> is high.
+
+### Needs and Fills
+
 
 ## Setup
 1. Each player starts with 20 💗 and 20 <img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />
-2. Each Players starts with a Violence and Parley Die of 1d1 (that is, a flat 1 damage)
+2. Each Players starts with an Attack and Parley Die of 1d1 (that is, a flat 1 damage)
 2. Player 1 takes 2 <img src="./assets/icons/Experience.png" width="24" height="24" align="top" />
 3. Player 2 takes 4 <img src="./assets/icons/Experience.png" width="24" height="24" align="top" />
 4. Each deck is shuffled and each player draws 5 cards.
