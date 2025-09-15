@@ -1,5 +1,6 @@
 *node_modules*
 **/generated/
+!**/assets/staging/Cards.svg
 **/assets/staging/
 */JoelsDeckBuilder-win32-x64*
 Junk/
