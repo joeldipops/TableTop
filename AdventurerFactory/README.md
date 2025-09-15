@@ -29,6 +29,7 @@ Here are the stats you'll use as you play. <img src="./assets/icons/Experience.p
 - <img src="./assets/icons/Charisma.png" width="24" height="24" align="top" /> _Charisma_: Not every meeting must come to blows.  This is your ability to convince opponents of the strength of your arm or the righteousness of your cause, but also your ability stare down an opponent trying to convince you of their own. The higher it is, the more you can reduce an opponent's <img src="./assets/icons/Willpower.png" width="24" height="24" align="top" />, but can be offset when the opponent's <img src="./assets/icons/Charisma.png" width="24" height="24" align="top" /> is high.
 
 ### Needs and Fills
+Sorry - TBD
 
 
 ## Setup
