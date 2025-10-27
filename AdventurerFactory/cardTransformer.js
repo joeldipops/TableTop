@@ -199,7 +199,8 @@ const massageFills = function(data) {
         }
 
         result.push({
-            key : getTokenSrc(val),
+            key: val,
+            src : getTokenSrc(val),
             xOffset : xOffset
         });
         return result;
@@ -218,7 +219,8 @@ const massageNeeds = function(data) {
         }
 
         result.push({
-            key: getTokenSrc(val),
+            key: val,
+            src : getTokenSrc(val),
             xOffset : index * 52
         });
 

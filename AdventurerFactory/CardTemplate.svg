@@ -160,7 +160,7 @@ div {
         >
             <g transform="translate(8, 4)">
             {{#each this.needs}}
-                <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
+                <image href="{{this.src}}" x="{{this.xOffset}}" width="48" height="48" />
             {{/each}}
             </g> 
         </g>
@@ -171,9 +171,9 @@ div {
             transform="translate(584, 380)"
         >
             <g transform="translate(-56, 4)">
-                {{#each this.fills}}
-                    <image href="{{this.key}}" x="{{this.xOffset}}" width="48" height="48" />
-                {{/each}}
+            {{#each this.fills}}
+                <image href="{{this.src}}" x="{{this.xOffset}}" width="48" height="48" />
+            {{/each}}
             </g>
         </g>
         {{/if}}

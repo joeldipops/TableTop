@@ -37,7 +37,8 @@ body {
     /* Enough room for two columns of cards */
     width: calc(var(--deck-card-width) * 3 + 64px);
     overflow-y: scroll;
-    height: 100vh;
+    height: fit-content;
+    max-height: 80vh;
 }
 
     .deckItemControls {
@@ -78,7 +79,8 @@ body {
     /* Enough room for two columns of cards */
     width: calc(var(--list-card-width) * 2 + 48px);
     overflow-y: scroll;
-    height: 100vh;
+    height: fit-content;
+    max-height: 85vh;
 }
 
     #filteredList > li {

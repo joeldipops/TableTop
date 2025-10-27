@@ -1,9 +1,13 @@
-const { app, BrowserWindow } = require("electron");
+const electron = require("electron");
+const { app, BrowserWindow, screen } = require("electron");
 
 const createWindow = () => {
+
+    const display = screen.getPrimaryDisplay()
+
     const win = new BrowserWindow({
-        width: 800,
-        height: 600
+        width: display.size.width,
+        height: display.size.height
     });
 
     win.loadFile("editor/index.html");
