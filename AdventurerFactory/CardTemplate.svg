@@ -58,6 +58,11 @@ div {
     padding-top: 8px;
 }
 
+    .effects .stat {
+        width: 36px;
+        height: 36px;
+    }
+
     .effects > div {
         margin-bottom: 16px;
         margin-right: 4px;
@@ -70,6 +75,11 @@ div {
         text-align: center;
         font-size: 40px;
         line-height: 64px;
+    }
+
+    .effects > .simple-effect > .stat {
+        height: 52px;
+        width: 52px;
     }
 
     .effects .symbol {
@@ -88,12 +98,20 @@ div {
     margin-right: 4px;
     padding: 4px 12px 4px 8px;
     border-collapse: separate;
+
+    /* Cost is bigger than effect so border aligns with slightly bigger icons. */
+    font-size: 28px;
 }
 
     .effect-cost strong {
         font-weight: bold;
         font-size: larger;
         margin-left: 4px;
+    }
+
+    .effect-cost .stat {
+        width: 36px;
+        height: 36px;
     }
 
 .special-cost {

@@ -127,7 +127,7 @@ const SYMBOL_TOKENS = [
 const STAT_TOKENS = ["Charisma", "Experience", "Willpower"];
 
 const symbolTagPrefix = `<img class="symbol" height="36" width="36"`;
-const statTagPrefix = `<img class="stat" height="32" width="32"`;
+const statTagPrefix = `<img class="stat"`;
 const massageEffects = function(data) {
     // Replace markdown italics with html italics
     data = data.replace(/_([A-Za-z]+)_/g, "<i>$1</i>");
