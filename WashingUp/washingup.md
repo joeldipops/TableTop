@@ -26,11 +26,11 @@ Draft a pile of dirty dishes for your opponent.
 - Players may examine their dishes decks and consider their strategies.
 - When both are ready, 3-2-1 go.
 - Now you may do the following, in any order and as many times as you need.
--- Turn over a tool card from the top of one of the three piles.
--- Place a Time Token on a turned over tool card.
--- Take a tool card that has your Time Token on it.
--- If the "Sink" area is empty, place a card from the "Dirty" area there if you have fulfilled its requirements.
--- Place a time token onto a card in the Sink area
--- Once a card in the Sink area has enough time tokens, place it on top of the Drying Rack pile, and its tokens in the spent tokens pile.
--- Follow the instructions written on a card.
--- If you have no cards in the Dirty area or the Sink, yell "Done" and knock the table.
+  - Turn over a tool card from the top of one of the three piles.
+  - Place a Time Token on a turned over tool card.
+  - Take a tool card that has your Time Token on it.
+  - If the "Sink" area is empty, place a card from the "Dirty" area there if you have fulfilled its requirements.
+  - Place a time token onto a card in the Sink area
+  - Once a card in the Sink area has enough time tokens, place it on top of the Drying Rack pile, and its tokens in the spent tokens pile.
+  - Follow the instructions written on a card.
+  - If you have no cards in the Dirty area or the Sink, yell "Done" and knock the table. The first to do so wins.
