@@ -27,7 +27,7 @@ Draft a pile of dirty dishes for your opponent.
 - When both are ready, 3-2-1 go.
 - Now you may do the following, in any order and as many times as you need.
   - Turn over a tool card from the top of one of the three piles.
-  - Place a Time Token on a turned over tool card.
+  - Place a Time Token on a turned over tool card you don't already have a copy of.
   - Take a tool card that has your Time Token on it.
   - If the "Sink" area is empty, place a card from the "Dirty" area there if you have fulfilled its requirements.
   - Place a time token onto a card in the Sink area
