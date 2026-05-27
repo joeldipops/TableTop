@@ -12,7 +12,7 @@ Spaghetti Spoon,Utensil,4,6,Pipe Cleaner,,0,
 Saucepan,Crockery,5,8,Sponge, time=6 if you have a Soak Tub,-1,
 Drink Bottle,Complex,6,7,Bottle Brush + Pipe Cleaner,Cannot be washed after any non-Drink Bottle card,1,
 Soup Pot,Crockery,6,10,Sponge + Soak Tub,,0,
-Wooden Spoon Utensil,3,3, Soak Tub
+Wooden Spoon,Utensil,3,3, Soak Tub,,0,
 ,,,,,,,
 TOOLS,,,,,,,
 Sponge,,,,,,,
