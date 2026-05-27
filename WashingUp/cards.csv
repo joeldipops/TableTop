@@ -1,7 +1,7 @@
 DISHES,,,,,,,
 Name,Types,Hunger Cost,Time Cost,Tool Requirements,Effects,EffectModifier,Flavour
 Small Plate,Plate,1,1,,Not added to the drafting deck - add small plates to opponents dirty dishes if you have left-over hunger tokens during drafting.,0,
-Dinner Plate,Plate,1,2,,time=1 If previous card washed was a Plate.,-1,
+Dinner Plate,Plate,1,2,Rinse Sink,time=1 If previous card washed was a Plate.,-1,
 Spoon,Cutlery,2,1,,time=3 if have already washed 2 or more Cutlery,1,
 Glass,Glassware,2,3,,Whenever you drop a [time-token] while washing this: time is increased by 2,1,
 Breakfast Bowl,Bowl,2,5,Rinse Sink OR Soak Tub,time=2 if you have a Soak Tub,-1,
