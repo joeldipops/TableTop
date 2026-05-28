@@ -1,7 +1,7 @@
 DISHES,,,,,,,,
 Name,Types,Ratio,Hunger Cost,Time Cost,Tool Requirements,Effects,EffectModifier,Flavour
 Saucer,Plate,0,1,1,,Not added to the drafting deck - add small plates to opponents dirty dishes if you have left-over hunger tokens during drafting.,0,Saucers are the easiest dish to wash. Flat and easy to handle and the muck slides right off. 
-Dinner Plate,Plate,TBC/30,1,2,Rinse Sink,time=1 If previous card washed was a Plate.,-1, When washing flat plates you can get into a groove.  Grab - splash - scrub - slide; grab - splash - scrub - slide
+Dinner Plate,Plate,TBC/30,1,2,Rinse Sink,time=1 If previous card washed was a Plate.,-1, "When washing flat plates you can get into a groove.  Grab - splash - scrub - slide, grab - splash - scrub - slide."
 Spoon,Cutlery,TBC/30,2,1,,time=3 if have already washed 2 or more Cutlery,1, "Spoons are fiddly and annoying. And if I'm not wearing gloves, I always end up scrubbing my fingers and making them itchy."
 Glass,Glassware,TBC/30,2,3,,Whenever you drop a [time-token] while washing this: time is increased by 2,1,
 Breakfast Bowl,Bowl,TBC/30,2,5,Rinse Sink OR Soak Tub,time=2 if you have a Soak Tub,-1,
@@ -15,7 +15,7 @@ Soup Pot,Crockery,TBC/30,6,10,Sponge + Soak Tub,,0,
 Wooden Spoon,Utensil,TBC/30,3,3, Soak Tub,,0,
 ,,,,,,,,
 TOOLS,,,,,,,,
-Sponge,,1/player,,,,,
+Sponge,,1/player,,,,,,
 Rinse Sink,,1/player,,,,,,
 Bottle Brush,,1/player,,,,,,
 Distraction,,1/player,,,,When played: Say STOP - players drop any [time-tokens] they hold.  Opponent cannot touch a card or token until you do,,
