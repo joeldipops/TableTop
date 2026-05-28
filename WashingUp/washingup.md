@@ -6,24 +6,24 @@ First player with an empty sink and a full drying rack wins.
 # Requires
 - Dishes deck
 - "Small Plate" extra deck
-- Tool deck
-- Hunger tokens
-- Two distinct sets of Time tokens
+- Tool deck (Should contain 1 copy of each card for each player)
+- 20 Hunger tokens per player
+- A large quantity of time tokens shared amongst the players.
 
 # Play
 ## Phase one - Slower paced and strategic deck-building round
 Draft a pile of dirty dishes for your opponent.
 - Each player takes 20 Hunger tokens
-- Deal out the dishes deck to each player.
-- Pick a card, pay its hunger cost and pass rest of deck to the next player.
+- Deal out 8 cards from the Dishes deck to each player.
+- Pick a card placing it face down, pay its hunger cost, and pass rest of your hand to the next player.
 - Continue until you have no hunger tokens left.  If you can't afford any card in your hand, take a 1-hunger token "Small Plate" card from the extra deck.
 -- Other player may continue to draft until they are out of tokens.
-- Exchange the finished dirty dishes decks with the other player.  You may not look at your cards yet.
+- Pass the face down cards you collected to the player to your left and take the card from the player to your right. You may not look at your cards yet.
 
 ## Phase two - Madcap race to the finish.
 - Shuffle the Tool deck.
 - Put time tokens in an easy to reach place.
-- When both are ready, 3-2-1 go.
+- When all are ready, 3-2-1 go.
 - Now you may do the following, in any order and as many times as you need.
   - Look at your cards
   - Turn over a tool card.
