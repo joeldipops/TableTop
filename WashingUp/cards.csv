@@ -13,6 +13,7 @@ Saucepan,Crockery,TBC/30,5,8,Sponge, time=6 if you have a Soak Tub,-1,
 Drink Bottle,Complex,2/30,6,7,Bottle Brush + Pipe Cleaner,Cannot be washed after any non-Drink Bottle card,1,
 Soup Pot,Crockery,TBC/30,6,10,Sponge + Soak Tub,,0,
 Wooden Spoon,Utensil,TBC/30,3,3, Soak Tub,,0,
+French Press,Complex,TBC/30,5,6,Compost Bin,No dish other than French Press can be washed after this.,1, 
 ,,,,,,,,
 TOOLS,,,,,,,,
 Sponge,,1/player,,,,,,
@@ -25,4 +26,5 @@ SPLASH,,1/player,,,,When played: Take an opponents tool and put it on the bottom
 Soak Tub,,1/player,,,,,,
 Pipe Cleaner,,1/player,,,,,,
 Detergent,,1/player,,,,Opponent cannot win unless they also have Detergent,,
+Compost Bin,,1/player
 Rubber Gloves,,1/player,,,,,,
